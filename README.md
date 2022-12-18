@@ -1,5 +1,8 @@
 ## Aurora Corne MX Hotswap Keyboard
 
+![Aurora Corne Lap Desk](images/aurora-corne-lap-desk.jpeg)
+![Aurora Corne Lap Desk Quick Release](images/aurora-corne-lap-desk-quick-release.jpeg)
+
 ### Backstory
 
 After spending a couple months using (and loving) my pre-built [Swept Corne](https://github.com/SethMilliken/swept-corne-zmk/tree/seth) from Mariano Uvalle, I got the itch to try my hand at building my own keyboard. My primary motivation for going down this rabbit hole originated from the [Teamwolf stainless steel keycaps](https://drop.com/buy/teamwolf-stainless-steel-alpha-set-keycaps-v2?searchId=dd76bf4e17917301e79347352ee040c0) that I had been using on what had been my 
@@ -9,15 +12,26 @@ So I started looking around for kits, and the [Aurora Corne](https://splitkb.com
 
 Insert montage here of me watching many YouTube videos, reasearching and buying soldering gear, developing rudimentary soldering skills using practice kits, scouring Discord chats for tips and guidance, finishing with the arrival of my kit order from splitkb.com.
 
+![Aurora Corne Lap Desk Detail Front](images/aurora-corne-lap-desk-detail-front.jpeg)
+![Aurora Corne Lap Desk Detail Left](images/aurora-corne-lap-desk-detail-left.jpeg)
+
 ### Build
 
 After working through a half dozen practice kits, I decided I could solder well enough to make an attempt on the Aurora Corne kit and dedicated a weekend to finishing my build. The [build guide](https://docs.splitkb.com/hc/en-us/articles/6269789921564-Aurora-Build-Guide-Introduction) was great, walking through almost every step in the process, pointing out common problems, and clearly calling out caveats and optional steps (with only a few minor omissions overall). Having that well-written guide gave me a lot more confidence and significantly reduced the stress of doing my first buld.
+
+![Aurora Corne Build Diodes](images/aurora-corne-build-diodes.jpeg)
+![Aurora Corne Build Hotswap Sockets](images/aurora-corne-build-hotswap-sockets.jpeg)
+![Aurora Corne Build Socketed nice!nano](images/aurora-corne-build-socketed-nicenano.jpeg)
+![Aurora Corne Build Controller Socket Solder](images/aurora-corne-build-controller-sockets.jpeg)
 
 The build process all went quite smoothly, with no major incidents. I used a [Pinecil v2](https://www.pine64.org/pinecil/) soldering iron, which was a pleasure to use (and incredibly affordable, given its capabilities). The most challenging part for me was soldering the LEDs, the smallest, most heat-sensitive components in the kit (and I still don't know whether these work because I don't think the ZMK firmware I am using supports them yet).
 
  Once I finished assembly, I tried plugging in the left half to USB and trying it out. Only about seven keys sent any characters at all, and the ones sent were the wrong ones. Also, the OLED screen did not work. I tracked these problems down to having reused the firmware configuration I had created for my Swept, having poorly reasoned that a Corne is a Corne, right? Nope. Once I updated the firmware build configuration to use the correct shield, I got a bit further. Now most keys worked, sending the correct characters for my keymap. But there were a couple keys that still did not work. One of these had a bent switch pin, fixed easily enough. I eventually figured out that the last remaining non-functional key resulted from having incorrect filenames for the `.keymap` and `.conf` files. Once I fixed this filename issue, not only did the key start working, but the OLED came to life as well. Meanwhile, the right half also had a couple of switches with bent pins, but worked fine otherwise.
 
 At this point, I had a working keyboard. And remarkably, there were no soldering-related problems (or none that have shown up yet, at least).
+
+![Aurora Corne Lap Build Bottom Case](images/aurora-corne-build-bottom-case.jpeg)
+![Aurora Corne Lap Build Top Case](images/aurora-corne-build-top-case.jpeg)
 
 ### Use
 
