@@ -10,7 +10,7 @@ main keyboard for a year or so, a [Keychron K3](https://www.keychron.com/product
 
 So I started looking around for kits, and the [Aurora Corne](https://splitkb.com/collections/keyboard-kits/products/aurora-corne-pcb-kit) from splitkb.com stood out as a particularly well designed one. I could get it with a configuration that included support for hotswap MX switches, nice!nano controllers (for Bluetooth), as well as OLED displays and a nice case with an FR4 plate and acrylic bottom. It also had support for the [tenting puck](https://splitkb.com/products/tenting-puck), which is another feature high on my list of requirements, given the mounting setups I had already created for my Swept using quick release plates.
 
-Insert montage here of me watching many YouTube videos, reasearching and buying soldering gear, developing rudimentary soldering skills using practice kits, scouring Discord chats for tips and guidance, finishing with the arrival of my kit order from splitkb.com.
+Insert montage here of me watching many YouTube videos, researching and buying soldering gear, developing rudimentary soldering skills using practice kits, scouring Discord chats for tips and guidance, finishing with the arrival of my kit order from splitkb.com.
 
 ![Aurora Corne Lap Desk Detail Front](images/aurora-corne-lap-desk-detail-front.jpeg)
 ![Aurora Corne Lap Desk Detail Left](images/aurora-corne-lap-desk-detail-left.jpeg)
