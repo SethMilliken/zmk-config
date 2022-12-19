@@ -26,11 +26,12 @@
 #define HELP_MENU LG(LS(SLASH))
 
 &mt {
-    tapping-term-ms = <250>;
+    tapping-term-ms = <400>;
 };
 
 &lt {
-    tapping-term-ms = <250>;
+    flavor = "hold-preferred";
+    tapping-term-ms = <300>;
 };
 
 / {
