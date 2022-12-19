@@ -237,6 +237,7 @@
         /* 0 Layer */
 
         default {
+            label = "def";
             bindings = <
             &lt 5 TAB    &kp Q   &kp W            &kp E           &kp R         &kp T                 &kp Y        &kp U           &kp I  &lt 2 O            &kp P         &lt 4 BACKSPACE
  &mt LEFT_CONTROL ESC    &kp A   &kp S            &kp D           &kp F         &kp G                 &kp H        &kp J           &kp K    &kp L  &lt 6 SEMICOLON  &mt RCTRL SINGLE_QUOTE
@@ -248,6 +249,7 @@
         /* 1 Layer */
 
         right {
+            label = "right";
             bindings = <
         &kp TILDE  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5          &kp LC(F2)     &kp LC(F3)  &kp LC(F8)  &kp LG(LS(SLASH))         &kp LC(F5)      &kp LC(F7)
  &kp LC(LA(LGUI))  &kp N6  &kp N7  &kp N8  &kp N9  &kp N0            &kp LEFT       &kp DOWN      &kp UP          &kp RIGHT  &kp LG(LA(MINUS))  &kp LG(LA(N8))
@@ -259,6 +261,7 @@
         /* 2 Layer */
 
         left {
+            label = "left";
             bindings = <
       &mouse_keys  &kp KP_ASTERISK  &npsh7  &npsh8  &npsh9  &kp KP_MINUS          &kp KP_SLASH  &kp KP_CLEAR  &kp LPAR  &kp RPAR  &kp SEMI         &kp BSPC
  &kp LC(LA(LGUI))     &kp KP_EQUAL  &npsh4  &npsh5  &npsh6   &kp KP_PLUS             &kp MINUS     &kp EQUAL  &kp LBKT  &kp RBKT  &kp BSLH        &kp GRAVE
@@ -270,6 +273,7 @@
         /* 3 Layer */
 
         media {
+            label = "media";
             bindings = <
       &trans   &kp F1   &kp F2   &kp F3   &kp F4   &kp F5            &kp C_MUTE    &kp C_PREV      &kp C_PP    &kp C_NEXT  &kp C_BRI_DN  &kp C_BRI_UP
       &trans   &kp F6   &kp F7   &kp F8   &kp F9  &kp F10          &kp C_VOL_DN  &kp C_VOL_UP  &out OUT_BLE  &out OUT_USB    &bt BT_CLR    &bt BT_PRV
@@ -281,6 +285,7 @@
         /* 4 Layer */
 
         window_right {
+            label = "winr";
             bindings = <
  &trans  &kp LC(LS(Q))  &kp LC(LS(W))  &kp LC(LS(E))  &kp LC(LS(R))  &kp LC(LS(T))            &kp LG(LS(LBRC))    &kp LG(LS(RBRC))        &kp LG(LBKT)        &kp LG(RBKT)    &kp LG(GRAVE)  &trans
  &trans  &kp LC(LS(A))  &kp LC(LS(S))  &kp LC(LS(D))  &kp LC(LS(F))  &kp LC(LS(G))              &kp LG(LC(N1))      &kp LG(LC(N2))      &kp LG(LC(N3))      &kp LG(LC(N4))      &kp LG(TAB)  &kp C_POWER
@@ -292,6 +297,7 @@
         /* 5 Layer */
 
         window_left {
+            label = "winl";
             bindings = <
  &trans      &kp LG(GRAVE)        &kp LG(RBKT)        &kp LG(LBKT)    &kp LG(LS(RBRC))    &kp LG(LS(LBRC))          &kp LC(LS(Y))  &kp LC(LS(U))          &kp LC(LS(I))             &kp LC(LS(O))         &kp LC(LS(P))  &trans
  &kp C_POWER &kp LG(TAB)      &kp LG(LC(N4))      &kp LG(LC(N3))      &kp LG(LC(N2))      &kp LG(LC(N1))          &kp LC(LS(H))  &kp LC(LS(J))          &kp LC(LS(K))             &kp LC(LS(L))     &kp LC(LS(COLON))  &trans
@@ -303,6 +309,7 @@
         /* 6 Layer */
 
         symbol {
+            label = "sym";
             bindings = <
  &trans  &trans  &kp AMPERSAND  &kp ASTERISK   &kp LPAR  &kp GRAVE          &kp LESS_THAN  &kp GREATER_THAN    &kp LEFT_BRACE    &kp RIGHT_BRACE  &kp SEMICOLON  &kp AMPERSAND
  &trans  &trans     &kp DOLLAR   &kp PERCENT  &kp CARET  &kp TILDE               &kp PLUS         &kp EQUAL          &kp LPAR           &kp RPAR     &kp RETURN   &kp ASTERISK
@@ -314,6 +321,7 @@
         /* 7 Layer */
 
         adjust {
+            label = "adj";
             bindings = <
  &trans  &trans  &vim_exit_all  &trans  &trans   &to 0            &trans  &trans    &trans    &trans  &trans  &trans
  &trans  &trans      &vim_save  &trans  &trans  &warpd_l          &warpd_r  &trans  &tmux_pw  &tmux_ps  &trans  &trans
