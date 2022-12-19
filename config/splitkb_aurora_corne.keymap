@@ -127,7 +127,7 @@
             quick-tap-ms = <150>;
             //global-quick-tap;
             flavor = "hold-preferred";
-            bindings = <&to>, <&kp>;
+            bindings = <&mo>, <&kp>;
         };
         npsh1: numpad_shift_1 {
             compatible = "zmk,behavior-mod-morph";
@@ -315,7 +315,7 @@
 
         adjust {
             bindings = <
- &trans  &trans  &vim_exit_all  &trans  &trans   &trans            &trans  &trans    &trans    &trans  &trans  &trans
+ &trans  &trans  &vim_exit_all  &trans  &trans   &to 0            &trans  &trans    &trans    &trans  &trans  &trans
  &trans  &trans      &vim_save  &trans  &trans  &warpd_l          &warpd_r  &trans  &tmux_pw  &tmux_ps  &trans  &trans
  &trans  &trans      &vim_exit  &trans  &trans   &trans            &trans  &trans  &tmux_nw  &tmux_ns  &trans  &trans
                                 &trans  &trans   &trans            &trans  &trans    &trans
