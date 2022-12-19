@@ -231,13 +231,14 @@
         };
     };
 
+    // n.b. label strings are truncated after 8 characters
     keymap {
         compatible = "zmk,keymap";
 
         /* 0 Layer */
 
         default {
-            label = "araxia.net";
+            label = "araxia";
             bindings = <
             &lt 5 TAB    &kp Q   &kp W            &kp E           &kp R         &kp T                 &kp Y        &kp U           &kp I  &lt 2 O            &kp P         &lt 4 BACKSPACE
  &mt LEFT_CONTROL ESC    &kp A   &kp S            &kp D           &kp F         &kp G                 &kp H        &kp J           &kp K    &kp L  &lt 6 SEMICOLON  &mt RCTRL SINGLE_QUOTE
@@ -285,7 +286,7 @@
         /* 4 Layer */
 
         window_right {
-            label = "move (right)";
+            label = "move [R]";
             bindings = <
  &trans  &kp LC(LS(Q))  &kp LC(LS(W))  &kp LC(LS(E))  &kp LC(LS(R))  &kp LC(LS(T))            &kp LG(LS(LBRC))    &kp LG(LS(RBRC))        &kp LG(LBKT)        &kp LG(RBKT)    &kp LG(GRAVE)  &trans
  &trans  &kp LC(LS(A))  &kp LC(LS(S))  &kp LC(LS(D))  &kp LC(LS(F))  &kp LC(LS(G))              &kp LG(LC(N1))      &kp LG(LC(N2))      &kp LG(LC(N3))      &kp LG(LC(N4))      &kp LG(TAB)  &kp C_POWER
@@ -297,7 +298,7 @@
         /* 5 Layer */
 
         window_left {
-            label = "move (left)";
+            label = "move [L]";
             bindings = <
  &trans      &kp LG(GRAVE)        &kp LG(RBKT)        &kp LG(LBKT)    &kp LG(LS(RBRC))    &kp LG(LS(LBRC))          &kp LC(LS(Y))  &kp LC(LS(U))          &kp LC(LS(I))             &kp LC(LS(O))         &kp LC(LS(P))  &trans
  &kp C_POWER &kp LG(TAB)      &kp LG(LC(N4))      &kp LG(LC(N3))      &kp LG(LC(N2))      &kp LG(LC(N1))          &kp LC(LS(H))  &kp LC(LS(J))          &kp LC(LS(K))             &kp LC(LS(L))     &kp LC(LS(COLON))  &trans
