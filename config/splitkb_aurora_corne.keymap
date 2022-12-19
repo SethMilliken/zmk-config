@@ -274,7 +274,7 @@
         window_right {
             bindings = <
  &trans  &kp LC(LS(Q))  &kp LC(LS(W))  &kp LC(LS(E))  &kp LC(LS(R))  &kp LC(LS(T))            &kp LG(LS(LBRC))    &kp LG(LS(RBRC))        &kp LG(LBKT)        &kp LG(RBKT)    &kp LG(GRAVE)  &trans
- &trans  &kp LC(LS(A))  &kp LC(LS(S))  &kp LC(LS(D))  &kp LC(LS(F))  &kp LC(LS(G))              &kp LG(LC(N1))      &kp LG(LC(N2))      &kp LG(LC(N3))      &kp LG(LC(N4))      &kp LG(TAB)  &trans
+ &trans  &kp LC(LS(A))  &kp LC(LS(S))  &kp LC(LS(D))  &kp LC(LS(F))  &kp LC(LS(G))              &kp LG(LC(N1))      &kp LG(LC(N2))      &kp LG(LC(N3))      &kp LG(LC(N4))      &kp LG(TAB)  &kp C_POWER
  &trans  &kp LC(LS(Z))  &kp LC(LS(X))  &kp LC(LS(C))  &kp LC(LS(V))  &kp LC(LS(B))          &kp LG(LC(LS(N1)))  &kp LG(LC(LS(N2)))  &kp LG(LC(LS(N3)))  &kp LG(LC(LS(N4)))  &kp LG(LS(TAB))  &trans
                                               &trans         &trans         &trans                      &trans              &trans              &trans
             >;
@@ -284,9 +284,9 @@
 
         window_left {
             bindings = <
- &trans    &kp LG(GRAVE)        &kp LG(RBKT)        &kp LG(LBKT)    &kp LG(LS(RBRC))    &kp LG(LS(LBRC))          &kp LC(LS(Y))  &kp LC(LS(U))          &kp LC(LS(I))             &kp LC(LS(O))         &kp LC(LS(P))  &trans
- &trans      &kp LG(TAB)      &kp LG(LC(N4))      &kp LG(LC(N3))      &kp LG(LC(N2))      &kp LG(LC(N1))          &kp LC(LS(H))  &kp LC(LS(J))          &kp LC(LS(K))             &kp LC(LS(L))     &kp LC(LS(COLON))  &trans
- &trans  &kp LG(LS(TAB))  &kp LG(LC(LS(N4)))  &kp LG(LC(LS(N3)))  &kp LG(LC(LS(N2)))  &kp LG(LC(LS(N1)))          &kp LC(LS(N))  &kp LC(LS(M))  &kp LC(LS(LESS_THAN))  &kp LC(LS(GREATER_THAN))  &kp LC(LS(QUESTION))  &trans
+ &trans      &kp LG(GRAVE)        &kp LG(RBKT)        &kp LG(LBKT)    &kp LG(LS(RBRC))    &kp LG(LS(LBRC))          &kp LC(LS(Y))  &kp LC(LS(U))          &kp LC(LS(I))             &kp LC(LS(O))         &kp LC(LS(P))  &trans
+ &kp C_POWER &kp LG(TAB)      &kp LG(LC(N4))      &kp LG(LC(N3))      &kp LG(LC(N2))      &kp LG(LC(N1))          &kp LC(LS(H))  &kp LC(LS(J))          &kp LC(LS(K))             &kp LC(LS(L))     &kp LC(LS(COLON))  &trans
+ &trans      &kp LG(LS(TAB))  &kp LG(LC(LS(N4)))  &kp LG(LC(LS(N3)))  &kp LG(LC(LS(N2)))  &kp LG(LC(LS(N1)))          &kp LC(LS(N))  &kp LC(LS(M))  &kp LC(LS(LESS_THAN))  &kp LC(LS(GREATER_THAN))  &kp LC(LS(QUESTION))  &trans
                                                           &trans              &trans              &trans                 &trans         &trans                 &trans
             >;
         };
