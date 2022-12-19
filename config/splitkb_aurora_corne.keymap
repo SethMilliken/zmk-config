@@ -26,11 +26,10 @@
 #define HELP_MENU LG(LS(SLASH))
 
 &mt {
-    tapping-term-ms = <400>;
+    tapping-term-ms = <450>;
 };
 
 &lt {
-    flavor = "hold-preferred";
     tapping-term-ms = <300>;
 };
 
@@ -120,6 +119,16 @@
     };
 
     behaviors {
+        lthp: layer_tap_hold_preferred {
+            compatible = "zmk,behavior-hold-tap";
+            label = "LT_HOLD_PREFERRED";
+            #binding-cells = <2>;
+            tapping-term-ms = <300>;
+            quick-tap-ms = <150>;
+            //global-quick-tap;
+            flavor = "hold-preferred";
+            bindings = <&to>, <&kp>;
+        };
         npsh1: numpad_shift_1 {
             compatible = "zmk,behavior-mod-morph";
             label = "NUMSH_1";
@@ -229,10 +238,10 @@
 
         default {
             bindings = <
-            &lt 5 TAB  &lt 6 Q   &kp W            &kp E           &kp R       &kp T               &kp Y        &kp U           &kp I  &lt 2 O            &kp P         &lt 4 BACKSPACE
- &mt LEFT_CONTROL ESC    &kp A   &kp S            &kp D           &kp F     &lt 6 G               &kp H        &kp J           &kp K    &kp L  &lt 6 SEMICOLON  &mt RCTRL SINGLE_QUOTE
-       &mt LALT GRAVE    &kp Z   &kp X            &kp C           &kp V       &kp B               &kp N        &kp M       &kp COMMA  &kp DOT         &kp FSLH      &mt RALT BACKSLASH
-                                        &mt LGUI RETURN  &mt LSHIFT ESC  &lt 2 LBKT          &lt 1 RBKT  &lt 3 SPACE  &mt RGUI COLON
+            &lt 5 TAB    &kp Q   &kp W            &kp E           &kp R         &kp T                 &kp Y        &kp U           &kp I  &lt 2 O            &kp P         &lt 4 BACKSPACE
+ &mt LEFT_CONTROL ESC    &kp A   &kp S            &kp D           &kp F         &kp G                 &kp H        &kp J           &kp K    &kp L  &lt 6 SEMICOLON  &mt RCTRL SINGLE_QUOTE
+       &mt LALT GRAVE    &kp Z   &kp X            &kp C           &kp V         &kp B                 &kp N        &kp M       &kp COMMA  &kp DOT         &kp FSLH      &mt RALT BACKSLASH
+                                        &mt LGUI RETURN  &mt LSHIFT ESC  &lthp 2 LBKT          &lthp 1 RBKT  &lt 3 SPACE  &mt RGUI COLON
             >;
         };
 
