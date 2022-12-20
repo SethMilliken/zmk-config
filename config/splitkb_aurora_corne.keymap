@@ -26,11 +26,12 @@
 #define HELP_MENU LG(LS(SLASH))
 
 &mt {
-    tapping-term-ms = <450>;
+    tapping-term-ms = <500>;
 };
 
 &lt {
-    tapping-term-ms = <300>;
+    tapping-term-ms = <400>;
+    quick-tap-ms = <250>;
 };
 
 / {
