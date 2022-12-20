@@ -348,9 +348,9 @@
         lighting {
             label = "lighting";
             bindings = <
- &trans  &trans  &trans  &rgb_ug RGB_HUI &rgb_ug RGB_HUD &rgb_ug RGB_COLOR_HSB(25,100,0)  &trans  &trans    &trans    &trans  &trans  &trans
+ &trans  &trans  &trans  &rgb_ug RGB_BRI &rgb_ug RGB_BRD &rgb_ug RGB_COLOR_HSB(25,100,0)  &trans  &trans    &trans    &trans  &trans  &trans
  &trans  &trans  &trans  &rgb_ug RGB_SAI &rgb_ug RGB_SAD &rgb_ug RGB_COLOR_HSB(25,100,80) &trans  &trans    &trans    &trans  &trans  &trans
- &trans  &trans  &trans  &rgb_ug RGB_BRI &rgb_ug RGB_BRD &rgb_ug RGB_COLOR_HSB(25,0,100)  &trans  &trans    &trans    &trans  &trans  &trans
+ &trans  &trans  &trans  &rgb_ug RGB_HUI &rgb_ug RGB_HUD &rgb_ug RGB_COLOR_HSB(25,0,100)  &trans  &trans    &trans    &trans  &trans  &trans
                          &trans          &trans          &trans                           &trans  &trans    &trans
             >;
         };
