@@ -326,9 +326,9 @@
         adjust {
             label = "adjust";
             bindings = <
- &trans  &trans  &vim_exit_all  &trans  &trans             &to 0                             &trans  &trans    &trans    &trans  &trans  &trans
- &trans  &trans      &vim_save  &trans  &trans          &warpd_l                           &warpd_r  &trans  &tmux_pw  &tmux_ps  &trans  &trans
- &trans  &trans      &vim_exit  &trans  &trans   &rgb_ug RGB_TOG  &rgb_ug RGB_COLOR_HSB(45,100,100)  &trans  &tmux_nw  &tmux_ns  &trans  &trans
+ &trans  &trans  &vim_exit_all  &rgb_ug RGB_HUI &rgb_ug RGB_HUD &to 0                             &trans  &trans    &trans    &trans  &trans  &trans
+ &trans  &trans      &vim_save  &rgb_ug RGB_SAI &rgb_ug RGB_SAD &warpd_l                           &warpd_r  &trans  &tmux_pw  &tmux_ps  &trans  &trans
+ &trans  &trans      &vim_exit  &rgb_ug RGB_BRI &rgb_ug RGB_BRD &rgb_ug RGB_TOG  &rgb_ug RGB_COLOR_HSB(35,100,100)  &trans  &tmux_nw  &tmux_ns  &trans  &trans
                                 &trans  &trans            &trans                             &trans  &trans    &trans
             >;
         };
