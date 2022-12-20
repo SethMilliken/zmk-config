@@ -43,9 +43,13 @@
     conditional_layers {
         compatible = "zmk,conditional-layers";
 
-        tri_layer {
+        adjust_layer {
             if-layers = <1 2>;
             then-layer = <7>;
+        };
+        lighting_layer {
+            if-layers = <4 5>;
+            then-layer = <8>;
         };
     };
 
@@ -330,10 +334,24 @@
         adjust {
             label = "adjust";
             bindings = <
- &trans  &trans  &vim_exit_all  &rgb_ug RGB_HUI &rgb_ug RGB_HUD &to 0                             &trans  &trans    &trans    &trans  &trans  &trans
- &trans  &trans      &vim_save  &rgb_ug RGB_SAI &rgb_ug RGB_SAD &warpd_l                           &warpd_r  &trans  &tmux_pw  &tmux_ps  &trans  &trans
- &trans  &trans      &vim_exit  &rgb_ug RGB_BRI &rgb_ug RGB_BRD &rgb_ug RGB_TOG  &rgb_ug RGB_COLOR_HSB(25,100,10)  &trans  &tmux_nw  &tmux_ns  &trans  &trans
-                                &trans  &trans            &trans                             &trans  &trans    &trans
+ &trans  &trans  &vim_exit_all  &trans  &trans &to 0             &trans    &trans  &trans    &trans    &trans  &trans
+ &trans  &trans      &vim_save  &trans  &trans &warpd_l          &warpd_r  &trans  &tmux_pw  &tmux_ps  &trans  &trans
+ &trans  &trans      &vim_exit  &trans  &trans &trans            &trans    &trans  &tmux_nw  &tmux_ns  &trans  &trans
+                                &trans  &trans &trans                              &trans    &trans    &trans
+            >;
+        };
+
+        /* Do not use this then-layer for regular layer switching */
+
+        /* 8 Layer */
+
+        lighting {
+            label = "lighting";
+            bindings = <
+ &trans  &trans  &trans  &rgb_ug RGB_HUI &rgb_ug RGB_HUD &rgb_ug RGB_COLOR_HSB(25,100,0)  &trans  &trans    &trans    &trans  &trans  &trans
+ &trans  &trans  &trans  &rgb_ug RGB_SAI &rgb_ug RGB_SAD &rgb_ug RGB_COLOR_HSB(25,100,80) &trans  &trans    &trans    &trans  &trans  &trans
+ &trans  &trans  &trans  &rgb_ug RGB_BRI &rgb_ug RGB_BRD &rgb_ug RGB_COLOR_HSB(25,0,100)  &trans  &trans    &trans    &trans  &trans  &trans
+                         &trans          &trans          &trans                           &trans  &trans    &trans
             >;
         };
 
