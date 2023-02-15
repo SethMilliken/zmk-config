@@ -2,7 +2,7 @@
 
 ### Parts
 - [MagSafe continuity camera mount](https://www.amazon.com/dp/B0BRKPVPQR) which has a standard 1/4"-20 thread compatible with camera rigging gear
-- [MagSafe ferromagnetic rings]() with adhesive backs that can be mounted on the bottom case of your keyboard
+- [MagSafe ferromagnetic rings](https://www.amazon.com/dp/B09LQLZKSD) with adhesive backs that can be mounted on the bottom case of your keyboard
 - [Manfrotto pocket tripods](https://splitkb.com/collections/keyboard-parts/products/manfrotto-pocket-tripod?variant=39254223814733) for standalone tenting
 - [articulated arms](https://www.tackform.com/products/4-75-stud-arm-dual-20mm-ball-couplers-enduro-series) for mounting to other things, e.g. chair armrests
 
