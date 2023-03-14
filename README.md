@@ -7,7 +7,7 @@
 - [articulated arms](https://www.tackform.com/products/4-75-stud-arm-dual-20mm-ball-couplers-enduro-series) for mounting to other things, e.g. chair armrests
 - [pinch bolt ball mounts](https://www.tackform.com/products/20mm-aluminum-ball-1-4-20-6mm-thru-hole-25mm-height-enduro-series?variant=18305827799091) to attach articulated arms to armrests
 - [ball mounts](https://www.tackform.com/products/enduro-20mm-ball-to-cam-screw?_pos=7&_sid=80f616233&_ss=r) to hold and position camera mount
-- [handheld track ball](https://www.amazon.com/ULANZI-Camera-Monitor-Ballhead-Adapter/dp/B09W8KG7K7) to avoid having to reach too far for tasks requiring heavy GUI interaction
+- [handheld track ball](https://www.amazon.com/ELECOM-Trackball-Connection-Symmetory-Grip-Performance/dp/B08GSCC8RX) to avoid having to reach too far for tasks requiring heavy GUI interaction
 - [clamp mount](https://www.amazon.com/ULANZI-Camera-Monitor-Ballhead-Adapter/dp/B09W8KG7K7) to hold the trackball
 
 ### Keyboard Preparation
