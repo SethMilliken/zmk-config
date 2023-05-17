@@ -1,14 +1,14 @@
 ## Magnetic Keyboard Mounting/Tenting
 
 ### Parts
-- [MagSafe continuity camera mount](https://www.amazon.com/dp/B0BRKPVPQR) which has a standard 1/4"-20 thread compatible with camera rigging gear (also available in a [black anodized version](https://www.amazon.com/dp/B0BPLW4ZTZ)).
-- [MagSafe ferromagnetic rings](https://www.amazon.com/dp/B09LQLZKSD) with adhesive backs that can be mounted on the bottom case of your keyboard
-- [Manfrotto pocket tripods](https://splitkb.com/collections/keyboard-parts/products/manfrotto-pocket-tripod?variant=39254223814733) for standalone tenting
-- [articulated arms](https://www.tackform.com/products/4-75-stud-arm-dual-20mm-ball-couplers-enduro-series) for mounting to other things, e.g. chair armrests
-- [pinch bolt ball mounts](https://www.tackform.com/products/20mm-aluminum-ball-1-4-20-6mm-thru-hole-25mm-height-enduro-series?variant=18305827799091) to attach articulated arms to armrests
-- [ball mounts](https://www.tackform.com/products/enduro-20mm-ball-to-cam-screw?_pos=7&_sid=80f616233&_ss=r) to hold and position camera mount
-- [handheld track ball](https://www.amazon.com/ELECOM-Trackball-Connection-Symmetory-Grip-Performance/dp/B08GSCC8RX) to avoid having to reach too far for tasks requiring heavy GUI interaction
-- [clamp mount](https://www.amazon.com/ULANZI-Camera-Monitor-Ballhead-Adapter/dp/B09W8KG7K7) to hold the trackball
+- [MagSafe continuity camera mount](https://www.amazon.com/dp/B0BRKPVPQR) (2 @ $15) which has a standard 1/4"-20 thread compatible with camera rigging gear (also available in a [black anodized version](https://www.amazon.com/dp/B0BPLW4ZTZ) ($25)).
+- [MagSafe ferromagnetic rings](https://www.amazon.com/dp/B09LQLZKSD) (4 @ $17) with adhesive backs that can be fixed to the bottom case of your keyboard halves. Beware cheap versions of these rings.
+- [Manfrotto pocket tripods](https://splitkb.com/collections/keyboard-parts/products/manfrotto-pocket-tripod?variant=39254223814733) (2 @ $30) for standalone tenting ([Amazon link](https://www.amazon.com/Manfrotto-MP3-BK-Large-Pocket-Support/dp/B00HCAB8MU/)). Some people prefer these [Z-style tripods](https://www.amazon.com/dp/B07MHJ2TL6/) ($15).
+- [articulated arms](https://www.tackform.com/products/4-75-stud-arm-dual-20mm-ball-couplers-enduro-series) (price varies depending on parts required; budget around $25-50) for mounting to other things, e.g. chair armrests.
+- [pinch bolt ball mounts](https://www.tackform.com/products/20mm-aluminum-ball-1-4-20-6mm-thru-hole-25mm-height-enduro-series?variant=18305827799091) (2 @ $13) to attach articulated arms to armrests.
+- [ball mounts](https://www.tackform.com/products/enduro-20mm-ball-to-cam-screw?_pos=7&_sid=80f616233&_ss=r) (2 @ $13) to hold and position camera mount.
+- [handheld track ball](https://www.amazon.com/ELECOM-Trackball-Connection-Symmetory-Grip-Performance/dp/B08GSCC8RX) ($60) to avoid having to reach too far for tasks requiring heavy GUI interaction.
+- [clamp mount](https://www.amazon.com/ULANZI-Camera-Monitor-Ballhead-Adapter/dp/B09W8KG7K7) ($19) to hold the trackball.
 
 ### Keyboard Preparation
 Stick a ferromagnetic ring to the bottom of each keyboard half, choosing a spot where the weight is balanced, but avoiding any screws.
