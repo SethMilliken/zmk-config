@@ -11,7 +11,7 @@
 - [clamp mount](https://www.amazon.com/ULANZI-Camera-Monitor-Ballhead-Adapter/dp/B09W8KG7K7) ($19) to hold the trackball.
 
 ### Keyboard Preparation
-Stick a ferromagnetic ring to the bottom of each keyboard half, choosing a spot where the weight is balanced, but avoiding any screws.
+Stick a ferromagnetic ring to the bottom of each keyboard half, choosing a spot where the weight is balanced, but avoiding any screws. If the magnetic mount cannot rest flush against the ring, this can significantly reduce the strength of the magnetic connection. Be sure the surface is clean, dry, and even before applying the ring. With an incorrectly prepared surface or with cheaper versions of the rings, the adhesive can pull off before the magnet does, and you'll have to pry the ring off your mount and do something rash like superglue it to your case instead.
 
 ![ferromagnetic ring](images/zen-ring.jpeg)
 
