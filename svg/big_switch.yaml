@@ -1,2 +1,4 @@
 layers:
-  araxia: [F17, '$$mdi:volume-mute$$']
+  araxia:
+  - {t: '$$mdi:keyboard-space$$', h: F17}
+  - $$mdi:volume-mute$$

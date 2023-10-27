@@ -13,6 +13,22 @@
 };
 
 / {
+// BEHAVIORS {{{
+    behaviors {
+
+        ht: basic_ht {
+            compatible = "zmk,behavior-hold-tap";
+            label = "BASIC HOLD-TAP";
+            #binding-cells = <2>;
+            flavor = "tap-preferred";
+            tapping-term-ms = <200>;
+            quick-tap-ms = <200>;
+            require-prior-idle-ms = <125>;
+            bindings = <&kp>, <&kp>;
+        };
+
+    };
+// }}}
 // KEYMAP {{{
 // n.b. label strings are truncated after 8 characters
     keymap {
@@ -22,10 +38,10 @@
         default {
             label = "araxia";
             bindings = <
- &kp F17  &kp C_MUTE
+ &ht F17 SPACE  &kp C_MUTE
             >;
             //sensor-bindings = <&inc_dec_kp PG_UP PG_DN>;
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
+            sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
         };
 
     };

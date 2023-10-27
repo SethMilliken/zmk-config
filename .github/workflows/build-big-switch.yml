@@ -4,7 +4,7 @@ on:
   push:               # automatically run on changes to following paths
     paths:
       - 'big-switch.yaml'
-      - 'config/big-switch.*'
+      - 'config/big_switch.*'
       - 'config/shared.dtsi'
       - 'config/boards/shields/big_switch/*'
 
