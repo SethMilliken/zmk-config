@@ -15,7 +15,7 @@
         default {
             label = "araxia";
             bindings = <
- &kp N1
+ &kp N1 &kp N2
             >;
         };
 

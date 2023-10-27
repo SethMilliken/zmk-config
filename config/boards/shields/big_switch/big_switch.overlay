@@ -8,12 +8,29 @@
 
     default_transform: keymap_transform_0 {
         compatible = "zmk,matrix-transform";
+        rows = <2>;
         columns = <1>;
-        rows = <1>;
-        map = <RC(0,0)>;
+        map = <RC(0,0) RC(1,0)>;
     };
 
-    kscan0: kscan {
+    kscan0: kscan_composite {
+        compatible = "zmk,kscan-composite";
+        label = "KSCAN0";
+        rows = <2>;
+        columns = <1>;
+
+        matrix {
+            kscan = <&kscan1>;
+        };
+
+        direct {
+            kscan = <&kscan2>;
+            row-offset = <1>;
+        };
+
+    };
+
+    kscan1: kscan_matrix {
         compatible = "zmk,kscan-gpio-matrix";
         label = "KSCAN";
         diode-direction = "col2row";
@@ -24,6 +41,13 @@
 
        row-gpios
             = <&pro_micro 10 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+            ;
+    };
+
+    kscan2: kscan_direct {
+        compatible = "zmk,kscan-gpio-direct";
+        input-gpios
+            = <&pro_micro 4 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
             ;
     };
 

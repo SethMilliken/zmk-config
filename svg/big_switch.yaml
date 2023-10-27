@@ -1,2 +1,2 @@
 layers:
-  araxia: [F17]
+  araxia: [F17, '$$mdi:volume-mute$$']

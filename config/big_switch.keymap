@@ -22,7 +22,7 @@
         default {
             label = "araxia";
             bindings = <
- &kp F17
+ &kp F17  &kp C_MUTE
             >;
             //sensor-bindings = <&inc_dec_kp PG_UP PG_DN>;
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
