@@ -1,0 +1,3 @@
+include:
+  - board: nice_nano_v2
+    shield: big_switch

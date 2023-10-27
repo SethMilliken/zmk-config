@@ -1,16 +1,15 @@
-
-name: 'Build Aurora Corne OLED Firmware'
+name: 'Build Big Switch Firmware'
 on:
   workflow_dispatch:  # can be triggered manually
   push:               # automatically run on changes to following paths
     paths:
-      - 'aurora_corne_oled.yaml'
-      - 'config/splitkb_aurora_corne.*'
+      - 'big-switch.yaml'
+      - 'config/big-switch.*'
       - 'config/shared.dtsi'
 
 jobs:
   build:
     uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@main
     with:
-      build_matrix_path: aurora_corne_oled.yaml
-      archive_name: aurora_corne_oled
+      build_matrix_path: big-switch.yaml
+      archive_name: big-switch

@@ -1,0 +1,8 @@
+file_format: "1"
+id: big_switch
+name: Big Switch
+type: shield
+url: https://github.com/SethMilliken/
+requires: [pro_micro]
+features:
+  - keys

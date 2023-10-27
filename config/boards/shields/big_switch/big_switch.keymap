@@ -1,0 +1,26 @@
+// HEADERS {{{
+#include <behaviors.dtsi>
+#include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/outputs.h>
+#include <dt-bindings/zmk/bt.h>
+
+// }}}
+/ {
+// KEYMAP {{{
+// n.b. label strings are truncated after 8 characters
+    keymap {
+        compatible = "zmk,keymap";
+
+        /* 0 Layer */
+        default {
+            label = "araxia";
+            bindings = <
+ &kp N1
+            >;
+        };
+
+    };
+
+};
+// }}}
+/* vim: set ft=dts: */

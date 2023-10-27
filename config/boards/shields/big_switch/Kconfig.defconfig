@@ -1,0 +1,6 @@
+if SHIELD_BIG_SWITCH
+
+config ZMK_KEYBOARD_NAME
+    default "Big Switch"
+
+endif
