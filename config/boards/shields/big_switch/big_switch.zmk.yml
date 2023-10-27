@@ -6,3 +6,4 @@ url: https://github.com/SethMilliken/
 requires: [pro_micro]
 features:
   - keys
+  - encoder
