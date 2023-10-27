@@ -6,6 +6,7 @@ on:
       - 'big-switch.yaml'
       - 'config/big-switch.*'
       - 'config/shared.dtsi'
+      - 'config/boards/shields/big_switch/*'
 
 jobs:
   build:
