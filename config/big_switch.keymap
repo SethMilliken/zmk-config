@@ -7,6 +7,11 @@
 #include <dt-bindings/zmk/ext_power.h>
 
 // }}}
+
+&left_encoder {
+    status = "okay";
+};
+
 / {
 // KEYMAP {{{
 // n.b. label strings are truncated after 8 characters
@@ -17,8 +22,9 @@
         default {
             label = "araxia";
             bindings = <
- &kp N1
+ &kp F17
             >;
+            //sensor-bindings = <&inc_dec_kp PG_UP PG_DN>;
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
 
