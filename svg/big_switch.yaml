@@ -1,4 +1,7 @@
 layers:
   araxia:
   - {t: '$$mdi:keyboard-space$$', h: F17}
-  - $$mdi:volume-mute$$
+  - {t: '$$mdi:volume-mute$$', h: extra}
+  extra:
+  - {t: LG(H), h: F18}
+  - {type: held}
