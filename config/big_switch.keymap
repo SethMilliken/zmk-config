@@ -38,7 +38,16 @@
         default {
             label = "araxia";
             bindings = <
- &ht F17 SPACE  &kp C_MUTE
+ &ht F17 SPACE  &lt 1 C_MUTE
+            >;
+            //sensor-bindings = <&inc_dec_kp PG_UP PG_DN>;
+            sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
+        };
+        /* 1 Layer */
+        extra {
+            label = "extra";
+            bindings = <
+ &ht F18 LG(H)  &trans
             >;
             //sensor-bindings = <&inc_dec_kp PG_UP PG_DN>;
             sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
