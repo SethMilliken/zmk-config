@@ -7,6 +7,10 @@
 #include <dt-bindings/zmk/ext_power.h>
 
 // }}}
+// LAYERS {{{
+#define DEFAULT  0
+#define EXTRA    1
+// }}}
 
 &left_encoder {
     status = "okay";
@@ -38,7 +42,7 @@
         default {
             label = "araxia";
             bindings = <
- &ht F17 SPACE  &lt 1 C_MUTE
+ &ht F17 SPACE  &lt EXTRA C_MUTE
             >;
             //sensor-bindings = <&inc_dec_kp PG_UP PG_DN>;
             sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
