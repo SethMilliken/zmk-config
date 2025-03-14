@@ -1,4 +1,4 @@
-#define VER_PATCH N5
+#define VER_PATCH N6
 #define VER_MINOR N7
 #define VER_MAJOR N3
 
@@ -267,6 +267,13 @@
             #binding-cells = <0>;
             bindings
                 = <&kp LC(A) &kp RIGHT_BRACKET>
+                ;
+        };
+        tmux_vp: tmux_vim_paste {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&kp LC(A) &kp LC(P)>
                 ;
         };
         warpd_l: warpd_left {

@@ -99,7 +99,7 @@
             bindings = <
 &bootloader  &vim_qall   &vim_cqall  &none   &ss_win  &to DEFAULT      &tmux_mode_select  &tmux_ps  &tmux_ns  &tmux_oz  &tmux_paste  &none
 &none        &vim_wqall  &vim_save   &ss2c   &ss      &warpd_l         &tmux_sw           &tmux_pw  &tmux_pp  &tmux_np  &tmux_nw     &none
-&sys_reset   &none       &vim_exit   &sss2c  &sss     &out OUT_USB     &tmux_idx          &none     &none     &none     &tmux_copy   &none
+&sys_reset   &none       &vim_exit   &sss2c  &sss     &out OUT_USB     &tmux_idx          &none     &none     &tmux_vp  &tmux_copy   &none
                                      &none   &none    &trans           &trans             &none     &none
             >;
         };

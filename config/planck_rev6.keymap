@@ -107,7 +107,7 @@
             bindings = <
 &vim_qall   &vim_cqall  &none   &ss_win  &to DEFAULT     &trans  &trans    &tmux_mode_select  &tmux_ps  &tmux_ns  &tmux_oz  &tmux_paste
 &vim_wqall  &vim_save   &ss2c   &ss      &warpd_l        &trans  &trans    &tmux_sw           &tmux_pw  &tmux_pp  &tmux_np  &tmux_nw
-&none       &vim_exit   &sss2c  &sss     &out OUT_USB    &trans  &trans    &tmux_idx          &none     &none     &none     &tmux_copy
+&none       &vim_exit   &sss2c  &sss     &out OUT_USB    &trans  &trans    &tmux_idx          &none     &none     &tmux_vp  &tmux_copy
 &trans      &trans      &trans  &trans   &trans          &trans  &trans    &trans             &trans    &trans    &trans    &trans
             >;
         };

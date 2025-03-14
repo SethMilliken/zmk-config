@@ -335,7 +335,7 @@ layers:
   - '&tmux_idx'
   - ''
   - ''
-  - ''
+  - '&tmux_vp'
   - '&tmux_copy'
   - ''
   - ''
