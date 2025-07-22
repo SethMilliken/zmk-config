@@ -346,7 +346,7 @@ layers:
   adjust:
   - {t: '$$mdi:vimeo$$', s: ':qal', type: sym_sub_text}
   - {t: '$$mdi:vimeo$$', s: ':conf qal', type: sym_sub_text}
-  - ''
+  - '&zoom_tog'
   - {t: '$$mdi:camera$$', s: '$$mdi:microsoft-windows$$', type: sym_by_sym}
   - {t: araxia, h: '$$mdi:toggle-switch$$'}
   - {t: ▽, type: trans}
