@@ -105,10 +105,10 @@
         vimmux {
             display-name = "vimmux";
             bindings = <
-&vim_wqall  &vim_cqall  &vim_save   &vim_tabp   &vim_tabn    &trans  &trans    &tmux_mode_select  &tmux_ps    &tmux_ns    &tmux_oz  &tmux_paste
-&vim_left   &vim_up     &vim_down   &vim_right  &vim_last    &trans  &trans    &tmux_sw           &tmux_pp    &tmux_pw    &tmux_nw  &tmux_np
-&none       &vim_spec   &vim_func   &vim_nav    &vim_zoom    &trans  &trans    &tmux_idx          &tmux_zoom  &tmux_func  &tmux_vp  &tmux_copy
-&trans      &trans      &trans      &trans      &trans       &trans  &trans    &trans             &trans      &trans      &trans    &trans
+&vim_cqall  &vim_save  &vim_spec  &vim_temp  &vim_tabi    &trans  &trans    &tmux_mode_select  &tmux_ps    &tmux_ns    &tmux_oz  &tmux_paste
+&vim_tabf   &vim_tabp  &vim_tabn  &vim_tabl  &vim_tabr    &trans  &trans    &tmux_sw           &tmux_pp    &tmux_pw    &tmux_nw  &tmux_np
+&vim_wqall  &vim_misc  &vim_func  &vim_nav   &vim_zoom    &trans  &trans    &tmux_idx          &tmux_zoom  &tmux_func  &tmux_vp  &tmux_copy
+&trans      &trans     &trans     &trans     &trans       &trans  &trans    &trans             &trans      &trans      &trans    &trans
             >;
         };
 

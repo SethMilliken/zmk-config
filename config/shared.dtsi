@@ -1,4 +1,4 @@
-#define VER_PATCH N0
+#define VER_PATCH N1
 #define VER_MINOR N8
 #define VER_MAJOR N3
 
@@ -225,7 +225,21 @@
                 <&macro_tap>,
                 <&kp ESC &kp G &kp T>;
         };
-        vim_last: vim_last_tab {
+        vim_tabf: vim_tab_first {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_tap>,
+                <&kp ESC &kp COLON &kp T &kp A &kp B &kp R &kp RETURN>;
+        };
+        vim_tabl: vim_tab_last {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_tap>,
+                <&kp ESC &kp COLON &kp T &kp A &kp B &kp L &kp RETURN>;
+        };
+        vim_tabr: vim_tab_recent {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings =
@@ -238,6 +252,13 @@
             bindings =
                 <&macro_tap>,
                 <&kp ESC &kp LC(W) &kp Z>;
+        };
+        vim_tabi: vim_tab_index {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_tap>,
+                <&kp ESC &kp LC(Q) &kp SLASH &kp T &kp A &kp B>;
         };
         vim_nav: vim_nav {
             compatible = "zmk,behavior-macro";
@@ -259,6 +280,20 @@
             bindings =
                 <&macro_tap>,
                 <&kp ESC &kp LC(Q) &kp SLASH &kp S &kp P &kp E &kp C>;
+        };
+        vim_misc: vim_misc {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_tap>,
+                <&kp ESC &kp LC(Q) &kp SLASH &kp M &kp I &kp S &kp C>;
+        };
+        vim_temp: vim_temp {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_tap>,
+                <&kp ESC &kp LC(Q) &kp SLASH &kp T &kp E &kp M &kp P>;
         };
         tmux_mode_select: tmux_mode_select {
             compatible = "zmk,behavior-macro";
