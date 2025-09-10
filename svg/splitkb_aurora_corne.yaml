@@ -302,12 +302,12 @@ layers:
   - {type: held}
   - {t: '$$mdi:bluetooth-settings$$', h: '$$mdi:asterisk$$', s: '$$mdi:close-thick$$', type: sym_sub_text}
   vimmux:
-  - {t: '$$mdi:flash$$', h: '$$mdi:new-box$$', s: '$$mdi:micro-sd$$', type: sym_by_sym}
-  - {t: '$$mdi:vimeo$$', s: ':wqal', type: sym_sub_text}
+  - ''
   - {t: '$$mdi:vimeo$$', s: ':conf qal', type: sym_sub_text}
   - {t: '$$mdi:vimeo$$', s: ':w', type: sym_sub_text}
-  - {t: '$$mdi:vimeo$$', s: ':tabp', type: sym_sub_text}
-  - {t: '$$mdi:vimeo$$', s: ':tabn', type: sym_sub_text}
+  - {t: '$$mdi:vimeo$$', s: <C-q>/spec, type: sym_sub_text}
+  - '&vim_temp'
+  - '&vim_tabi'
   - tmux app
   - {t: '$$mdi:collage$$', s: ps, type: sym_sub_text}
   - {t: '$$mdi:collage$$', s: ns, type: sym_sub_text}
@@ -315,20 +315,20 @@ layers:
   - {t: '$$mdi:collage$$', s: P, type: sym_sub_text}
   - ''
   - ''
-  - {t: '$$mdi:vimeo$$', s: '$$mdi:table-arrow-left$$', type: sym_sub_text}
-  - {t: '$$mdi:vimeo$$', s: '$$mdi:table-arrow-up$$', type: sym_sub_text}
-  - {t: '$$mdi:vimeo$$', s: '$$mdi:table-arrow-down$$', type: sym_sub_text}
-  - {t: '$$mdi:vimeo$$', s: '$$mdi:table-arrow-right$$', type: sym_sub_text}
-  - {t: '$$mdi:vimeo$$', s: g<Tab>, type: sym_sub_text}
+  - '&vim_tabf'
+  - {t: '$$mdi:vimeo$$', s: ':tabp', type: sym_sub_text}
+  - {t: '$$mdi:vimeo$$', s: ':tabn', type: sym_sub_text}
+  - '&vim_tabl'
+  - '&vim_tabr'
   - {t: '$$mdi:collage$$', s: sw, type: sym_sub_text}
   - {t: '$$mdi:collage$$', s: pp, type: sym_sub_text}
   - {t: '$$mdi:collage$$', s: pw, type: sym_sub_text}
   - {t: '$$mdi:collage$$', s: nw, type: sym_sub_text}
   - {t: '$$mdi:collage$$', s: np, type: sym_sub_text}
   - ''
-  - '&sys_reset'
   - ''
-  - {t: '$$mdi:vimeo$$', s: <C-q>/spec, type: sym_sub_text}
+  - {t: '$$mdi:vimeo$$', s: ':wqal', type: sym_sub_text}
+  - '&vim_misc'
   - {t: '$$mdi:vimeo$$', s: <C-q>/func, type: sym_sub_text}
   - {t: '$$mdi:vimeo$$', s: <C-q>/nav, type: sym_sub_text}
   - {t: '$$mdi:vimeo$$', s: <C-w>z, type: sym_sub_text}
@@ -345,7 +345,7 @@ layers:
   - ''
   - ''
   adjust:
-  - ''
+  - {t: '$$mdi:flash$$', h: '$$mdi:new-box$$', s: '$$mdi:micro-sd$$', type: sym_by_sym}
   - ''
   - ''
   - '&zoom_tog'
@@ -369,7 +369,7 @@ layers:
   - ''
   - ''
   - ''
-  - ''
+  - '&sys_reset'
   - ''
   - ''
   - {t: '$$mdi:camera-image$$', s: '$$mdi:clipboard$$', type: sym_by_sym}
