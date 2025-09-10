@@ -22,6 +22,9 @@
 &combo_adjust_tab {
     key-positions = <40 43>;
 };
+&combo_adjust_sl {
+    key-positions = <0 40>;
+};
 &combo_return_right {
     key-positions = <7 19>;
 };

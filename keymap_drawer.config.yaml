@@ -619,17 +619,17 @@ parse_config:
       tap:     $$mdi:collage$$
       shifted: "P"
       type:    sym_sub_text
+    '&tmux_zoom':
+      tap:     $$mdi:collage$$
+      shifted: "z"
+      type:    sym_sub_text
+    '&tmux_func':
+      tap:     $$mdi:collage$$
+      shifted: ":"
+      type:    sym_sub_text
     '&vim_save':
       tap:     $$mdi:vimeo$$
       shifted: ":w"
-      type:    sym_sub_text
-    '&vim_exit':
-      tap:     $$mdi:vimeo$$
-      shifted: "ZZ"
-      type:    sym_sub_text
-    '&vim_qall':
-      tap:     $$mdi:vimeo$$
-      shifted: ":qal"
       type:    sym_sub_text
     '&vim_cqall':
       tap:     $$mdi:vimeo$$
@@ -638,6 +638,50 @@ parse_config:
     '&vim_wqall':
       tap:     $$mdi:vimeo$$
       shifted: ":wqal"
+      type:    sym_sub_text
+    '&vim_left':
+      tap:     $$mdi:vimeo$$
+      shifted: $$mdi:table-arrow-left$$
+      type:    sym_sub_text
+    '&vim_right':
+      tap:     $$mdi:vimeo$$
+      shifted: $$mdi:table-arrow-right$$
+      type:    sym_sub_text
+    '&vim_up':
+      tap:     $$mdi:vimeo$$
+      shifted: $$mdi:table-arrow-up$$
+      type:    sym_sub_text
+    '&vim_down':
+      tap:     $$mdi:vimeo$$
+      shifted: $$mdi:table-arrow-down$$
+      type:    sym_sub_text
+    '&vim_tabn':
+      tap:     $$mdi:vimeo$$
+      shifted: ":tabn"
+      type:    sym_sub_text
+    '&vim_tabp':
+      tap:     $$mdi:vimeo$$
+      shifted: ":tabp"
+      type:    sym_sub_text
+    '&vim_last':
+      tap:     $$mdi:vimeo$$
+      shifted: "g<Tab>"
+      type:    sym_sub_text
+    '&vim_zoom':
+      tap:     $$mdi:vimeo$$
+      shifted: "<C-w>z"
+      type:    sym_sub_text
+    '&vim_nav':
+      tap:     $$mdi:vimeo$$
+      shifted: "<C-q>/nav"
+      type:    sym_sub_text
+    '&vim_func':
+      tap:     $$mdi:vimeo$$
+      shifted: "<C-q>/func"
+      type:    sym_sub_text
+    '&vim_spec':
+      tap:     $$mdi:vimeo$$
+      shifted: "<C-q>/spec"
       type:    sym_sub_text
     '&ss':
       tap:     $$mdi:camera$$

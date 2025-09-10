@@ -102,17 +102,28 @@
         };
 
         /* 7 Layer */
-        adjust {
-            display-name = "adjust";
+        vimmux {
+            display-name = "vimmux";
             bindings = <
-&vim_qall   &vim_cqall  &zoom_tog  &ss_win  &to DEFAULT     &trans  &trans    &tmux_mode_select  &tmux_ps  &tmux_ns  &tmux_oz  &tmux_paste
-&vim_wqall  &vim_save   &ss2c      &ss      &warpd_l        &trans  &trans    &tmux_sw           &tmux_pp  &tmux_pw  &tmux_nw  &tmux_np
-&none       &vim_exit   &sss2c     &sss     &out OUT_USB    &trans  &trans    &tmux_idx          &none     &none     &tmux_vp  &tmux_copy
-&trans      &trans      &trans     &trans   &trans          &trans  &trans    &trans             &trans    &trans    &trans    &trans
+&vim_wqall  &vim_cqall  &vim_save   &vim_tabp   &vim_tabn    &trans  &trans    &tmux_mode_select  &tmux_ps    &tmux_ns    &tmux_oz  &tmux_paste
+&vim_left   &vim_up     &vim_down   &vim_right  &vim_last    &trans  &trans    &tmux_sw           &tmux_pp    &tmux_pw    &tmux_nw  &tmux_np
+&none       &vim_spec   &vim_func   &vim_nav    &vim_zoom    &trans  &trans    &tmux_idx          &tmux_zoom  &tmux_func  &tmux_vp  &tmux_copy
+&trans      &trans      &trans      &trans      &trans       &trans  &trans    &trans             &trans      &trans      &trans    &trans
             >;
         };
 
         /* 8 Layer */
+        adjust {
+            display-name = "adjust";
+            bindings = <
+&none       &none       &zoom_tog  &ss_win  &warpd_l        &trans  &trans    &none     &none     &none     &none     &none
+&none       &none       &ss2c      &ss      &out OUT_USB    &trans  &trans    &none     &none     &none     &none     &none
+&none       &none       &sss2c     &sss     &none           &trans  &trans    &none     &none     &none     &none     &none
+&trans      &trans      &trans     &trans   &trans          &trans  &trans    &trans    &trans    &trans    &trans    &trans
+            >;
+        };
+
+        /* 9 Layer */
         /* Do not use this then-layer for regular layer switching */
         lighting {
             display-name = "lighting";
@@ -124,7 +135,7 @@
             >;
         };
 
-        /* 9 Layer */
+        /* 10 Layer */
         discord {
             display-name = "discord";
             bindings = <
@@ -136,7 +147,7 @@
             sensor-bindings = <&rot_discord>;
         };
 
-        /* 10 Layer */
+        /* 11 Layer */
         pointer {
             display-name = "pointer";
             bindings = <
@@ -148,7 +159,7 @@
             sensor-bindings = <&rot_msc MOVE_X(40) MOVE_X(-40)>;
         };
 
-        /* 11 Layer */
+        /* 12 Layer */
         mirror {
             display-name = "mirror";
             bindings = <
@@ -159,7 +170,7 @@
             >;
         };
 
-        /* 12 Layer */
+        /* 13 Layer */
         window_left {
             display-name = "move [L]";
             bindings = <
@@ -170,7 +181,7 @@
             >;
         };
 
-        /*  13 Layer */
+        /*  14 Layer */
         window_right {
             display-name = "move [R]";
             bindings = <
@@ -182,7 +193,7 @@
         };
 
 
-        /*  14 Layer */
+        /*  15 Layer */
         act {
             display-name = "act";
             bindings = <
@@ -193,7 +204,7 @@
             >;
         };
 
-        /* 15 Layer */
+        /* 16 Layer */
         func {
             display-name = "func";
             bindings = <

@@ -301,13 +301,13 @@ layers:
   - {type: held}
   - {type: held}
   - {t: '$$mdi:bluetooth-settings$$', h: '$$mdi:asterisk$$', s: '$$mdi:close-thick$$', type: sym_sub_text}
-  adjust:
+  vimmux:
   - {t: '$$mdi:flash$$', h: '$$mdi:new-box$$', s: '$$mdi:micro-sd$$', type: sym_by_sym}
-  - {t: '$$mdi:vimeo$$', s: ':qal', type: sym_sub_text}
+  - {t: '$$mdi:vimeo$$', s: ':wqal', type: sym_sub_text}
   - {t: '$$mdi:vimeo$$', s: ':conf qal', type: sym_sub_text}
-  - '&zoom_tog'
-  - {t: '$$mdi:camera$$', s: '$$mdi:microsoft-windows$$', type: sym_by_sym}
-  - {t: araxia, h: '$$mdi:toggle-switch$$'}
+  - {t: '$$mdi:vimeo$$', s: ':w', type: sym_sub_text}
+  - {t: '$$mdi:vimeo$$', s: ':tabp', type: sym_sub_text}
+  - {t: '$$mdi:vimeo$$', s: ':tabn', type: sym_sub_text}
   - tmux app
   - {t: '$$mdi:collage$$', s: ps, type: sym_sub_text}
   - {t: '$$mdi:collage$$', s: ns, type: sym_sub_text}
@@ -315,11 +315,11 @@ layers:
   - {t: '$$mdi:collage$$', s: P, type: sym_sub_text}
   - ''
   - ''
-  - {t: '$$mdi:vimeo$$', s: ':wqal', type: sym_sub_text}
-  - {t: '$$mdi:vimeo$$', s: ':w', type: sym_sub_text}
-  - {t: '$$mdi:camera$$', s: '$$mdi:clipboard$$', type: sym_by_sym}
-  - {t: '$$mdi:camera$$', s: '$$mdi:monitor-screenshot$$', type: sym_by_sym}
-  - {t: '$$mdi:monitor-shimmer$$', s: '$$mdi:arrow-top-left-thick$$', type: sym_by_sym}
+  - {t: '$$mdi:vimeo$$', s: '$$mdi:table-arrow-left$$', type: sym_sub_text}
+  - {t: '$$mdi:vimeo$$', s: '$$mdi:table-arrow-up$$', type: sym_sub_text}
+  - {t: '$$mdi:vimeo$$', s: '$$mdi:table-arrow-down$$', type: sym_sub_text}
+  - {t: '$$mdi:vimeo$$', s: '$$mdi:table-arrow-right$$', type: sym_sub_text}
+  - {t: '$$mdi:vimeo$$', s: g<Tab>, type: sym_sub_text}
   - {t: '$$mdi:collage$$', s: sw, type: sym_sub_text}
   - {t: '$$mdi:collage$$', s: pp, type: sym_sub_text}
   - {t: '$$mdi:collage$$', s: pw, type: sym_sub_text}
@@ -328,13 +328,13 @@ layers:
   - ''
   - '&sys_reset'
   - ''
-  - {t: '$$mdi:vimeo$$', s: ZZ, type: sym_sub_text}
-  - {t: '$$mdi:camera-image$$', s: '$$mdi:clipboard$$', type: sym_by_sym}
-  - {t: '$$mdi:camera-image$$', s: '$$mdi:monitor-screenshot$$', type: sym_by_sym}
-  - {t: '$$mdi:keyboard$$', s: '$$mdi:usb$$', type: sym_by_sym}
+  - {t: '$$mdi:vimeo$$', s: <C-q>/spec, type: sym_sub_text}
+  - {t: '$$mdi:vimeo$$', s: <C-q>/func, type: sym_sub_text}
+  - {t: '$$mdi:vimeo$$', s: <C-q>/nav, type: sym_sub_text}
+  - {t: '$$mdi:vimeo$$', s: <C-w>z, type: sym_sub_text}
   - '&tmux_idx'
-  - ''
-  - ''
+  - {t: '$$mdi:collage$$', s: z, type: sym_sub_text}
+  - {t: '$$mdi:collage$$', s: ':', type: sym_sub_text}
   - '&tmux_vp'
   - '&tmux_copy'
   - ''
@@ -342,6 +342,49 @@ layers:
   - {type: held}
   - {type: held}
   - {t: ▽, type: trans}
+  - ''
+  - ''
+  adjust:
+  - ''
+  - ''
+  - ''
+  - '&zoom_tog'
+  - {t: '$$mdi:camera$$', s: '$$mdi:microsoft-windows$$', type: sym_by_sym}
+  - {t: '$$mdi:monitor-shimmer$$', s: '$$mdi:arrow-top-left-thick$$', type: sym_by_sym}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {t: '$$mdi:camera$$', s: '$$mdi:clipboard$$', type: sym_by_sym}
+  - {t: '$$mdi:camera$$', s: '$$mdi:monitor-screenshot$$', type: sym_by_sym}
+  - {t: '$$mdi:keyboard$$', s: '$$mdi:usb$$', type: sym_by_sym}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {t: '$$mdi:camera-image$$', s: '$$mdi:clipboard$$', type: sym_by_sym}
+  - {t: '$$mdi:camera-image$$', s: '$$mdi:monitor-screenshot$$', type: sym_by_sym}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {type: held}
+  - {type: held}
   - ''
   - ''
   lighting:
@@ -696,7 +739,7 @@ combos:
   o: 0.1
   arc_scale: 1.03
 - p: [37, 38]
-  k: {t: ⮐, h: adjust}
+  k: {t: ⮐, h: vimmux}
   l: [araxia, gaming]
 - p: [38, 39]
   k: {t: '$$mdi:keyboard-tab$$', h: adjust}
@@ -704,6 +747,9 @@ combos:
   a: top
   o: 0.05
   arc_scale: 1.055
+- p: [1, 38]
+  k: {t: adjust, h: sticky}
+  l: [araxia, gaming]
 - p: [6, 18]
   k: ⮐
   l: [araxia, gaming]
@@ -726,25 +772,25 @@ combos:
   o: 0.1
   arc_scale: 1.03
 - p: [1, 16]
-  k: '&osl LG(LA(LC(LS(A)))) 14'
+  k: '&osl LG(LA(LC(LS(A)))) 15'
   l: [araxia]
   a: top
   o: 1.85
   arc_scale: 1.075
 - p: [10, 19]
-  k: '&osl LG(LA(LC(LS(A)))) 14'
+  k: '&osl LG(LA(LC(LS(A)))) 15'
   l: [araxia]
   a: top
   o: 1.85
   arc_scale: 1.075
 - p: [37, 40]
-  k: '&osl LG(LA(LC(LS(A)))) 14'
+  k: '&osl LG(LA(LC(LS(A)))) 15'
   l: [araxia, pointer, discord]
   a: bottom
   o: 0.35
   arc_scale: 1.03
 - p: [5, 6]
-  k: '&osl LG(LA(LC(LS(F)))) 15'
+  k: '&osl LG(LA(LC(LS(F)))) 16'
   l: [araxia]
 - p: [7, 8, 9]
   k: tmux prefix

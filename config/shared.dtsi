@@ -1,5 +1,5 @@
-#define VER_PATCH N8
-#define VER_MINOR N7
+#define VER_PATCH N0
+#define VER_MINOR N8
 #define VER_MAJOR N3
 
 // DEFINES {{{
@@ -28,15 +28,16 @@
 #define NUMPAD    4
 #define MEDIA     5
 #define OUTPUT    6
-#define ADJUST    7
-#define LIGHTING  8
-#define DISCORD   9
-#define POINTER   10
-#define MIRROR    11
-#define WIN_LEFT  12
-#define WIN_RIGHT 13
-#define ACT       14
-#define FUNCTION  15
+#define VIMMUX    7
+#define ADJUST    8
+#define LIGHTING  9
+#define DISCORD   10
+#define POINTER   11
+#define MIRROR    12
+#define WIN_LEFT  13
+#define WIN_RIGHT 14
+#define ACT       15
+#define FUNCTION  16
 // }}}
 
 #include <input/processors.dtsi>
@@ -168,20 +169,6 @@
                 <&macro_tap>,
                 <&kp ESC &kp COLON &kp W &kp RETURN>;
         };
-        vim_exit: vim_exit_single {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings =
-                <&macro_tap>,
-                <&kp ESC &kp Z &kp Z>;
-        };
-        vim_qall: vim_exit_all {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings =
-                <&macro_tap>,
-                <&kp ESC &kp COLON &kp Q &kp A &kp L &kp RETURN>;
-        };
         vim_cqall: vim_exit_all_with_confirm {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -195,6 +182,83 @@
             bindings =
                 <&macro_tap>,
                 <&kp ESC &kp COLON &kp W &kp Q &kp A &kp L &kp RETURN>;
+        };
+        vim_left: vim_window_left {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_tap>,
+                <&kp ESC &kp LC(W) &kp H>;
+        };
+        vim_right: vim_window_right {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_tap>,
+                <&kp ESC &kp LC(W) &kp L>;
+        };
+        vim_up: vim_window_up {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_tap>,
+                <&kp ESC &kp LC(W) &kp K>;
+        };
+        vim_down: vim_window_down {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_tap>,
+                <&kp ESC &kp LC(W) &kp J>;
+        };
+        vim_tabp: vim_tab_previous {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_tap>,
+                <&kp ESC &kp G &kp LS(T)>;
+        };
+        vim_tabn: vim_tab_next {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_tap>,
+                <&kp ESC &kp G &kp T>;
+        };
+        vim_last: vim_last_tab {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_tap>,
+                <&kp ESC &kp G &kp TAB>;
+        };
+        vim_zoom: vim_zoom {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_tap>,
+                <&kp ESC &kp LC(W) &kp Z>;
+        };
+        vim_nav: vim_nav {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_tap>,
+                <&kp ESC &kp LC(Q) &kp SLASH &kp N &kp A &kp V>;
+        };
+        vim_func: vim_func {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_tap>,
+                <&kp ESC &kp LC(Q) &kp SLASH &kp F &kp U &kp N &kp C>;
+        };
+        vim_spec: vim_spec {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_tap>,
+                <&kp ESC &kp LC(Q) &kp SLASH &kp S &kp P &kp E &kp C>;
         };
         tmux_mode_select: tmux_mode_select {
             compatible = "zmk,behavior-macro";
@@ -274,6 +338,20 @@
             #binding-cells = <0>;
             bindings
                 = <&kp LC(A) &kp LC(P)>
+                ;
+        };
+        tmux_zoom: tmux_zoom {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&kp LC(A) &kp Z>
+                ;
+        };
+        tmux_func: tmux_func {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&kp LC(A) &kp COLON>
                 ;
         };
         warpd_l: warpd_left {
@@ -535,13 +613,19 @@
         combo_return_left_thumbs: combo_return_left_thumbs {
             timeout-ms = <VERT_COMBO_MS>;
             key-positions = <37 38>;
-            bindings = <&lthp ADJUST RETURN>;
+            bindings = <&lthp VIMMUX RETURN>;
             layers = <DEFAULT GAMING>;
         };
         combo_adjust_tab: combo_adjust_tab {
             timeout-ms = <VERT_COMBO_MS>;
             key-positions = <38 39>;
             bindings = <&lttp ADJUST TAB>;
+            layers = <DEFAULT GAMING>;
+        };
+        combo_adjust_sl: combo_adjust_sl {
+            timeout-ms = <VERT_COMBO_MS>;
+            key-positions = <1 38>;
+            bindings = <&sl ADJUST>;
             layers = <DEFAULT GAMING>;
         };
         combo_return_right: combo_return_right {

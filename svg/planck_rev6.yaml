@@ -46,7 +46,7 @@ layers:
   - F8
   - {t: Esc, h: media}
   - {t: '$$mdi:keyboard-space$$', h: numpad}
-  - {t: ':', h: '11'}
+  - {t: ':', h: '12'}
   - $$tablerf:pointer$$
   - $$tablerf:brand-discord$$
   gaming:
@@ -343,12 +343,12 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  adjust:
-  - {t: '$$mdi:vimeo$$', s: ':qal', type: sym_sub_text}
+  vimmux:
+  - {t: '$$mdi:vimeo$$', s: ':wqal', type: sym_sub_text}
   - {t: '$$mdi:vimeo$$', s: ':conf qal', type: sym_sub_text}
-  - '&zoom_tog'
-  - {t: '$$mdi:camera$$', s: '$$mdi:microsoft-windows$$', type: sym_by_sym}
-  - {t: araxia, h: '$$mdi:toggle-switch$$'}
+  - {t: '$$mdi:vimeo$$', s: ':w', type: sym_sub_text}
+  - {t: '$$mdi:vimeo$$', s: ':tabp', type: sym_sub_text}
+  - {t: '$$mdi:vimeo$$', s: ':tabn', type: sym_sub_text}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - tmux app
@@ -356,11 +356,11 @@ layers:
   - {t: '$$mdi:collage$$', s: ns, type: sym_sub_text}
   - {t: '$$mdi:collage$$', s: oz, type: sym_sub_text}
   - {t: '$$mdi:collage$$', s: P, type: sym_sub_text}
-  - {t: '$$mdi:vimeo$$', s: ':wqal', type: sym_sub_text}
-  - {t: '$$mdi:vimeo$$', s: ':w', type: sym_sub_text}
-  - {t: '$$mdi:camera$$', s: '$$mdi:clipboard$$', type: sym_by_sym}
-  - {t: '$$mdi:camera$$', s: '$$mdi:monitor-screenshot$$', type: sym_by_sym}
-  - {t: '$$mdi:monitor-shimmer$$', s: '$$mdi:arrow-top-left-thick$$', type: sym_by_sym}
+  - {t: '$$mdi:vimeo$$', s: '$$mdi:table-arrow-left$$', type: sym_sub_text}
+  - {t: '$$mdi:vimeo$$', s: '$$mdi:table-arrow-up$$', type: sym_sub_text}
+  - {t: '$$mdi:vimeo$$', s: '$$mdi:table-arrow-down$$', type: sym_sub_text}
+  - {t: '$$mdi:vimeo$$', s: '$$mdi:table-arrow-right$$', type: sym_sub_text}
+  - {t: '$$mdi:vimeo$$', s: g<Tab>, type: sym_sub_text}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: '$$mdi:collage$$', s: sw, type: sym_sub_text}
@@ -369,15 +369,15 @@ layers:
   - {t: '$$mdi:collage$$', s: nw, type: sym_sub_text}
   - {t: '$$mdi:collage$$', s: np, type: sym_sub_text}
   - ''
-  - {t: '$$mdi:vimeo$$', s: ZZ, type: sym_sub_text}
-  - {t: '$$mdi:camera-image$$', s: '$$mdi:clipboard$$', type: sym_by_sym}
-  - {t: '$$mdi:camera-image$$', s: '$$mdi:monitor-screenshot$$', type: sym_by_sym}
-  - {t: '$$mdi:keyboard$$', s: '$$mdi:usb$$', type: sym_by_sym}
+  - {t: '$$mdi:vimeo$$', s: <C-q>/spec, type: sym_sub_text}
+  - {t: '$$mdi:vimeo$$', s: <C-q>/func, type: sym_sub_text}
+  - {t: '$$mdi:vimeo$$', s: <C-q>/nav, type: sym_sub_text}
+  - {t: '$$mdi:vimeo$$', s: <C-w>z, type: sym_sub_text}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '&tmux_idx'
-  - ''
-  - ''
+  - {t: '$$mdi:collage$$', s: z, type: sym_sub_text}
+  - {t: '$$mdi:collage$$', s: ':', type: sym_sub_text}
   - '&tmux_vp'
   - '&tmux_copy'
   - {t: ▽, type: trans}
@@ -388,6 +388,55 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  adjust:
+  - ''
+  - ''
+  - '&zoom_tog'
+  - {t: '$$mdi:camera$$', s: '$$mdi:microsoft-windows$$', type: sym_by_sym}
+  - {t: '$$mdi:monitor-shimmer$$', s: '$$mdi:arrow-top-left-thick$$', type: sym_by_sym}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {t: '$$mdi:camera$$', s: '$$mdi:clipboard$$', type: sym_by_sym}
+  - {t: '$$mdi:camera$$', s: '$$mdi:monitor-screenshot$$', type: sym_by_sym}
+  - {t: '$$mdi:keyboard$$', s: '$$mdi:usb$$', type: sym_by_sym}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {t: '$$mdi:camera-image$$', s: '$$mdi:clipboard$$', type: sym_by_sym}
+  - {t: '$$mdi:camera-image$$', s: '$$mdi:monitor-screenshot$$', type: sym_by_sym}
+  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -792,7 +841,7 @@ combos:
   o: 0.1
   arc_scale: 1.03
 - p: [39, 40]
-  k: {t: ⮐, h: adjust}
+  k: {t: ⮐, h: vimmux}
   l: [araxia, gaming]
 - p: [40, 43]
   k: {t: '$$mdi:keyboard-tab$$', h: adjust}
@@ -800,6 +849,9 @@ combos:
   a: top
   o: 0.05
   arc_scale: 1.055
+- p: [0, 40]
+  k: {t: adjust, h: sticky}
+  l: [araxia, gaming]
 - p: [7, 19]
   k: ⮐
   l: [araxia, gaming]
@@ -822,25 +874,25 @@ combos:
   o: 0.1
   arc_scale: 1.03
 - p: [0, 15]
-  k: '&osl LG(LA(LC(LS(A)))) 14'
+  k: '&osl LG(LA(LC(LS(A)))) 15'
   l: [araxia]
   a: top
   o: 1.85
   arc_scale: 1.075
 - p: [11, 20]
-  k: '&osl LG(LA(LC(LS(A)))) 14'
+  k: '&osl LG(LA(LC(LS(A)))) 15'
   l: [araxia]
   a: top
   o: 1.85
   arc_scale: 1.075
 - p: [39, 44]
-  k: '&osl LG(LA(LC(LS(A)))) 14'
+  k: '&osl LG(LA(LC(LS(A)))) 15'
   l: [araxia, pointer, discord]
   a: bottom
   o: 0.35
   arc_scale: 1.03
 - p: [4, 7]
-  k: '&osl LG(LA(LC(LS(F)))) 15'
+  k: '&osl LG(LA(LC(LS(F)))) 16'
   l: [araxia]
 - p: [8, 9, 10]
   k: tmux prefix
