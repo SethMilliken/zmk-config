@@ -1,5 +1,5 @@
-#define VER_PATCH N1
-#define VER_MINOR N8
+#define VER_PATCH N0
+#define VER_MINOR N9
 #define VER_MAJOR N3
 
 // DEFINES {{{
