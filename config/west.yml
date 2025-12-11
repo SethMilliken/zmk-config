@@ -15,7 +15,7 @@ manifest:
       #remote: zmkfirmware
       #revision: main
       remote: SethMilliken
-      revision: experimental-blend  # custom branch name
+      revision: zen-display-patches                # custom branch name
       #remote: caksoylar
       #revision: caksoylar/zen-v1+v2+experimental  # custom branch name
       clone-depth: 1
