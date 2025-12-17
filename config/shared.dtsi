@@ -1,6 +1,6 @@
-#define VER_PATCH N0
-#define VER_MINOR N9
-#define VER_MAJOR N3
+#define VER_PATCH N1
+#define VER_MINOR N1
+#define VER_MAJOR N4
 
 // DEFINES {{{
 #define HYPER(X) LG(LA(LC(LS(X))))
