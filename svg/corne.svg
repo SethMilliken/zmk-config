@@ -2569,9 +2569,12 @@ rect.held, rect.combo.held {
 <g transform="translate(40, 2640)" class="layer-vimmux">
 <text x="0" y="28" class="label" id="vimmux">vimmux:</text>
 <g transform="translate(0, 56)">
-<g transform="translate(28, 87)" class="key keypos-0">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
-<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
+<g transform="translate(28, 87)" class="key sym_by_sym keypos-0">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key sym_by_sym side"/>
+<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key sym_by_sym"/>
+<use href="#mdi:flash" xlink:href="#mdi:flash" x="-9" y="-13" height="18" width="18.0" class="key sym_by_sym tap glyph mdi:flash"/>
+<use href="#mdi:new-box" xlink:href="#mdi:new-box" x="-8" y="9" height="15" width="15.0" class="key sym_by_sym hold glyph mdi:new-box"/>
+<use href="#mdi:micro-sd" xlink:href="#mdi:micro-sd" x="-8" y="-24" height="15" width="15.0" class="key sym_by_sym shifted glyph mdi:micro-sd"/>
 </g>
 <g transform="translate(84, 87)" class="key sym_sub_text keypos-1">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key sym_sub_text side"/>
@@ -2704,6 +2707,7 @@ rect.held, rect.combo.held {
 <g transform="translate(28, 199)" class="key keypos-24">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
+<text x="0" y="-4" class="key tap"><tspan style="font-size: 60%">&amp;sys_reset</tspan></text>
 </g>
 <g transform="translate(84, 199)" class="key sym_sub_text keypos-25">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key sym_sub_text side"/>
@@ -2795,12 +2799,9 @@ rect.held, rect.combo.held {
 <g transform="translate(40, 2980)" class="layer-adjust">
 <text x="0" y="28" class="label" id="adjust">adjust:</text>
 <g transform="translate(0, 56)">
-<g transform="translate(28, 87)" class="key sym_by_sym keypos-0">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key sym_by_sym side"/>
-<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key sym_by_sym"/>
-<use href="#mdi:flash" xlink:href="#mdi:flash" x="-9" y="-13" height="18" width="18.0" class="key sym_by_sym tap glyph mdi:flash"/>
-<use href="#mdi:new-box" xlink:href="#mdi:new-box" x="-8" y="9" height="15" width="15.0" class="key sym_by_sym hold glyph mdi:new-box"/>
-<use href="#mdi:micro-sd" xlink:href="#mdi:micro-sd" x="-8" y="-24" height="15" width="15.0" class="key sym_by_sym shifted glyph mdi:micro-sd"/>
+<g transform="translate(28, 87)" class="key keypos-0">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
+<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
 </g>
 <g transform="translate(84, 87)" class="key keypos-1">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
@@ -2908,7 +2909,6 @@ rect.held, rect.combo.held {
 <g transform="translate(28, 199)" class="key keypos-24">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<text x="0" y="-4" class="key tap"><tspan style="font-size: 60%">&amp;sys_reset</tspan></text>
 </g>
 <g transform="translate(84, 199)" class="key keypos-25">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>

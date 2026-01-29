@@ -302,7 +302,7 @@ layers:
   - {type: held}
   - {t: '$$mdi:bluetooth-settings$$', h: '$$mdi:asterisk$$', s: '$$mdi:close-thick$$', type: sym_sub_text}
   vimmux:
-  - ''
+  - {t: '$$mdi:flash$$', h: '$$mdi:new-box$$', s: '$$mdi:micro-sd$$', type: sym_by_sym}
   - {t: '$$mdi:vimeo$$', s: ':conf qal', type: sym_sub_text}
   - {t: '$$mdi:vimeo$$', s: ':w', type: sym_sub_text}
   - {t: '$$mdi:vimeo$$', s: <C-q>/spec, type: sym_sub_text}
@@ -326,7 +326,7 @@ layers:
   - {t: '$$mdi:collage$$', s: nw, type: sym_sub_text}
   - {t: '$$mdi:collage$$', s: np, type: sym_sub_text}
   - ''
-  - ''
+  - '&sys_reset'
   - {t: '$$mdi:vimeo$$', s: ':wqal', type: sym_sub_text}
   - '&vim_misc'
   - {t: '$$mdi:vimeo$$', s: <C-q>/func, type: sym_sub_text}
@@ -345,7 +345,7 @@ layers:
   - ''
   - ''
   adjust:
-  - {t: '$$mdi:flash$$', h: '$$mdi:new-box$$', s: '$$mdi:micro-sd$$', type: sym_by_sym}
+  - ''
   - ''
   - ''
   - '&zoom_tog'
@@ -369,7 +369,7 @@ layers:
   - ''
   - ''
   - ''
-  - '&sys_reset'
+  - ''
   - ''
   - ''
   - {t: '$$mdi:camera-image$$', s: '$$mdi:clipboard$$', type: sym_by_sym}

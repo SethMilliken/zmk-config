@@ -25,6 +25,14 @@
     cs-gpios = <&gpio0 8 GPIO_ACTIVE_HIGH>;
 };
 
+&left_encoder {
+    status = "okay";
+};
+
+&right_encoder {
+    status = "okay";
+};
+
 // }}}
 / {
 // KEYMAP {{{
