@@ -204,15 +204,6 @@
 <svg id="mdi:table-arrow-down">
 <svg xmlns="http://www.w3.org/2000/svg" id="mdi-table-arrow-down" viewBox="0 0 24 24"><path d="M4 3H18C19.11 3 20 3.9 20 5V12.08C18.45 11.82 16.92 12.18 15.68 13H12V17H13.08C12.97 17.68 12.97 18.35 13.08 19H4C2.9 19 2 18.11 2 17V5C2 3.9 2.9 3 4 3M4 7V11H10V7H4M12 7V11H18V7H12M4 13V17H10V13H4M15.94 18.5H17.94V14.5H19.94V18.5H21.94L18.94 21.5L15.94 18.5" /></svg>
 </svg>
-<svg id="mdi:table-arrow-left">
-<svg xmlns="http://www.w3.org/2000/svg" id="mdi-table-arrow-left" viewBox="0 0 24 24"><path d="M4 3H18C19.11 3 20 3.9 20 5V12.08C18.45 11.82 16.92 12.18 15.68 13H12V17H13.08C12.97 17.68 12.97 18.35 13.08 19H4C2.9 19 2 18.11 2 17V5C2 3.9 2.9 3 4 3M4 7V11H10V7H4M12 7V11H18V7H12M4 13V17H10V13H4M18.44 15V17H22.44V19H18.44V21L15.44 18L18.44 15" /></svg>
-</svg>
-<svg id="mdi:table-arrow-right">
-<svg xmlns="http://www.w3.org/2000/svg" id="mdi-table-arrow-right" viewBox="0 0 24 24"><path d="M4 3H18C19.11 3 20 3.9 20 5V12.08C18.45 11.82 16.92 12.18 15.68 13H12V17H13.08C12.97 17.68 12.97 18.35 13.08 19H4C2.9 19 2 18.11 2 17V5C2 3.9 2.9 3 4 3M4 7V11H10V7H4M12 7V11H18V7H12M4 13V17H10V13H4M19.44 21V19H15.44V17H19.44V15L22.44 18L19.44 21" /></svg>
-</svg>
-<svg id="mdi:table-arrow-up">
-<svg xmlns="http://www.w3.org/2000/svg" id="mdi-table-arrow-up" viewBox="0 0 24 24"><path d="M4 3H18C19.11 3 20 3.9 20 5V12.08C18.45 11.82 16.92 12.18 15.68 13H12V17H13.08C12.97 17.68 12.97 18.35 13.08 19H4C2.9 19 2 18.11 2 17V5C2 3.9 2.9 3 4 3M4 7V11H10V7H4M12 7V11H18V7H12M4 13V17H10V13H4M21.94 17.5H19.94V21.5H17.94V17.5H15.94L18.94 14.5L21.94 17.5" /></svg>
-</svg>
 <svg id="mdi:toggle-switch">
 <svg xmlns="http://www.w3.org/2000/svg" id="mdi-toggle-switch" viewBox="0 0 24 24"><path d="M17,7H7A5,5 0 0,0 2,12A5,5 0 0,0 7,17H17A5,5 0 0,0 22,12A5,5 0 0,0 17,7M17,15A3,3 0 0,1 14,12A3,3 0 0,1 17,9A3,3 0 0,1 20,12A3,3 0 0,1 17,15Z" /></svg>
 </svg>
@@ -251,7 +242,7 @@
   class="icon icon-tabler icons-tabler-outline icon-tabler-at"
 >
   <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-  <path d="M12 12m-4 0a4 4 0 1 0 8 0a4 4 0 1 0 -8 0" />
+  <path d="M8 12a4 4 0 1 0 8 0a4 4 0 1 0 -8 0" />
   <path d="M16 12v1.5a2.5 2.5 0 0 0 5 0v-1.5a9 9 0 1 0 -5.5 8.28" />
 </svg>
 </svg>
@@ -286,7 +277,7 @@
   class="icon icon-tabler icons-tabler-outline icon-tabler-brightness-down"
 >
   <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-  <path d="M12 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
+  <path d="M9 12a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
   <path d="M12 5l0 .01" />
   <path d="M17 7l0 .01" />
   <path d="M19 12l0 .01" />
@@ -311,7 +302,7 @@
   class="icon icon-tabler icons-tabler-outline icon-tabler-brightness-up"
 >
   <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-  <path d="M12 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
+  <path d="M9 12a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
   <path d="M12 5l0 -2" />
   <path d="M17 7l1.4 -1.4" />
   <path d="M19 12l2 0" />
@@ -372,8 +363,8 @@
   class="icon icon-tabler icons-tabler-outline icon-tabler-focus-2"
 >
   <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-  <circle cx="12" cy="12" r=".5" fill="currentColor" />
-  <path d="M12 12m-7 0a7 7 0 1 0 14 0a7 7 0 1 0 -14 0" />
+  <path d="M11.5 12a.5 .5 0 1 0 1 0a.5 .5 0 1 0 -1 0" fill="currentColor" />
+  <path d="M5 12a7 7 0 1 0 14 0a7 7 0 1 0 -14 0" />
   <path d="M12 3l0 2" />
   <path d="M3 12l2 0" />
   <path d="M12 19l0 2" />
@@ -413,7 +404,7 @@
   class="icon icon-tabler icons-tabler-outline icon-tabler-row-insert-bottom"
 >
   <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-  <path d="M20 6v4a1 1 0 0 1 -1 1h-14a1 1 0 0 1 -1 -1v-4a1 1 0 0 1 1 -1h14a1 1 0 0 1 1 1z" />
+  <path d="M20 6v4a1 1 0 0 1 -1 1h-14a1 1 0 0 1 -1 -1v-4a1 1 0 0 1 1 -1h14a1 1 0 0 1 1 1" />
   <path d="M12 15l0 4" />
   <path d="M14 17l-4 0" />
 </svg>
@@ -432,7 +423,7 @@
   class="icon icon-tabler icons-tabler-outline icon-tabler-row-insert-top"
 >
   <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-  <path d="M4 18v-4a1 1 0 0 1 1 -1h14a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-14a1 1 0 0 1 -1 -1z" />
+  <path d="M4 18v-4a1 1 0 0 1 1 -1h14a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-14a1 1 0 0 1 -1 -1" />
   <path d="M12 9v-4" />
   <path d="M10 7l4 0" />
 </svg>
@@ -453,7 +444,7 @@
   <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
   <path d="M9.172 19a3 3 0 1 0 2.828 -4" />
   <path d="M14.83 5a3 3 0 1 0 -2.83 4" />
-  <path d="M12 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
+  <path d="M9 12a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
 </svg>
 </svg>
 <svg id="tabler:world">
@@ -619,25 +610,25 @@ text.footer {
 }
 
 /* styling for combo tap, and key non-tap label text */
-text.combo, text.hold, text.shifted, text.left, text.right {
+text.combo, text.hold, text.shifted, text.left, text.right, text.tl, text.tr, text.bl, text.br {
     font-size: 11px;
 }
 
-text.hold {
+text.hold, text.bl, text.br {
     text-anchor: middle;
     dominant-baseline: auto;
 }
 
-text.shifted {
+text.shifted, text.tl, text.tr {
     text-anchor: middle;
     dominant-baseline: hanging;
 }
 
-text.left {
+text.left, text.tl, text.bl {
     text-anchor: start;
 }
 
-text.right {
+text.right, text.tr, text.br {
     text-anchor: end;
 }
 
@@ -2578,42 +2569,37 @@ rect.held, rect.combo.held {
 <g transform="translate(40, 2550)" class="layer-vimmux">
 <text x="0" y="28" class="label" id="vimmux">vimmux:</text>
 <g transform="translate(0, 56)">
-<g transform="translate(28, 49)" class="key sym_by_sym keypos-0">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key sym_by_sym side"/>
-<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key sym_by_sym"/>
-<use href="#mdi:flash" xlink:href="#mdi:flash" x="-9" y="-13" height="18" width="18.0" class="key sym_by_sym tap glyph mdi:flash"/>
-<use href="#mdi:new-box" xlink:href="#mdi:new-box" x="-8" y="9" height="15" width="15.0" class="key sym_by_sym hold glyph mdi:new-box"/>
-<use href="#mdi:micro-sd" xlink:href="#mdi:micro-sd" x="-8" y="-24" height="15" width="15.0" class="key sym_by_sym shifted glyph mdi:micro-sd"/>
+<g transform="translate(28, 49)" class="key keypos-0">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
+<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
 </g>
 <g transform="translate(84, 49)" class="key sym_sub_text keypos-1">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key sym_sub_text side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key sym_sub_text"/>
 <use href="#mdi:vimeo" xlink:href="#mdi:vimeo" x="-9" y="-13" height="18" width="18.0" class="key sym_sub_text tap glyph mdi:vimeo"/>
-<text x="0" y="-24" class="key sym_sub_text shifted">:wqal</text>
+<text x="0" y="-24" class="key sym_sub_text shifted"><tspan style="font-size: 67%">:conf qal</tspan></text>
 </g>
 <g transform="translate(140, 35)" class="key sym_sub_text keypos-2">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key sym_sub_text side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key sym_sub_text"/>
 <use href="#mdi:vimeo" xlink:href="#mdi:vimeo" x="-9" y="-13" height="18" width="18.0" class="key sym_sub_text tap glyph mdi:vimeo"/>
-<text x="0" y="-24" class="key sym_sub_text shifted"><tspan style="font-size: 67%">:conf qal</tspan></text>
+<text x="0" y="-24" class="key sym_sub_text shifted">:w</text>
 </g>
 <g transform="translate(196, 28)" class="key sym_sub_text keypos-3">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key sym_sub_text side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key sym_sub_text"/>
 <use href="#mdi:vimeo" xlink:href="#mdi:vimeo" x="-9" y="-13" height="18" width="18.0" class="key sym_sub_text tap glyph mdi:vimeo"/>
-<text x="0" y="-24" class="key sym_sub_text shifted">:w</text>
+<text x="0" y="-24" class="key sym_sub_text shifted"><tspan style="font-size: 60%">&lt;C-q&gt;/spec</tspan></text>
 </g>
-<g transform="translate(252, 35)" class="key sym_sub_text keypos-4">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key sym_sub_text side"/>
-<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key sym_sub_text"/>
-<use href="#mdi:vimeo" xlink:href="#mdi:vimeo" x="-9" y="-13" height="18" width="18.0" class="key sym_sub_text tap glyph mdi:vimeo"/>
-<text x="0" y="-24" class="key sym_sub_text shifted">:tabp</text>
+<g transform="translate(252, 35)" class="key keypos-4">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
+<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
+<text x="0" y="-4" class="key tap"><tspan style="font-size: 67%">&amp;vim_temp</tspan></text>
 </g>
-<g transform="translate(308, 42)" class="key sym_sub_text keypos-5">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key sym_sub_text side"/>
-<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key sym_sub_text"/>
-<use href="#mdi:vimeo" xlink:href="#mdi:vimeo" x="-9" y="-13" height="18" width="18.0" class="key sym_sub_text tap glyph mdi:vimeo"/>
-<text x="0" y="-24" class="key sym_sub_text shifted">:tabn</text>
+<g transform="translate(308, 42)" class="key keypos-5">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
+<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
+<text x="0" y="-4" class="key tap"><tspan style="font-size: 67%">&amp;vim_tabi</tspan></text>
 </g>
 <g transform="translate(532, 42)" class="key keypos-6">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
@@ -2654,35 +2640,32 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
 </g>
-<g transform="translate(84, 105)" class="key sym_sub_text keypos-13">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key sym_sub_text side"/>
-<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key sym_sub_text"/>
-<use href="#mdi:vimeo" xlink:href="#mdi:vimeo" x="-9" y="-13" height="18" width="18.0" class="key sym_sub_text tap glyph mdi:vimeo"/>
-<use href="#mdi:table-arrow-left" xlink:href="#mdi:table-arrow-left" x="-8" y="-24" height="15" width="15.0" class="key sym_sub_text shifted glyph mdi:table-arrow-left"/>
+<g transform="translate(84, 105)" class="key keypos-13">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
+<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
+<text x="0" y="-4" class="key tap"><tspan style="font-size: 67%">&amp;vim_tabf</tspan></text>
 </g>
 <g transform="translate(140, 91)" class="key sym_sub_text keypos-14">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key sym_sub_text side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key sym_sub_text"/>
 <use href="#mdi:vimeo" xlink:href="#mdi:vimeo" x="-9" y="-13" height="18" width="18.0" class="key sym_sub_text tap glyph mdi:vimeo"/>
-<use href="#mdi:table-arrow-up" xlink:href="#mdi:table-arrow-up" x="-8" y="-24" height="15" width="15.0" class="key sym_sub_text shifted glyph mdi:table-arrow-up"/>
+<text x="0" y="-24" class="key sym_sub_text shifted">:tabp</text>
 </g>
 <g transform="translate(196, 84)" class="key sym_sub_text keypos-15">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key sym_sub_text side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key sym_sub_text"/>
 <use href="#mdi:vimeo" xlink:href="#mdi:vimeo" x="-9" y="-13" height="18" width="18.0" class="key sym_sub_text tap glyph mdi:vimeo"/>
-<use href="#mdi:table-arrow-down" xlink:href="#mdi:table-arrow-down" x="-8" y="-24" height="15" width="15.0" class="key sym_sub_text shifted glyph mdi:table-arrow-down"/>
+<text x="0" y="-24" class="key sym_sub_text shifted">:tabn</text>
 </g>
-<g transform="translate(252, 91)" class="key sym_sub_text keypos-16">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key sym_sub_text side"/>
-<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key sym_sub_text"/>
-<use href="#mdi:vimeo" xlink:href="#mdi:vimeo" x="-9" y="-13" height="18" width="18.0" class="key sym_sub_text tap glyph mdi:vimeo"/>
-<use href="#mdi:table-arrow-right" xlink:href="#mdi:table-arrow-right" x="-8" y="-24" height="15" width="15.0" class="key sym_sub_text shifted glyph mdi:table-arrow-right"/>
+<g transform="translate(252, 91)" class="key keypos-16">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
+<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
+<text x="0" y="-4" class="key tap"><tspan style="font-size: 67%">&amp;vim_tabl</tspan></text>
 </g>
-<g transform="translate(308, 98)" class="key sym_sub_text keypos-17">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key sym_sub_text side"/>
-<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key sym_sub_text"/>
-<use href="#mdi:vimeo" xlink:href="#mdi:vimeo" x="-9" y="-13" height="18" width="18.0" class="key sym_sub_text tap glyph mdi:vimeo"/>
-<text x="0" y="-24" class="key sym_sub_text shifted">g&lt;Tab&gt;</text>
+<g transform="translate(308, 98)" class="key keypos-17">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
+<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
+<text x="0" y="-4" class="key tap"><tspan style="font-size: 67%">&amp;vim_tabr</tspan></text>
 </g>
 <g transform="translate(532, 98)" class="key sym_sub_text keypos-18">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key sym_sub_text side"/>
@@ -2721,17 +2704,17 @@ rect.held, rect.combo.held {
 <g transform="translate(28, 161)" class="key keypos-24">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<text x="0" y="-4" class="key tap"><tspan style="font-size: 60%">&amp;sys_reset</tspan></text>
 </g>
-<g transform="translate(84, 161)" class="key keypos-25">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
-<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-</g>
-<g transform="translate(140, 147)" class="key sym_sub_text keypos-26">
+<g transform="translate(84, 161)" class="key sym_sub_text keypos-25">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key sym_sub_text side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key sym_sub_text"/>
 <use href="#mdi:vimeo" xlink:href="#mdi:vimeo" x="-9" y="-13" height="18" width="18.0" class="key sym_sub_text tap glyph mdi:vimeo"/>
-<text x="0" y="-24" class="key sym_sub_text shifted"><tspan style="font-size: 60%">&lt;C-q&gt;/spec</tspan></text>
+<text x="0" y="-24" class="key sym_sub_text shifted">:wqal</text>
+</g>
+<g transform="translate(140, 147)" class="key keypos-26">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
+<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
+<text x="0" y="-4" class="key tap"><tspan style="font-size: 67%">&amp;vim_misc</tspan></text>
 </g>
 <g transform="translate(196, 140)" class="key sym_sub_text keypos-27">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key sym_sub_text side"/>
@@ -2812,9 +2795,12 @@ rect.held, rect.combo.held {
 <g transform="translate(40, 2879)" class="layer-adjust">
 <text x="0" y="28" class="label" id="adjust">adjust:</text>
 <g transform="translate(0, 56)">
-<g transform="translate(28, 49)" class="key keypos-0">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
-<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
+<g transform="translate(28, 49)" class="key sym_by_sym keypos-0">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key sym_by_sym side"/>
+<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key sym_by_sym"/>
+<use href="#mdi:flash" xlink:href="#mdi:flash" x="-9" y="-13" height="18" width="18.0" class="key sym_by_sym tap glyph mdi:flash"/>
+<use href="#mdi:new-box" xlink:href="#mdi:new-box" x="-8" y="9" height="15" width="15.0" class="key sym_by_sym hold glyph mdi:new-box"/>
+<use href="#mdi:micro-sd" xlink:href="#mdi:micro-sd" x="-8" y="-24" height="15" width="15.0" class="key sym_by_sym shifted glyph mdi:micro-sd"/>
 </g>
 <g transform="translate(84, 49)" class="key keypos-1">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
@@ -2922,6 +2908,7 @@ rect.held, rect.combo.held {
 <g transform="translate(28, 161)" class="key keypos-24">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
+<text x="0" y="-4" class="key tap"><tspan style="font-size: 60%">&amp;sys_reset</tspan></text>
 </g>
 <g transform="translate(84, 161)" class="key keypos-25">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
