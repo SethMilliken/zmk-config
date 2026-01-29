@@ -97,10 +97,10 @@
         vimmux {
             display-name = "vimmux";
             bindings = <
-&none  &vim_cqall  &vim_save  &vim_spec  &vim_temp  &vim_tabi        &tmux_mode_select  &tmux_ps    &tmux_ns    &tmux_oz  &tmux_paste  &none
-&none  &vim_tabf   &vim_tabp  &vim_tabn  &vim_tabl  &vim_tabr        &tmux_sw           &tmux_pp    &tmux_pw    &tmux_nw  &tmux_np     &none
-&none  &vim_wqall  &vim_misc  &vim_func  &vim_nav   &vim_zoom        &tmux_idx          &tmux_zoom  &tmux_func  &tmux_vp  &tmux_copy   &none
-                              &none      &none      &trans           &trans             &none       &none
+&bootloader  &vim_cqall  &vim_save  &vim_spec  &vim_temp  &vim_tabi        &tmux_mode_select  &tmux_ps    &tmux_ns    &tmux_oz  &tmux_paste  &none
+&none        &vim_tabf   &vim_tabp  &vim_tabn  &vim_tabl  &vim_tabr        &tmux_sw           &tmux_pp    &tmux_pw    &tmux_nw  &tmux_np     &none
+&sys_reset   &vim_wqall  &vim_misc  &vim_func  &vim_nav   &vim_zoom        &tmux_idx          &tmux_zoom  &tmux_func  &tmux_vp  &tmux_copy   &none
+                                    &none      &none      &trans           &trans             &none       &none
             >;
         };
 
@@ -108,9 +108,9 @@
         adjust {
             display-name = "adjust";
             bindings = <
-&bootloader  &none       &none       &zoom_tog &ss_win  &warpd_l         &none              &none     &none     &none     &none        &none
+&none        &none       &none       &zoom_tog &ss_win  &warpd_l         &none              &none     &none     &none     &none        &none
 &none        &none       &none       &ss2c     &ss      &out OUT_USB     &none              &none     &none     &none     &none        &none
-&sys_reset   &none       &none       &sss2c    &sss     &none            &none              &none     &none     &none     &none        &none
+&none        &none       &none       &sss2c    &sss     &none            &none              &none     &none     &none     &none        &none
                                      &none     &none    &trans           &trans             &none     &none
             >;
         };
