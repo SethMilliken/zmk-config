@@ -1,5 +1,5 @@
 include:
-  - board: nice_nano@2
+  - board: nice_nano//zmk
     shield: splitkb_aurora_corne_left
-  - board: nice_nano@2
+  - board: nice_nano//zmk
     shield: splitkb_aurora_corne_right
