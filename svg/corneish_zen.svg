@@ -241,7 +241,7 @@
   stroke-linejoin="round"
   class="icon icon-tabler icons-tabler-outline icon-tabler-at"
 >
-  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path stroke="none" d="M0 0h24v24H0z" fill="none" />
   <path d="M8 12a4 4 0 1 0 8 0a4 4 0 1 0 -8 0" />
   <path d="M16 12v1.5a2.5 2.5 0 0 0 5 0v-1.5a9 9 0 1 0 -5.5 8.28" />
 </svg>
@@ -259,7 +259,7 @@
   stroke-linejoin="round"
   class="icon icon-tabler icons-tabler-outline icon-tabler-bolt"
 >
-  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path stroke="none" d="M0 0h24v24H0z" fill="none" />
   <path d="M13 3l0 7l6 0l-8 11l0 -7l-6 0l8 -11" />
 </svg>
 </svg>
@@ -276,7 +276,7 @@
   stroke-linejoin="round"
   class="icon icon-tabler icons-tabler-outline icon-tabler-brightness-down"
 >
-  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path stroke="none" d="M0 0h24v24H0z" fill="none" />
   <path d="M9 12a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
   <path d="M12 5l0 .01" />
   <path d="M17 7l0 .01" />
@@ -301,7 +301,7 @@
   stroke-linejoin="round"
   class="icon icon-tabler icons-tabler-outline icon-tabler-brightness-up"
 >
-  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path stroke="none" d="M0 0h24v24H0z" fill="none" />
   <path d="M9 12a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
   <path d="M12 5l0 -2" />
   <path d="M17 7l1.4 -1.4" />
@@ -326,7 +326,7 @@
   stroke-linejoin="round"
   class="icon icon-tabler icons-tabler-outline icon-tabler-corner-down-right-double"
 >
-  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path stroke="none" d="M0 0h24v24H0z" fill="none" />
   <path d="M4 5v6a3 3 0 0 0 3 3h7" />
   <path d="M10 10l4 4l-4 4m5 -8l4 4l-4 4" />
 </svg>
@@ -344,7 +344,7 @@
   stroke-linejoin="round"
   class="icon icon-tabler icons-tabler-outline icon-tabler-corner-up-left-double"
 >
-  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path stroke="none" d="M0 0h24v24H0z" fill="none" />
   <path d="M19 18v-6a3 3 0 0 0 -3 -3h-7" />
   <path d="M13 13l-4 -4l4 -4m-5 8l-4 -4l4 -4" />
 </svg>
@@ -362,7 +362,7 @@
   stroke-linejoin="round"
   class="icon icon-tabler icons-tabler-outline icon-tabler-focus-2"
 >
-  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path stroke="none" d="M0 0h24v24H0z" fill="none" />
   <path d="M11.5 12a.5 .5 0 1 0 1 0a.5 .5 0 1 0 -1 0" fill="currentColor" />
   <path d="M5 12a7 7 0 1 0 14 0a7 7 0 1 0 -14 0" />
   <path d="M12 3l0 2" />
@@ -384,7 +384,7 @@
   stroke-linejoin="round"
   class="icon icon-tabler icons-tabler-outline icon-tabler-pinned"
 >
-  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path stroke="none" d="M0 0h24v24H0z" fill="none" />
   <path d="M9 4v6l-2 4v2h10v-2l-2 -4v-6" />
   <path d="M12 16l0 5" />
   <path d="M8 4l8 0" />
@@ -403,7 +403,7 @@
   stroke-linejoin="round"
   class="icon icon-tabler icons-tabler-outline icon-tabler-row-insert-bottom"
 >
-  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path stroke="none" d="M0 0h24v24H0z" fill="none" />
   <path d="M20 6v4a1 1 0 0 1 -1 1h-14a1 1 0 0 1 -1 -1v-4a1 1 0 0 1 1 -1h14a1 1 0 0 1 1 1" />
   <path d="M12 15l0 4" />
   <path d="M14 17l-4 0" />
@@ -422,7 +422,7 @@
   stroke-linejoin="round"
   class="icon icon-tabler icons-tabler-outline icon-tabler-row-insert-top"
 >
-  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path stroke="none" d="M0 0h24v24H0z" fill="none" />
   <path d="M4 18v-4a1 1 0 0 1 1 -1h14a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-14a1 1 0 0 1 -1 -1" />
   <path d="M12 9v-4" />
   <path d="M10 7l4 0" />
@@ -441,7 +441,7 @@
   stroke-linejoin="round"
   class="icon icon-tabler icons-tabler-outline icon-tabler-section-sign"
 >
-  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path stroke="none" d="M0 0h24v24H0z" fill="none" />
   <path d="M9.172 19a3 3 0 1 0 2.828 -4" />
   <path d="M14.83 5a3 3 0 1 0 -2.83 4" />
   <path d="M9 12a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
@@ -460,7 +460,7 @@
   stroke-linejoin="round"
   class="icon icon-tabler icons-tabler-outline icon-tabler-world"
 >
-  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path stroke="none" d="M0 0h24v24H0z" fill="none" />
   <path d="M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0" />
   <path d="M3.6 9h16.8" />
   <path d="M3.6 15h16.8" />
@@ -481,7 +481,7 @@
   stroke-linejoin="round"
   class="icon icon-tabler icons-tabler-outline icon-tabler-world-down"
 >
-  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path stroke="none" d="M0 0h24v24H0z" fill="none" />
   <path d="M20.986 12.509a9 9 0 1 0 -8.455 8.476" />
   <path d="M3.6 9h16.8" />
   <path d="M3.6 15h10.9" />
@@ -504,7 +504,7 @@
   stroke-linejoin="round"
   class="icon icon-tabler icons-tabler-outline icon-tabler-world-up"
 >
-  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path stroke="none" d="M0 0h24v24H0z" fill="none" />
   <path d="M20.985 12.52a9 9 0 1 0 -8.451 8.463" />
   <path d="M3.6 9h16.8" />
   <path d="M3.6 15h10.9" />
@@ -523,7 +523,7 @@
   fill="currentColor"
   class="icon icon-tabler icons-tabler-filled icon-tabler-brand-discord"
 >
-  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path stroke="none" d="M0 0h24v24H0z" fill="none" />
   <path d="M14.983 3l.123 .006c2.014 .214 3.527 .672 4.966 1.673a1 1 0 0 1 .371 .488c1.876 5.315 2.373 9.987 1.451 12.28c-1.003 2.005 -2.606 3.553 -4.394 3.553c-.732 0 -1.693 -.968 -2.328 -2.045a21.512 21.512 0 0 0 2.103 -.493a1 1 0 1 0 -.55 -1.924c-3.32 .95 -6.13 .95 -9.45 0a1 1 0 0 0 -.55 1.924c.717 .204 1.416 .37 2.103 .494c-.635 1.075 -1.596 2.044 -2.328 2.044c-1.788 0 -3.391 -1.548 -4.428 -3.629c-.888 -2.217 -.39 -6.89 1.485 -12.204a1 1 0 0 1 .371 -.488c1.439 -1.001 2.952 -1.459 4.966 -1.673a1 1 0 0 1 .935 .435l.063 .107l.651 1.285l.137 -.016a12.97 12.97 0 0 1 2.643 0l.134 .016l.65 -1.284a1 1 0 0 1 .754 -.54l.122 -.009zm-5.983 7a2 2 0 0 0 -1.977 1.697l-.018 .154l-.005 .149l.005 .15a2 2 0 1 0 1.995 -2.15zm6 0a2 2 0 0 0 -1.977 1.697l-.018 .154l-.005 .149l.005 .15a2 2 0 1 0 1.995 -2.15z" />
 </svg>
 </svg>
@@ -536,7 +536,7 @@
   fill="currentColor"
   class="icon icon-tabler icons-tabler-filled icon-tabler-pointer"
 >
-  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path stroke="none" d="M0 0h24v24H0z" fill="none" />
   <path d="M3.039 4.277l3.904 13.563c.185 .837 .92 1.516 1.831 1.642l.17 .016a2.2 2.2 0 0 0 1.982 -1.006l.045 -.078l1.4 -2.072l4.05 4.05a2.067 2.067 0 0 0 2.924 0l1.047 -1.047c.388 -.388 .606 -.913 .606 -1.461l-.008 -.182a2.067 2.067 0 0 0 -.598 -1.28l-4.047 -4.048l2.103 -1.412c.726 -.385 1.18 -1.278 1.053 -2.189a2.2 2.2 0 0 0 -1.701 -1.845l-13.524 -3.89a1 1 0 0 0 -1.236 1.24z" />
 </svg>
 </svg>
