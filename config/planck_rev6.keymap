@@ -21,10 +21,10 @@
         default {
             display-name = "araxia";
             bindings = <
-&lttp WIN_LEFT Q    &kp W         &kp E              &kp R             &kp T                &kp F1  &kp F2      &kp Y            &kp U               &iI                 &kp O         &lttp WIN_RIGHT P
-&hrml LCTRL A       &hrml LGUI S  &hrml LALT D       &hrsl LSHIFT F    &hrml GLOBE G        &kp F3  &point_tog  &h_bs            &hrsr RSHIFT J      &hrmr RALT K        &hrmr RGUI L  &hrmr RCTRL SEMI
-&kp Z               &kp X         &kp C              &kp V             &kp B                &kp F4  &to GAMING  &kp N            &m_cr               &kp COMMA           &kp DOT       &kp SLASH
-&lttp SYMBOLS C_PP  &kp F6        &mthp LGUI RETURN  &lthp LNUM LC(W)  &lthp SYMBOLS ESC    &kp F7  &kp F8      &lthp MEDIA ESC  &lttp NUMPAD SPACE  &mttp MIRROR COLON  &point_tog    &dis_tog
+&lttp WIN_LEFT Q    &kp W         &kp E                  &kp R             &kp T                &kp F1  &kp F2      &kp Y            &kp U               &iI                 &kp O         &lttp WIN_RIGHT P
+&hrml LCTRL A       &hrml LGUI S  &hrml LALT D           &hrsl LSHIFT F    &hrml GLOBE G        &kp F3  &point_tog  &h_bs            &hrsr RSHIFT J      &hrmr RALT K        &hrmr RGUI L  &hrmr RCTRL SEMI
+&kp Z               &kp X         &kp C                  &kp V             &kp B                &kp F4  &to GAMING  &kp N            &m_cr               &kp COMMA           &kp DOT       &kp SLASH
+&lttp SYMBOLS C_PP  &kp F6        &lthp FUNCTION RETURN  &lthp LNUM LC(W)  &lthp SYMBOLS ESC    &kp F7  &kp F8      &lthp MEDIA ESC  &lttp NUMPAD SPACE  &mttp MIRROR COLON  &point_tog    &dis_tog
             >;
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };

@@ -30,7 +30,7 @@
  &mo_sl FUNCTION MIRROR  &lttp WIN_LEFT Q  &kp W         &kp E              &kp R             &kp T                &kp Y            &kp U               &kp I               &kp O         &lttp WIN_RIGHT P  &mo_to FUNCTION GAMING
  &point_tog              &hrml LCTRL A     &hrml LGUI S  &hrml LALT D       &hrsl LSHIFT F    &hrml GLOBE G        &h_bs            &hrsr RSHIFT J      &hrmr RALT K        &hrmr RGUI L  &hrmr RCTRL SEMI   &point_tog
  &dis_tog                &kp Z             &kp X         &kp C              &kp V             &kp B                &kp N            &m_cr               &kp COMMA           &kp DOT       &kp SLASH          &dis_tog
-                                                         &mthp LGUI RETURN  &lthp LNUM LC(W)  &lthp SYMBOLS ESC    &lthp MEDIA ESC  &lttp NUMPAD SPACE  &lthp MIRROR COLON
+                                                     &lthp FUNCTION RETURN  &lthp LNUM LC(W)  &lthp SYMBOLS ESC    &lthp MEDIA ESC  &lttp NUMPAD SPACE  &lthp MIRROR COLON
             >;
         };
 
