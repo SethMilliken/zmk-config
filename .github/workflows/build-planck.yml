@@ -3,9 +3,9 @@ on:
   workflow_dispatch:  # can be triggered manually
   push:               # automatically run on changes to following paths
     paths:
-      - 'build/planck_rev6.yaml'
+      - 'build/planck.yaml'
       - 'config/west.yml'
-      - 'config/planck_rev6.*'
+      - 'config/planck.*'
       - 'config/shared.dtsi'
       - 'config/planck_overrides.dtsi'
 
@@ -13,5 +13,5 @@ jobs:
   build:
     uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@main
     with:
-      build_matrix_path: build/planck_rev6.yaml
+      build_matrix_path: build/planck.yaml
       archive_name: coconut_planck
