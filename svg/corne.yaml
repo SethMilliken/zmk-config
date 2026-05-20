@@ -37,7 +37,7 @@ layers:
   - .
   - /
   - $$tablerf:brand-discord$$
-  - {t: ⮐, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: ⮐, h: func}
   - {t: '$$mdi:apple-keyboard-control$$', h: lnum, s: W}
   - {t: Esc, h: symbols}
   - {t: Esc, h: media}
