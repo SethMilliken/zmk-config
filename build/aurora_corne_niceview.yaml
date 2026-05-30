@@ -1,5 +1,5 @@
 include:
-  - board: nice_nano//zmk_debug
+  - board: nice_nano//zmk_debug_extra
     shield: splitkb_aurora_corne_left nice_view_adapter nice_view
-  - board: nice_nano//zmk_debug
+  - board: nice_nano//zmk_debug_extra
     shield: splitkb_aurora_corne_right nice_view_adapter nice_view
