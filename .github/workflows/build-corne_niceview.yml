@@ -1,9 +1,9 @@
-name: 'Build Swept NiceHat Firmware'
+name: 'Build Corne nice!view Firmware'
 on:
   workflow_dispatch:  # can be triggered manually
   push:               # automatically run on changes to following paths
     paths:
-      - 'build/swept.yaml'
+      - 'build/corne_niceview.yaml'
       - 'config/west.yml'
       - 'config/corne.*'
       - 'config/shared.dtsi'
@@ -12,5 +12,5 @@ jobs:
   build:
     uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@main
     with:
-      build_matrix_path: build/swept.yaml
-      archive_name: swept-nicehat
+      build_matrix_path: build/corne_niceview.yaml
+      archive_name: corne_niceview
