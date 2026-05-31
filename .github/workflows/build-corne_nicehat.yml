@@ -3,7 +3,7 @@ on:
   workflow_dispatch:  # can be triggered manually
   push:               # automatically run on changes to following paths
     paths:
-      - 'build/corne.yaml'
+      - 'build/corne_nicehat.yaml'
       - 'config/west.yml'
       - 'config/corne.*'
       - 'config/shared.dtsi'
@@ -12,5 +12,5 @@ jobs:
   build:
     uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@main
     with:
-      build_matrix_path: build/corne.yaml
-      archive_name: corne-nicehat
+      build_matrix_path: build/corne_nicehat.yaml
+      archive_name: corne_nicehat

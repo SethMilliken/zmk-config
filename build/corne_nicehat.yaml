@@ -1,3 +1,4 @@
+# Self-build Swept
 include:
   - board: nice_nano//zmk
     shield: corne_left nicehatharry nice_view
