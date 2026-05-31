@@ -12,7 +12,8 @@ on:
 
 jobs:
   build:
-    uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@main
+    # uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@main
+    uses: petejohanson/zmk/.github/workflows/build-user-config.yml@core-dump-experimentation
     with:
       build_matrix_path: build/aurora_corne_oled.yaml
       archive_name: aurora_corne_oled

@@ -3,7 +3,7 @@ on:
   workflow_dispatch:  # can be triggered manually
   push:               # automatically run on changes to following paths
     paths:
-      - 'build/corne.yaml'
+      - 'build/corne_nicehat.yaml'
       - 'config/west.yml'
       - 'config/corne.*'
       - 'config/shared.dtsi'
