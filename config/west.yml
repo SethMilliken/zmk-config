@@ -8,6 +8,8 @@ manifest:
       url-base: https://github.com/caksoylar
     - name: dhruvinsh
       url-base: https://github.com/dhruvinsh
+    - name: carrefinho
+      url-base: https://github.com/carrefinho
     - name: davidphilipbarr
       url-base: https://github.com/davidphilipbarr
   projects:
