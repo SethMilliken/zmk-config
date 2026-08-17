@@ -1,0 +1,998 @@
+layout: {zmk_keyboard: planck}
+layers:
+  araxia:
+  - {t: Q, h: 'move [L]'}
+  - W
+  - E
+  - R
+  - T
+  - F1
+  - F2
+  - Y
+  - U
+  - '&iI'
+  - O
+  - {t: P, h: 'move [R]'}
+  - {t: A, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: S, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: D, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: F, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: G, h: '$$tabler:world$$'}
+  - F3
+  - $$tablerf:pointer$$
+  - {t: H, s: '$$mdi:backspace-outline$$'}
+  - {t: J, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: K, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: L, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: ;, h: '$$mdi:apple-keyboard-control$$'}
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - F4
+  - {t: gaming, h: '$$mdi:toggle-switch$$'}
+  - N
+  - {t: M, s: ⮐}
+  - ','
+  - .
+  - /
+  - {t: '$$mdi:play-pause$$', h: symbols}
+  - F6
+  - {t: ⮐, h: func}
+  - {t: '$$mdi:apple-keyboard-control$$', h: lnum, s: W}
+  - {t: Esc, h: symbols}
+  - F7
+  - F8
+  - {t: Esc, h: media}
+  - {t: '$$mdi:keyboard-space$$', h: numpad}
+  - {t: ':', h: '12'}
+  - $$tablerf:pointer$$
+  - $$tablerf:brand-discord$$
+  gaming:
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - F1
+  - F2
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - A
+  - S
+  - D
+  - F
+  - G
+  - F3
+  - F5
+  - {t: H, s: '$$mdi:backspace-outline$$'}
+  - J
+  - K
+  - L
+  - ;
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - F4
+  - {t: araxia, h: '$$mdi:toggle-switch$$'}
+  - N
+  - {t: M, s: ⮐}
+  - ','
+  - .
+  - /
+  - {t: '$$mdi:play-pause$$', h: symbols}
+  - F6
+  - ⮐
+  - $$mdi:keyboard-space$$
+  - {t: '$$mdi:keyboard-tab$$', h: symbols}
+  - F7
+  - F8
+  - {t: Esc, h: media}
+  - {t: '$$mdi:keyboard-space$$', h: numpad}
+  - ':'
+  - $$mdi:apple-keyboard-shift$$
+  - $$mdi:apple-keyboard-control$$
+  symbols:
+  - ','
+  - '&'
+  - '*'
+  - '~'
+  - \
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - <
+  - '>'
+  - (
+  - )
+  - '"'
+  - .
+  - $
+  - '%'
+  - ^
+  - $$mdi:keyboard-tab$$
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '-'
+  - '='
+  - '{'
+  - '}'
+  - ''''
+  - '='
+  - '!'
+  - '@'
+  - '#'
+  - '|'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - _
+  - +
+  - '['
+  - ']'
+  - '`'
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  lnum:
+  - ','
+  - '7'
+  - '8'
+  - '9'
+  - '0'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '0'
+  - '9'
+  - '8'
+  - '7'
+  - ','
+  - .
+  - '4'
+  - '5'
+  - '6'
+  - ':'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - ':'
+  - '6'
+  - '5'
+  - '4'
+  - .
+  - '='
+  - '1'
+  - '2'
+  - '3'
+  - '-'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '-'
+  - '3'
+  - '2'
+  - '1'
+  - '='
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  numpad:
+  - ','
+  - '7'
+  - '8'
+  - '9'
+  - '0'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - $$mdi:backspace-outline$$
+  - $$mdi:keyboard-tab$$
+  - Ctl+N
+  - Ctl+P
+  - $$mdi:keyboard-space$$
+  - .
+  - '4'
+  - '5'
+  - '6'
+  - ':'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - $$mdi:arrow-left$$
+  - $$mdi:arrow-down$$
+  - $$mdi:arrow-up$$
+  - $$mdi:arrow-right$$
+  - ⮐
+  - '='
+  - '1'
+  - '2'
+  - '3'
+  - '-'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - PgUp
+  - PgDn
+  - Home
+  - End
+  - {t: '$$mdi:numeric$$', s: '$$mdi:lock$$', type: sym_by_sym}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  media:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - $$mdi:volume-mute$$
+  - $$mdi:skip-backward$$
+  - $$mdi:play-pause$$
+  - $$mdi:skip-forward$$
+  - $$tabler:brightness-up$$
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - $$mdi:volume-minus$$
+  - $$mdi:volume-plus$$
+  - {t: '$$mdi:toggle-switch$$', h: '$$mdi:bluetooth$$', s: '$$mdi:usb$$', type: toggle}
+  - {t: ▽, type: trans}
+  - $$tabler:brightness-down$$
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  output:
+  - '&tab_tog'
+  - '&zoom_tog'
+  - '&zoom_in'
+  - '&zoom_out'
+  - '&glo C'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
+  - ''
+  - {t: '$$mdi:flash$$', h: '$$mdi:new-box$$', s: '$$mdi:micro-sd$$', type: sym_by_sym}
+  - ''
+  - ''
+  - ''
+  - '&glo Q'
+  - '&glo H'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - '&glo N'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
+  - ''
+  - '&sys_reset'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  vimmux:
+  - {t: '$$mdi:vimeo$$', s: ':conf qal', type: sym_sub_text}
+  - {t: '$$mdi:vimeo$$', s: ':w', type: sym_sub_text}
+  - {t: '$$mdi:vimeo$$', s: <C-q>/spec, type: sym_sub_text}
+  - '&vim_temp'
+  - '&vim_tabi'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - tmux app
+  - {t: '$$mdi:collage$$', s: ps, type: sym_sub_text}
+  - {t: '$$mdi:collage$$', s: ns, type: sym_sub_text}
+  - {t: '$$mdi:collage$$', s: oz, type: sym_sub_text}
+  - {t: '$$mdi:collage$$', s: P, type: sym_sub_text}
+  - '&vim_tabf'
+  - {t: '$$mdi:vimeo$$', s: ':tabp', type: sym_sub_text}
+  - {t: '$$mdi:vimeo$$', s: ':tabn', type: sym_sub_text}
+  - '&vim_tabl'
+  - '&vim_tabr'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: '$$mdi:collage$$', s: sw, type: sym_sub_text}
+  - {t: '$$mdi:collage$$', s: pp, type: sym_sub_text}
+  - {t: '$$mdi:collage$$', s: pw, type: sym_sub_text}
+  - {t: '$$mdi:collage$$', s: nw, type: sym_sub_text}
+  - {t: '$$mdi:collage$$', s: np, type: sym_sub_text}
+  - {t: '$$mdi:vimeo$$', s: ':wqal', type: sym_sub_text}
+  - '&vim_misc'
+  - {t: '$$mdi:vimeo$$', s: <C-q>/func, type: sym_sub_text}
+  - {t: '$$mdi:vimeo$$', s: <C-q>/nav, type: sym_sub_text}
+  - {t: '$$mdi:vimeo$$', s: <C-w>z, type: sym_sub_text}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&tmux_idx'
+  - {t: '$$mdi:collage$$', s: z, type: sym_sub_text}
+  - {t: '$$mdi:collage$$', s: ':', type: sym_sub_text}
+  - '&tmux_vp'
+  - '&tmux_copy'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  adjust:
+  - {t: '$$mdi:flash$$', h: '$$mdi:new-box$$', s: '$$mdi:micro-sd$$', type: sym_by_sym}
+  - ''
+  - '&zoom_tog'
+  - {t: '$$mdi:camera$$', s: '$$mdi:microsoft-windows$$', type: sym_by_sym}
+  - {t: '$$mdi:monitor-shimmer$$', s: '$$mdi:arrow-top-left-thick$$', type: sym_by_sym}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {t: '$$mdi:camera$$', s: '$$mdi:clipboard$$', type: sym_by_sym}
+  - {t: '$$mdi:camera$$', s: '$$mdi:monitor-screenshot$$', type: sym_by_sym}
+  - {t: '$$mdi:keyboard$$', s: '$$mdi:usb$$', type: sym_by_sym}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - '&sys_reset'
+  - ''
+  - {t: '$$mdi:camera-image$$', s: '$$mdi:clipboard$$', type: sym_by_sym}
+  - {t: '$$mdi:camera-image$$', s: '$$mdi:monitor-screenshot$$', type: sym_by_sym}
+  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  lighting:
+  - {type: held}
+  - ''
+  - {t: '$$mdi:led-on$$', s: '$$mdi:white-balance-sunny$$', type: sym_by_sym}
+  - {t: '$$mdi:led-outline$$', s: '$$mdi:white-balance-sunny$$', type: sym_by_sym}
+  - {t: '$$mdi:led-on$$', h: '(25,100,0)', s: '$$mdi:gradient-horizontal$$', type: sym_by_sym}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: '$$tabler:bolt$$', s: '$$mdi:toggle-switch$$', type: sym_by_sym}
+  - '&glo N'
+  - ''
+  - ''
+  - {type: held}
+  - ''
+  - ''
+  - {t: '$$mdi:led-on$$', s: '$$mdi:eyedropper$$', type: sym_by_sym}
+  - {t: '$$mdi:led-outline$$', s: '$$mdi:eyedropper$$', type: sym_by_sym}
+  - {t: '$$mdi:led-on$$', h: '(25,100,80)', s: '$$mdi:gradient-horizontal$$', type: sym_by_sym}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - ''
+  - '&glo Q'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {t: '$$mdi:led-on$$', s: '$$mdi:palette$$', type: sym_by_sym}
+  - {t: '$$mdi:led-outline$$', s: '$$mdi:palette$$', type: sym_by_sym}
+  - {t: '$$mdi:led-on$$', h: '(25,0,100)', s: '$$mdi:gradient-horizontal$$', type: sym_by_sym}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  discord:
+  - move [L]
+  - $$mdi:keyboard-tab$$
+  - $$mdi:arrow-up$$
+  - +
+  - {t: '$$tablerf:brand-discord$$', s: '$$tabler:section-sign$$', type: sym_by_sym}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - $$tablerf:brand-discord$$
+  - {t: '$$tablerf:brand-discord$$', s: '$$tabler:world-up$$', type: sym_by_sym}
+  - {t: '$$tablerf:brand-discord$$', s: '$$tabler:world-down$$', type: sym_by_sym}
+  - {t: '$$tablerf:brand-discord$$', s: '$$tabler:pinned$$', type: sym_by_sym}
+  - move [R]
+  - ''
+  - $$mdi:arrow-left$$
+  - $$mdi:arrow-down$$
+  - $$mdi:arrow-right$$
+  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - PgDn
+  - {t: '$$tablerf:brand-discord$$', s: '$$mdi:arrow-down$$', type: sym_by_sym}
+  - {t: '$$tablerf:brand-discord$$', s: '$$mdi:arrow-up$$', type: sym_by_sym}
+  - PgUp
+  - PgDn
+  - ''
+  - Home
+  - Esc
+  - End
+  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - PgUp
+  - {t: '$$tablerf:brand-discord$$', s: '$$tabler:corner-up-left-double$$', type: sym_by_sym}
+  - {t: '$$tablerf:brand-discord$$', s: '$$tabler:corner-down-right-double$$', type: sym_by_sym}
+  - ''
+  - {t: '$$tablerf:brand-discord$$', s: '$$tabler:at$$', type: sym_by_sym}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: '$$mdi:keyboard-esc$$', s: '$$mdi:layers-triple$$', type: sym_by_sym}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: '$$mdi:keyboard-esc$$', s: '$$mdi:layers-triple$$', type: sym_by_sym}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - $$mdi:arrow-decision-outline$$
+  pointer:
+  - move [L]
+  - $$mdi:cursor-default-click-outline$$
+  - {t: '$$mdi:mouse$$', s: '$$mdi:arrow-up$$', type: sym_by_sym}
+  - $$mdi:cursor-default-click$$
+  - $$mdi:mouse-move-up$$
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - $$mdi:mouse-move-up$$
+  - $$mdi:cursor-default-click$$
+  - {t: '$$mdi:tortoise$$', s: '$$mdi:arrow-up$$', type: sym_by_sym}
+  - $$mdi:cursor-default-click-outline$$
+  - move [R]
+  - Esc
+  - {t: '$$mdi:mouse$$', s: '$$mdi:arrow-left$$', type: sym_by_sym}
+  - {t: '$$mdi:mouse$$', s: '$$mdi:arrow-down$$', type: sym_by_sym}
+  - {t: '$$mdi:mouse$$', s: '$$mdi:arrow-right$$', type: sym_by_sym}
+  - $$mdi:mouse-move-down$$
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - $$mdi:mouse-move-down$$
+  - {t: '$$mdi:tortoise$$', s: '$$mdi:arrow-left$$', type: sym_by_sym}
+  - {t: '$$mdi:tortoise$$', s: '$$mdi:arrow-down$$', type: sym_by_sym}
+  - {t: '$$mdi:tortoise$$', s: '$$mdi:arrow-right$$', type: sym_by_sym}
+  - Esc
+  - {t: '$$mdi:monitor-shimmer$$', s: '$$mdi:arrow-top-right-thick$$', type: sym_by_sym}
+  - {t: '$$mdi:monitor-shimmer$$', s: '$$mdi:arrow-up-thick$$', type: sym_by_sym}
+  - {t: '$$mdi:monitor-shimmer$$', s: '$$mdi:arrow-top-left-thick$$', type: sym_by_sym}
+  - $$mdi:cursor-default-click$$
+  - $$mdi:cursor-default-click-outline$$
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - $$mdi:cursor-default-click-outline$$
+  - $$mdi:cursor-default-click$$
+  - {t: '$$mdi:monitor-shimmer$$', s: '$$mdi:arrow-top-left-thick$$', type: sym_by_sym}
+  - {t: '$$mdi:monitor-shimmer$$', s: '$$mdi:arrow-up-thick$$', type: sym_by_sym}
+  - {t: '$$mdi:monitor-shimmer$$', s: '$$mdi:arrow-top-right-thick$$', type: sym_by_sym}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: '$$mdi:keyboard-esc$$', s: '$$mdi:layers-triple$$', type: sym_by_sym}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: '$$mdi:keyboard-esc$$', s: '$$mdi:layers-triple$$', type: sym_by_sym}
+  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
+  mirror:
+  - {t: P, h: 'move [R]'}
+  - O
+  - '&iI'
+  - U
+  - Y
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - T
+  - R
+  - E
+  - W
+  - {t: Q, h: 'move [L]'}
+  - {t: ;, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: L, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: K, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: J, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: H, s: '$$mdi:backspace-outline$$'}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: G, h: '$$tabler:world$$'}
+  - {t: F, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: D, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: S, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: A, h: '$$mdi:apple-keyboard-control$$'}
+  - /
+  - .
+  - ','
+  - {t: M, s: ⮐}
+  - N
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - B
+  - V
+  - C
+  - X
+  - Z
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ':', h: araxia}
+  - {t: '$$mdi:keyboard-space$$', h: numpad}
+  - {t: Esc, h: media}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: Esc, h: symbols}
+  - {t: '$$mdi:apple-keyboard-control$$', h: lnum, s: W}
+  - {t: ⮐, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  move [L]:
+  - {type: held}
+  - $$mdi:arrow-right-box$$
+  - $$mdi:arrow-left-box$$
+  - {t: '$$mdi:tab$$', s: '$$mdi:arrow-down-box$$', type: sym_sub_text}
+  - {t: '$$mdi:tab$$', s: '$$mdi:arrow-up-box$$', type: sym_sub_text}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&act Y'
+  - '&act U'
+  - '&act I'
+  - '&act O'
+  - '&act P'
+  - $$mdi:power-sleep$$
+  - {t: '$$mdi:numeric-4-box-multiple-outline$$', s: '$$mdi:table-arrow-down$$', type: sym_by_sym}
+  - {t: '$$mdi:numeric-3-box-multiple-outline$$', s: '$$mdi:table-arrow-down$$', type: sym_by_sym}
+  - {t: '$$mdi:numeric-2-box-multiple-outline$$', s: '$$mdi:table-arrow-down$$', type: sym_by_sym}
+  - '&win_full'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&act H'
+  - '&act J'
+  - '&act K'
+  - '&act L'
+  - '&act :'
+  - $$mdi:power$$
+  - ''
+  - ''
+  - {t: '$$mdi:apple-keyboard-shift$$', h: sticky}
+  - {t: '$$mdi:curtains$$', s: '$$mdi:arrow-right-box$$', type: sym_sub_text}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&act N'
+  - '&act M'
+  - '&act <'
+  - '&act >'
+  - '&act ?'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  move [R]:
+  - '&act Q'
+  - '&act W'
+  - '&act E'
+  - '&act R'
+  - '&act T'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: '$$mdi:tab$$', s: '$$mdi:arrow-up-box$$', type: sym_sub_text}
+  - {t: '$$mdi:tab$$', s: '$$mdi:arrow-down-box$$', type: sym_sub_text}
+  - $$mdi:arrow-left-box$$
+  - $$mdi:arrow-right-box$$
+  - {type: held}
+  - '&act A'
+  - '&act S'
+  - '&act D'
+  - '&act F'
+  - '&act G'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&win_full'
+  - {t: '$$mdi:numeric-2-box-multiple-outline$$', s: '$$mdi:table-arrow-down$$', type: sym_by_sym}
+  - {t: '$$mdi:numeric-3-box-multiple-outline$$', s: '$$mdi:table-arrow-down$$', type: sym_by_sym}
+  - {t: '$$mdi:numeric-4-box-multiple-outline$$', s: '$$mdi:table-arrow-down$$', type: sym_by_sym}
+  - $$mdi:power-sleep$$
+  - '&act Z'
+  - '&act X'
+  - '&act C'
+  - '&act V'
+  - '&act B'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: '$$mdi:curtains$$', s: '$$mdi:arrow-right-box$$', type: sym_sub_text}
+  - {t: '$$mdi:apple-keyboard-shift$$', h: sticky}
+  - ''
+  - ''
+  - $$mdi:power$$
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  act:
+  - '&act Q'
+  - '&act W'
+  - '&act E'
+  - '&act R'
+  - '&act T'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&act Y'
+  - '&act U'
+  - '&act I'
+  - '&act O'
+  - '&act P'
+  - '&act A'
+  - '&act S'
+  - '&act D'
+  - '&act F'
+  - '&act G'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&act H'
+  - '&act J'
+  - '&act K'
+  - '&act L'
+  - '&act :'
+  - '&act Z'
+  - '&act X'
+  - '&act C'
+  - '&act V'
+  - '&act B'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&act N'
+  - '&act M'
+  - '&act <'
+  - '&act >'
+  - '&act ?'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  func:
+  - F1
+  - F2
+  - F3
+  - F4
+  - {t: '$$tabler:focus-2$$', s: '$$mdi:menu$$', type: sym_by_sym}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: '$$mdi:help-circle-outline$$', s: '$$mdi:menu$$', type: sym_by_sym}
+  - F13
+  - F14
+  - F15
+  - F16
+  - F5
+  - F6
+  - F7
+  - F8
+  - {t: '$$tabler:focus-2$$', s: '$$mdi:list-status$$', type: sym_by_sym}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - $$tablerf:pointer$$
+  - F17
+  - F18
+  - F19
+  - F20
+  - F9
+  - F10
+  - F11
+  - F12
+  - {t: '$$tabler:focus-2$$', s: '$$mdi:dock-bottom$$', type: sym_by_sym}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - $$tablerf:brand-discord$$
+  - F21
+  - F22
+  - F23
+  - F24
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+combos:
+- p: [4, 16]
+  k: ⮐
+  l: [araxia, gaming]
+  a: right
+  o: 0.1
+  arc_scale: 1.03
+- p: [39, 40]
+  k: {t: ⮐, h: vimmux}
+  l: [araxia, gaming]
+- p: [40, 43]
+  k: {t: '$$mdi:keyboard-tab$$', h: adjust}
+  l: [araxia, gaming]
+  a: top
+  o: 0.05
+  arc_scale: 1.055
+- p: [0, 40]
+  k: {t: adjust, h: sticky}
+  l: [araxia, gaming]
+- p: [7, 19]
+  k: ⮐
+  l: [araxia, gaming]
+  a: left
+  o: 0.1
+  arc_scale: 1.03
+- p: [43, 44]
+  k: {t: ⮐, h: output}
+  l: [araxia, gaming]
+- p: [16, 28]
+  k: $$mdi:keyboard-space$$
+  l: [araxia, gaming]
+  a: right
+  o: 0.1
+  arc_scale: 1.03
+- p: [19, 31]
+  k: $$mdi:keyboard-tab$$
+  l: [araxia, gaming]
+  a: left
+  o: 0.1
+  arc_scale: 1.03
+- p: [0, 15]
+  k: '&osl LG(LA(LC(LS(A)))) 15'
+  l: [araxia]
+  a: top
+  o: 1.85
+  arc_scale: 1.075
+- p: [11, 20]
+  k: '&osl LG(LA(LC(LS(A)))) 15'
+  l: [araxia]
+  a: top
+  o: 1.85
+  arc_scale: 1.075
+- p: [39, 44]
+  k: '&osl LG(LA(LC(LS(A)))) 15'
+  l: [araxia, pointer, discord]
+  a: bottom
+  o: 0.35
+  arc_scale: 1.03
+- p: [4, 7]
+  k: '&osl LG(LA(LC(LS(F)))) 16'
+  l: [araxia]
+- p: [8, 9, 10]
+  k: tmux prefix
+  l: [araxia]
+  a: top
+  o: 0.15
+  arc_scale: 1.03
+- p: [1, 2, 3]
+  k: tmux app
+  l: [araxia]
+  a: top
+  o: 0.15
+  arc_scale: 1.03
+- p: [15, 20]
+  k: capsy
+  l: [araxia, gaming]
+  a: top
+  o: 1.85
+  arc_scale: 1.075
+- p: [12, 23]
+  k: shifty
+  l: [araxia, gaming]
+  a: bottom
+  o: 3.0
+  arc_scale: 1.075
+- p: [0, 1]
+  k: config version
+  l: [araxia]
+  a: top
+  o: 0.05
+  arc_scale: 1.03
+- p: [10, 11]
+  k: $$mdi:backspace-reverse-outline$$
+  l: [araxia, gaming]
+  a: top
+  o: 0.05
+  arc_scale: 1.03
+- p: [0, 12]
+  k: $$mdi:backspace-outline$$
+  l: [araxia, gaming]
+  a: left
+  o: 0.2
+  arc_scale: 1.03
+- p: [11, 23]
+  k: $$mdi:backspace-outline$$
+  l: [araxia, gaming]
+  a: right
+  o: 0.2
+  arc_scale: 1.03
+- p: [24, 25]
+  k: $$mdi:apple-keyboard-command$$
+  l: [araxia, gaming]
+  a: bottom
+  o: 0.05
+  arc_scale: 1.03
+- p: [12, 24]
+  k: $$mdi:apple-keyboard-option$$
+  l: [araxia, gaming]
+  a: right
+  o: 0.15
+  arc_scale: 1.03
+- p: [34, 35]
+  k: $$mdi:apple-keyboard-command$$
+  l: [araxia, gaming]
+  a: bottom
+  o: 0.05
+  arc_scale: 1.03
+- p: [23, 35]
+  k: $$mdi:apple-keyboard-option$$
+  l: [araxia, gaming]
+  a: left
+  o: 0.15
+  arc_scale: 1.03
+- p: [15, 24]
+  k: {t: '$$mdi:arrow-decision-outline$$', h: '&swap'}
+  l: [araxia, discord, pointer, mirror]
+  a: top
+  o: 1.75
+  arc_scale: 1.055
+- p: [19, 35]
+  k: {t: '$$mdi:arrow-decision-outline$$', h: '&swap'}
+  l: [araxia, discord, pointer, mirror]
+  a: top
+  o: 1.75
+  arc_scale: 1.055
+- p: [24, 27]
+  k: {t: '$$mdi:arrow-decision-outline$$', h: '&winswap'}
+  l: [araxia, discord, pointer, mirror]
+  a: bottom
+  o: 1.45
+  arc_scale: 1.06
+- p: [32, 35]
+  k: {t: '$$mdi:arrow-decision-outline$$', h: '&winswap'}
+  l: [araxia, discord, pointer, mirror]
+  a: bottom
+  o: 1.45
+  arc_scale: 1.06
+- p: [0, 11]
+  k: lighting
+  l: [araxia]
+  a: top
+  o: 2.12
+  arc_scale: 1.03
