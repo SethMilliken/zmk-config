@@ -2,8 +2,8 @@ name: 'Build Aurora Corne OLED Firmware'
 on:
   workflow_dispatch:  # can be triggered manually
   push:               # automatically run on changes to following paths
-    branches:
-      - 'disabled'
+    # branches:
+    #   - 'disabled'
     paths:
       - 'build/aurora_corne_oled.yaml'
       - 'config/west.yml'
