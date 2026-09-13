@@ -1,0 +1,4 @@
+name: zmk-feature-araxia-adjustments
+build:
+  settings:
+    snippet_root: .

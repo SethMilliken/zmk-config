@@ -1,0 +1,3 @@
+name: nice-view-adjust
+append:
+  EXTRA_DTC_OVERLAY_FILE: nice-view-adjust.overlay
