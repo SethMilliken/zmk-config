@@ -502,10 +502,10 @@ layers:
   - {t: '$$mdi:monitor-shimmer$$', s: '$$mdi:arrow-top-right-thick$$', type: sym_by_sym}
   - {t: '$$mdi:monitor-shimmer$$', s: '$$mdi:arrow-up-thick$$', type: sym_by_sym}
   - {t: '$$mdi:monitor-shimmer$$', s: '$$mdi:arrow-top-left-thick$$', type: sym_by_sym}
-  - $$mdi:cursor-default-click$$
-  - $$mdi:cursor-default-click-outline$$
-  - $$mdi:cursor-default-click-outline$$
-  - $$mdi:cursor-default-click$$
+  - '&mkple LCLK'
+  - '&mkple RCLK'
+  - '&mkple RCLK'
+  - '&mkple LCLK'
   - {t: '$$mdi:monitor-shimmer$$', s: '$$mdi:arrow-top-left-thick$$', type: sym_by_sym}
   - {t: '$$mdi:monitor-shimmer$$', s: '$$mdi:arrow-up-thick$$', type: sym_by_sym}
   - {t: '$$mdi:monitor-shimmer$$', s: '$$mdi:arrow-top-right-thick$$', type: sym_by_sym}

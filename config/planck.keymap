@@ -153,7 +153,7 @@
             bindings = <
 &mo WIN_LEFT  &mkp RCLK        &fmmv MOVE_UP    &mkp LCLK         &msc SCRL_UP      &trans  &trans    &msc SCRL_UP    &mkp LCLK       &mmv MOVE_UP    &mkp RCLK        &mo WIN_RIGHT
 &kp ESC       &fmmv MOVE_LEFT  &fmmv MOVE_DOWN  &fmmv MOVE_RIGHT  &msc SCRL_DOWN    &trans  &trans    &msc SCRL_DOWN  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &kp ESC
-&warpd_r      &warpd_t         &warpd_l         &mkp LCLK         &mkp RCLK         &trans  &trans    &mkp RCLK       &mkp LCLK       &warpd_l        &warpd_t         &warpd_r
+&warpd_r      &warpd_t         &warpd_l         &mkple LCLK       &mkple RCLK       &trans  &trans    &mkple RCLK     &mkple LCLK     &warpd_l        &warpd_t         &warpd_r
 &trans        &trans           &trans           &trans            &kple ESC         &trans  &trans    &kple ESC       &trans          &none           &none            &none
             >;
             sensor-bindings = <&rot_msc MOVE_X(40) MOVE_X(-40)>;

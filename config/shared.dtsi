@@ -1,4 +1,4 @@
-#define VER_PATCH N2
+#define VER_PATCH N3
 #define VER_MINOR N4
 #define VER_MAJOR N4
 
@@ -88,6 +88,16 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp VER_MAJOR &kp DOT &kp VER_MINOR &kp VER_PATCH>;
+        };
+        mkple: mouse_layer_escape {
+            compatible = "zmk,behavior-macro-one-param";
+            #binding-cells = <1>;
+            bindings
+                = <&macro_tap &kp CARD_DEACTIVATE>
+                , <&macro_tap &to DEFAULT>
+                , <&macro_param_1to1>
+                , <&macro_tap &mkp MACRO_PLACEHOLDER>
+                ;
         };
         kple: key_press_layer_escape {
             compatible = "zmk,behavior-macro-one-param";
