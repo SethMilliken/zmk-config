@@ -1,4 +1,4 @@
-#define VER_PATCH N4
+#define VER_PATCH N5
 #define VER_MINOR N4
 #define VER_MAJOR N4
 
@@ -665,6 +665,18 @@
             timeout-ms = <VERT_COMBO_MS>;
             key-positions = <38 39>;
             bindings = <&lttp ADJUST RETURN>;
+            layers = <DEFAULT GAMING>;
+        };
+        combo_media_bs_left: combo_media_bs_left {
+            timeout-ms = <VERT_COMBO_MS>;
+            key-positions = <15 38>;
+            bindings = <&lttp MEDIA BACKSPACE>;
+            layers = <DEFAULT GAMING>;
+        };
+        combo_media_bs_right: combo_media_bs_right {
+            timeout-ms = <VERT_COMBO_MS>;
+            key-positions = <39 20>;
+            bindings = <&lttp MEDIA BACKSPACE>;
             layers = <DEFAULT GAMING>;
         };
         combo_adjust_tab_left: combo_adjust_tab_left {

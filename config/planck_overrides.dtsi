@@ -22,6 +22,12 @@
 &combo_adjust_return {
     key-positions = <40 43>;
 };
+&combo_media_bs_left {
+    key-positions = <14 40>;
+};
+&combo_media_bs_right {
+    key-positions = <43 21>;
+};
 &combo_adjust_tab_left {
     key-positions = <13 40>;
 };
