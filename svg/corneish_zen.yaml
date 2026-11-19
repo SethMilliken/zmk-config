@@ -38,10 +38,10 @@ layers:
   - /
   - $$tablerf:brand-discord$$
   - {t: ⮐, h: func}
-  - {t: '$$mdi:apple-keyboard-control$$', h: lnum, s: W}
+  - {t: '$$mdi:apple-keyboard-control$$', h: navnum, s: W}
   - {t: Esc, h: symbols}
-  - {t: Esc, h: media}
-  - {t: '$$mdi:keyboard-space$$', h: numpad}
+  - {t: Esc, h: free}
+  - {t: '$$mdi:keyboard-space$$', h: numnav}
   - {t: ':', h: mirror}
   gaming:
   - $$mdi:apple-keyboard-option$$
@@ -83,8 +83,8 @@ layers:
   - ⮐
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-tab$$', h: symbols}
-  - {t: Esc, h: media}
-  - {t: '$$mdi:keyboard-space$$', h: numpad}
+  - {t: Esc, h: free}
+  - {t: '$$mdi:keyboard-space$$', h: numnav}
   - ':'
   symbols:
   - ''
@@ -129,25 +129,25 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  lnum:
+  navnum:
   - ''
-  - ','
-  - '7'
-  - '8'
-  - '9'
+  - $$mdi:keyboard-space$$
+  - Ctl+P
+  - Ctl+N
+  - $$mdi:keyboard-tab$$
+  - $$mdi:backspace-outline$$
   - '0'
-  - '0'
   - '9'
   - '8'
   - '7'
   - ','
   - ''
   - ''
-  - .
-  - '4'
-  - '5'
-  - '6'
-  - ':'
+  - ⮐
+  - $$mdi:arrow-right$$
+  - $$mdi:arrow-up$$
+  - $$mdi:arrow-down$$
+  - $$mdi:arrow-left$$
   - ':'
   - '6'
   - '5'
@@ -155,11 +155,11 @@ layers:
   - .
   - ''
   - ''
-  - '='
-  - '1'
-  - '2'
-  - '3'
-  - '-'
+  - {t: '$$mdi:numeric$$', s: '$$mdi:lock$$', type: sym_by_sym}
+  - End
+  - Home
+  - PgDn
+  - PgUp
   - '-'
   - '3'
   - '2'
@@ -172,7 +172,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  numpad:
+  numnav:
   - '*'
   - ','
   - '7'
@@ -217,45 +217,45 @@ layers:
   - {t: ▽, type: trans}
   media:
   - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - $$mdi:volume-mute$$
-  - $$mdi:skip-backward$$
-  - $$mdi:play-pause$$
-  - $$mdi:skip-forward$$
   - $$tabler:brightness-up$$
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - $$mdi:volume-minus$$
+  - $$mdi:skip-backward$$
+  - '&act I'
   - $$mdi:volume-plus$$
   - ''
   - ''
+  - $$mdi:volume-plus$$
+  - '&act I'
+  - $$mdi:skip-backward$$
+  - $$tabler:brightness-up$$
+  - ''
+  - ''
+  - $$tabler:brightness-down$$
+  - $$mdi:skip-forward$$
+  - {t: '$$mdi:play-pause$$', type: held}
+  - $$mdi:volume-minus$$
+  - $$mdi:play-pause$$
+  - $$mdi:play-pause$$
+  - $$mdi:volume-minus$$
+  - $$mdi:play-pause$$
+  - $$mdi:skip-forward$$
   - $$tabler:brightness-down$$
   - ''
   - ''
   - ''
   - ''
   - ''
+  - $$mdi:volume-mute$$
+  - ''
+  - ''
+  - $$mdi:volume-mute$$
   - ''
   - ''
   - ''
   - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   output:
@@ -487,7 +487,7 @@ layers:
   - move [R]
   - ''
   - ''
-  - Esc
+  - {t: Esc, type: held}
   - {t: '$$mdi:mouse$$', s: '$$mdi:arrow-left$$', type: sym_by_sym}
   - {t: '$$mdi:mouse$$', s: '$$mdi:arrow-down$$', type: sym_by_sym}
   - {t: '$$mdi:mouse$$', s: '$$mdi:arrow-right$$', type: sym_by_sym}
@@ -512,7 +512,7 @@ layers:
   - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: '$$mdi:keyboard-esc$$', s: '$$mdi:layers-triple$$', type: sym_by_sym}
+  - {t: '$$mdi:keyboard-esc$$', s: '$$mdi:layers-triple$$', type: held}
   - {t: '$$mdi:keyboard-esc$$', s: '$$mdi:layers-triple$$', type: sym_by_sym}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -554,10 +554,10 @@ layers:
   - Z
   - ''
   - {t: ':', h: araxia}
-  - {t: '$$mdi:keyboard-space$$', h: numpad}
-  - {t: Esc, h: media}
+  - {t: '$$mdi:keyboard-space$$', h: navnum}
+  - {t: Esc, h: free}
   - {t: Esc, h: symbols}
-  - {t: '$$mdi:apple-keyboard-control$$', h: lnum, s: W}
+  - {t: '$$mdi:apple-keyboard-control$$', h: numnav, s: W}
   - {t: ⮐, h: '$$mdi:apple-keyboard-command$$'}
   move [L]:
   - ''
@@ -731,6 +731,49 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  free:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {type: held}
+  - ''
+  - ''
 combos:
 - p: [5, 17]
   k: ⮐
@@ -744,15 +787,61 @@ combos:
 - p: [38, 39]
   k: {t: ⮐, h: adjust}
   l: [araxia, gaming]
-- p: [13, 38]
-  k: {t: ⮐, h: adjust}
+  a: top
+  o: 0.05
+  arc_scale: 1.055
+- p: [25, 38]
+  k: {t: '=', h: numnav}
   l: [araxia, gaming]
-- p: [39, 22]
-  k: {t: ⮐, h: adjust}
+  a: left
+  o: 0.15
+  arc_scale: 1.075
+- p: [39, 34]
+  k: {t: '=', h: navnum}
   l: [araxia, gaming]
+  a: right
+  o: 0.15
+  arc_scale: 1.075
+- p: [15, 38]
+  k: {t: '$$mdi:backspace-outline$$', h: media}
+  l: [araxia, gaming]
+  a: left
+  o: 0.05
+- p: [39, 20]
+  k: {t: '$$mdi:backspace-outline$$', h: media}
+  l: [araxia, gaming]
+  a: right
+  o: 0.05
+- p: [14, 38]
+  k: {t: '$$mdi:keyboard-tab$$', h: adjust}
+  l: [araxia, gaming]
+  a: bottom
+  o: 0.05
+  arc_scale: 1.1
+- p: [39, 21]
+  k: {t: '$$mdi:keyboard-tab$$', h: adjust}
+  l: [araxia, gaming]
+  a: bottom
+  o: 0.05
+  arc_scale: 1.1
 - p: [1, 38]
   k: {t: adjust, h: sticky}
   l: [araxia, gaming]
+  a: bottom
+  o: 0.9
+  arc_scale: 1.14
+- p: [13, 38]
+  k: {t: ⮐, h: pointer}
+  l: [araxia, gaming]
+  a: bottom
+  o: 0.4
+  arc_scale: 1.1
+- p: [39, 22]
+  k: {t: ⮐, h: pointer}
+  l: [araxia, gaming]
+  a: bottom
+  o: 0.4
+  arc_scale: 1.1
 - p: [6, 18]
   k: ⮐
   l: [araxia, gaming]
@@ -817,7 +906,7 @@ combos:
   k: shifty
   l: [araxia, gaming]
   a: bottom
-  o: 3.0
+  o: 3.6
   arc_scale: 1.075
 - p: [1, 2]
   k: config version
@@ -883,13 +972,13 @@ combos:
   k: {t: '$$mdi:arrow-decision-outline$$', h: '&winswap'}
   l: [araxia, discord, pointer, mirror]
   a: bottom
-  o: 1.45
+  o: 1.15
   arc_scale: 1.06
 - p: [31, 34]
   k: {t: '$$mdi:arrow-decision-outline$$', h: '&winswap'}
   l: [araxia, discord, pointer, mirror]
   a: bottom
-  o: 1.45
+  o: 1.15
   arc_scale: 1.06
 - p: [1, 10]
   k: lighting

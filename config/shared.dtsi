@@ -1,5 +1,5 @@
-#define VER_PATCH N6
-#define VER_MINOR N4
+#define VER_PATCH N0
+#define VER_MINOR N5
 #define VER_MAJOR N4
 
 // DEFINES {{{
@@ -24,8 +24,8 @@
 #define DEFAULT   0
 #define GAMING    1
 #define SYMBOLS   2
-#define LNUM      3
-#define NUMPAD    4
+#define NAVNUM    3
+#define NUMNAV    4
 #define MEDIA     5
 #define OUTPUT    6
 #define VIMMUX    7
@@ -138,7 +138,7 @@
             #binding-cells = <0>;
             bindings
                 = <&macro_tap &kp SINGLE_QUOTE>
-                , <&macro_tap &sl NUMPAD>
+                , <&macro_tap &sl NUMNAV>
                 , <&macro_pause_for_release>
                 , <&macro_tap &kp SINGLE_QUOTE>
                 ;
@@ -668,6 +668,18 @@
             bindings = <&lttp ADJUST RETURN>;
             layers = <DEFAULT GAMING>;
         };
+        combo_numnav_equal_left: combo_numnav_equal_left {
+            timeout-ms = <VERT_COMBO_MS>;
+            key-positions = <25 38>;
+            bindings = <&lttp NUMNAV EQUAL>;
+            layers = <DEFAULT GAMING>;
+        };
+        combo_navnum_equal_right: combo_navnum_equal_right {
+            timeout-ms = <VERT_COMBO_MS>;
+            key-positions = <39 34>;
+            bindings = <&lttp NAVNUM EQUAL>;
+            layers = <DEFAULT GAMING>;
+        };
         combo_media_bs_left: combo_media_bs_left {
             timeout-ms = <VERT_COMBO_MS>;
             key-positions = <15 38>;
@@ -1054,7 +1066,7 @@
                 <&kp TAB>,
                 <&kt LALT>;
             ignored-key-positions = <1 25 28 10 31 34 18 19 20 21 40>;
-            ignored-layers = <DEFAULT NUMPAD>;
+            ignored-layers = <DEFAULT NUMNAV NAVNUM>;
         };
         swap: swapper_mac {
             compatible = "zmk,behavior-tri-state";
@@ -1068,7 +1080,7 @@
             // include mode keys: h to hide (18), q to quit (1)
             // include lhs arrow key shortcuts: 36, 37, 38
             ignored-key-positions = <1 16 18 19 20 21 25 34 36 37 38 40>;
-            ignored-layers = <DEFAULT NUMPAD>;
+            ignored-layers = <DEFAULT NUMNAV NAVNUM>;
         };
         /omit-if-no-ref/ fmmv: fast_mouse_move {
             compatible = "zmk,behavior-input-two-axis";
@@ -1164,7 +1176,7 @@ SPACE SLASH COLON RETURN COMMA AMPERSAND ASTERISK TILDE BACKSLASH LESS_THAN GREA
 
         // replaced with combo layer-tap
         //to_discord {f
-        //    if-layers = <NUMPAD MEDIA>;
+        //    if-layers = <NUMNAV MEDIA>;
         //    then-layer = <DISCORD>;
         //};
 

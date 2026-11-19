@@ -21,10 +21,10 @@
         default {
             display-name = "araxia";
             bindings = <
-&lttp WIN_LEFT Q    &kp W         &kp E                  &kp R             &kp T                &kp F1  &kp F2      &kp Y            &kp U               &iI                 &kp O         &lttp WIN_RIGHT P
-&hrml LCTRL A       &hrml LGUI S  &hrml LALT D           &hrsl LSHIFT F    &hrml GLOBE G        &kp F3  &point_tog  &h_bs            &hrsr RSHIFT J      &hrmr RALT K        &hrmr RGUI L  &hrmr RCTRL SEMI
-&kp Z               &kp X         &kp C                  &kp V             &kp B                &kp F4  &to GAMING  &kp N            &m_cr               &kp COMMA           &kp DOT       &kp SLASH
-&lttp SYMBOLS C_PP  &kp F6        &lthp FUNCTION RETURN  &lthp LNUM LC(W)  &lthp SYMBOLS ESC    &kp F7  &kp F8      &lthp MEDIA ESC  &lttp NUMPAD SPACE  &mttp MIRROR COLON  &point_tog    &dis_tog
+&lttp WIN_LEFT Q    &kp W         &kp E                  &kp R               &kp T                &kp F1  &kp F2      &kp Y            &kp U               &iI                 &kp O         &lttp WIN_RIGHT P
+&hrml LCTRL A       &hrml LGUI S  &hrml LALT D           &hrsl LSHIFT F      &hrml GLOBE G        &kp F3  &point_tog  &h_bs            &hrsr RSHIFT J      &hrmr RALT K        &hrmr RGUI L  &hrmr RCTRL SEMI
+&kp Z               &kp X         &kp C                  &kp V               &kp B                &kp F4  &to GAMING  &kp N            &m_cr               &kp COMMA           &kp DOT       &kp SLASH
+&lttp SYMBOLS C_PP  &kp F6        &lthp FUNCTION RETURN  &lthp NAVNUM LC(W)  &lthp SYMBOLS ESC    &kp F7  &kp F8      &lthp MEDIA ESC  &lttp NUMNAV SPACE  &mttp MIRROR COLON  &point_tog    &dis_tog
             >;
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
@@ -36,7 +36,7 @@
 &kp Q               &kp W   &kp E       &kp R      &kp T                &kp F1  &kp F2         &kp Y            &kp U               &kp I      &kp O    &kp P
 &kp A               &kp S   &kp D       &kp F      &kp G                &kp F3  &kp F5         &h_bs            &kp J               &kp K      &kp L    &kp SEMI
 &kp Z               &kp X   &kp C       &kp V      &kp B                &kp F4  &to DEFAULT    &kp N            &m_cr               &kp COMMA  &kp DOT  &kp SLASH
-&lttp SYMBOLS C_PP  &kp F6  &kp RETURN  &kp SPACE  &lthp SYMBOLS TAB    &kp F7  &kp F8         &lthp MEDIA ESC  &lttp NUMPAD SPACE  &kp COLON  &kp RSHIFT  &kp RCTRL
+&lttp SYMBOLS C_PP  &kp F6  &kp RETURN  &kp SPACE  &lthp SYMBOLS TAB    &kp F7  &kp F8         &lthp MEDIA ESC  &lttp NUMNAV SPACE  &kp COLON  &kp RSHIFT  &kp RCTRL
             >;
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
@@ -54,20 +54,20 @@
         };
 
         /* 3 Layer */
-        lnum {
-            display-name = "lnum";
+        navnum {
+            display-name = "navnum";
             bindings = <
-&kp COMMA  &kp N7     &kp N8  &kp N9  &kp N0        &trans  &trans    &kp N0     &kp N9  &kp N8  &kp N7  &kp COMMA
-&kp DOT    &kp N4     &kp N5  &kp N6  &kp COLON     &trans  &trans    &kp COLON  &kp N6  &kp N5  &kp N4  &kp DOT
-&kp EQUAL  &kp N1     &kp N2  &kp N3  &kp MINUS     &trans  &trans    &kp MINUS  &kp N3  &kp N2  &kp N1  &kp EQUAL
-&trans     &trans     &trans  &trans  &trans        &trans  &trans    &trans  &trans  &trans  &trans  &trans
+&kp SPACE       &kp RC(P)  &kp RC(N)  &kp TAB        &kp BACKSPACE     &trans  &trans    &kp N0     &kp N9  &kp N8  &kp N7  &kp COMMA
+&kp RETURN      &kp LEFT   &kp UP     &kp DOWN       &kp RIGHT         &trans  &trans    &kp COLON  &kp N6  &kp N5  &kp N4  &kp DOT
+&kp KP_NUMLOCK  &kp END    &kp HOME   &kp PAGE_DOWN  &kp PAGE_UP       &trans  &trans    &kp MINUS  &kp N3  &kp N2  &kp N1  &kp EQUAL
+&trans          &trans     &trans     &trans         &trans            &trans  &trans    &trans     &trans  &trans  &trans  &trans
             >;
             sensor-bindings = <&inc_dec_kp LC(F) LC(B)>;
         };
 
         /* 4 Layer */
-        numpad {
-            display-name = "numpad";
+        numnav {
+            display-name = "numnav";
             bindings = <
 &kp COMMA  &kp N7  &kp N8  &kp N9  &kp N0        &trans  &trans    &kp BACKSPACE  &kp TAB        &kp RC(N)   &kp RC(P)   &kp SPACE
 &kp DOT    &kp N4  &kp N5  &kp N6  &kp COLON     &trans  &trans    &kp LEFT       &kp DOWN       &kp UP      &kp RIGHT   &kp RETURN
@@ -163,10 +163,10 @@
         mirror {
             display-name = "mirror";
             bindings = <
-&lttp WIN_RIGHT P  &kp O         &iI                  &kp U               &kp Y              &trans  &trans    &kp T              &kp R             &kp E              &kp W         &lttp WIN_LEFT Q
-&hrmr RCTRL SEMI   &hrmr RGUI L  &hrmr RALT K         &hrsr RSHIFT J      &h_bs              &trans  &trans    &hrml GLOBE G      &hrsl LSHIFT F    &hrml LALT D       &hrml LGUI S  &hrml RCTRL A
-&kp SLASH          &kp DOT       &kp COMMA            &m_cr               &kp N              &trans  &trans    &kp B              &kp V             &kp C              &kp X         &kp Z
-&trans             &trans        &lthp DEFAULT COLON  &lthp NUMPAD SPACE  &lthp MEDIA ESC    &trans  &trans    &lthp SYMBOLS ESC  &lthp LNUM LC(W)  &mthp LGUI RETURN  &trans        &trans
+&lttp WIN_RIGHT P  &kp O         &iI                  &kp U               &kp Y              &trans  &trans    &kp T              &kp R               &kp E              &kp W         &lttp WIN_LEFT Q
+&hrmr RCTRL SEMI   &hrmr RGUI L  &hrmr RALT K         &hrsr RSHIFT J      &h_bs              &trans  &trans    &hrml GLOBE G      &hrsl LSHIFT F      &hrml LALT D       &hrml LGUI S  &hrml RCTRL A
+&kp SLASH          &kp DOT       &kp COMMA            &m_cr               &kp N              &trans  &trans    &kp B              &kp V               &kp C              &kp X         &kp Z
+&trans             &trans        &lthp DEFAULT COLON  &lthp NAVNUM SPACE  &lthp MEDIA ESC    &trans  &trans    &lthp SYMBOLS ESC  &lthp NUMNAV LC(W)  &mthp LGUI RETURN  &trans        &trans
             >;
         };
 

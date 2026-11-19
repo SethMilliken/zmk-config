@@ -793,6 +793,8 @@ parse_config:
     combo_adjust_tab_right:       { align: bottom , o: 0.05  , arc_scale: 1.100 }
     combo_media_bs_left:          { align: left   , o: 0.05  , arc_scale: 1.000 }
     combo_media_bs_right:         { align: right  , o: 0.05  , arc_scale: 1.000 }
+    combo_numnav_equal_left:      { align: left   , o: 0.15  , arc_scale: 1.075 }
+    combo_navnum_equal_right:     { align: right  , o: 0.15  , arc_scale: 1.075 }
     combo_pointer_return_left:    { align: bottom , o: 0.40  , arc_scale: 1.100 }
     combo_pointer_return_right:   { align: bottom , o: 0.40  , arc_scale: 1.100 }
     combo_act:                    { align: bottom , o: 0.35  , arc_scale: 1.03  }
