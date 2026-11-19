@@ -1,4 +1,4 @@
-#define VER_PATCH N3
+#define VER_PATCH N4
 #define VER_MINOR N4
 #define VER_MAJOR N4
 
@@ -661,9 +661,21 @@
             bindings = <&lthp VIMMUX RETURN>;
             layers = <DEFAULT GAMING>;
         };
-        combo_adjust_tab: combo_adjust_tab {
+        combo_adjust_return: combo_adjust_return {
             timeout-ms = <VERT_COMBO_MS>;
             key-positions = <38 39>;
+            bindings = <&lttp ADJUST RETURN>;
+            layers = <DEFAULT GAMING>;
+        };
+        combo_adjust_tab_left: combo_adjust_tab_left {
+            timeout-ms = <VERT_COMBO_MS>;
+            key-positions = <14 38>;
+            bindings = <&lttp ADJUST TAB>;
+            layers = <DEFAULT GAMING>;
+        };
+        combo_adjust_tab_right: combo_adjust_tab_right {
+            timeout-ms = <VERT_COMBO_MS>;
+            key-positions = <39 21>;
             bindings = <&lttp ADJUST TAB>;
             layers = <DEFAULT GAMING>;
         };
@@ -671,6 +683,18 @@
             timeout-ms = <VERT_COMBO_MS>;
             key-positions = <1 38>;
             bindings = <&sl ADJUST>;
+            layers = <DEFAULT GAMING>;
+        };
+        combo_pointer_return_left: combo_pointer_return_left {
+            timeout-ms = <VERT_COMBO_MS>;
+            key-positions = <13 38>;
+            bindings = <&lttp POINTER RETURN>;
+            layers = <DEFAULT GAMING>;
+        };
+        combo_pointer_return_right: combo_pointer_return_right {
+            timeout-ms = <VERT_COMBO_MS>;
+            key-positions = <39 22>;
+            bindings = <&lttp POINTER RETURN>;
             layers = <DEFAULT GAMING>;
         };
         combo_return_right: combo_return_right {

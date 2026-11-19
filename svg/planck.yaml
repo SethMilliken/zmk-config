@@ -844,11 +844,14 @@ combos:
   k: {t: ⮐, h: vimmux}
   l: [araxia, gaming]
 - p: [40, 43]
-  k: {t: '$$mdi:keyboard-tab$$', h: adjust}
+  k: {t: ⮐, h: adjust}
   l: [araxia, gaming]
-  a: top
-  o: 0.05
-  arc_scale: 1.055
+- p: [13, 40]
+  k: {t: ⮐, h: adjust}
+  l: [araxia, gaming]
+- p: [43, 22]
+  k: {t: ⮐, h: adjust}
+  l: [araxia, gaming]
 - p: [0, 40]
   k: {t: adjust, h: sticky}
   l: [araxia, gaming]

@@ -19,8 +19,20 @@
 &combo_return_left_thumbs {
     key-positions = <39 40>;
 };
-&combo_adjust_tab {
+&combo_adjust_return {
     key-positions = <40 43>;
+};
+&combo_adjust_tab_left {
+    key-positions = <13 40>;
+};
+&combo_adjust_tab_right {
+    key-positions = <43 22>;
+};
+&combo_pointer_return_left {
+    key-positions = <12 40>;
+};
+&combo_pointer_return_right {
+    key-positions = <43 23>;
 };
 &combo_adjust_sl {
     key-positions = <0 40>;
