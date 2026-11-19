@@ -781,11 +781,18 @@ parse_config:
     combo_backspace_right:        { align: right  , o: 0.20  , arc_scale: 1.03  }
     combo_swap_left:              { align: top    , o: 1.75  , arc_scale: 1.055 }
     combo_swap_right:             { align: top    , o: 1.75  , arc_scale: 1.055 }
-    combo_winswap_left:           { align: bottom , o: 1.45  , arc_scale: 1.060 }
-    combo_winswap_right:          { align: bottom , o: 1.45  , arc_scale: 1.060 }
+    combo_winswap_left:           { align: bottom , o: 1.15  , arc_scale: 1.060 }
+    combo_winswap_right:          { align: bottom , o: 1.15  , arc_scale: 1.060 }
     combo_right_act:              { align: top    , o: 1.85  , arc_scale: 1.075 }
     combo_left_act:               { align: top    , o: 1.85  , arc_scale: 1.075 }
-    combo_shifty:                 { align: bottom , o: 3.00  , arc_scale: 1.075 }
+    combo_shifty:                 { align: bottom , o: 3.60  , arc_scale: 1.075 }
     combo_capsy:                  { align: top    , o: 1.85  , arc_scale: 1.075 }
-    combo_adjust_tab:             { align: top    , o: 0.05  , arc_scale: 1.055 }
+    combo_adjust_sl:              { align: bottom , o: 0.90  , arc_scale: 1.140 }
+    combo_adjust_return:          { align: top    , o: 0.05  , arc_scale: 1.055 }
+    combo_adjust_tab_left:        { align: bottom , o: 0.05  , arc_scale: 1.100 }
+    combo_adjust_tab_right:       { align: bottom , o: 0.05  , arc_scale: 1.100 }
+    combo_media_bs_left:          { align: left   , o: 0.05  , arc_scale: 1.000 }
+    combo_media_bs_right:         { align: right  , o: 0.05  , arc_scale: 1.000 }
+    combo_pointer_return_left:    { align: bottom , o: 0.40  , arc_scale: 1.100 }
+    combo_pointer_return_right:   { align: bottom , o: 0.40  , arc_scale: 1.100 }
     combo_act:                    { align: bottom , o: 0.35  , arc_scale: 1.03  }
