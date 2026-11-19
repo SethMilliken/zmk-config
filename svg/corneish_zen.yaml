@@ -502,10 +502,10 @@ layers:
   - {t: '$$mdi:monitor-shimmer$$', s: '$$mdi:arrow-top-right-thick$$', type: sym_by_sym}
   - {t: '$$mdi:monitor-shimmer$$', s: '$$mdi:arrow-up-thick$$', type: sym_by_sym}
   - {t: '$$mdi:monitor-shimmer$$', s: '$$mdi:arrow-top-left-thick$$', type: sym_by_sym}
-  - '&mkple LCLK'
-  - '&mkple RCLK'
-  - '&mkple RCLK'
-  - '&mkple LCLK'
+  - {t: '$$mdi:cursor-default-click$$', s: '$$mdi:layers-triple$$', type: sym_by_sym}
+  - {t: '$$mdi:cursor-default-click-outline$$', s: '$$mdi:layers-triple$$', type: sym_by_sym}
+  - {t: '$$mdi:cursor-default-click-outline$$', s: '$$mdi:layers-triple$$', type: sym_by_sym}
+  - {t: '$$mdi:cursor-default-click$$', s: '$$mdi:layers-triple$$', type: sym_by_sym}
   - {t: '$$mdi:monitor-shimmer$$', s: '$$mdi:arrow-top-left-thick$$', type: sym_by_sym}
   - {t: '$$mdi:monitor-shimmer$$', s: '$$mdi:arrow-up-thick$$', type: sym_by_sym}
   - {t: '$$mdi:monitor-shimmer$$', s: '$$mdi:arrow-top-right-thick$$', type: sym_by_sym}

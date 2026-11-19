@@ -535,6 +535,14 @@ parse_config:
       tap:     $$mdi:curtains$$
       shifted: $$mdi:window-close$$
       type:    sym_sub_text
+    '&mkple LCLK':
+      tap:     $$mdi:cursor-default-click$$
+      shifted: $$mdi:layers-triple$$
+      type:    sym_by_sym
+    '&mkple RCLK':
+      tap:     $$mdi:cursor-default-click-outline$$
+      shifted: $$mdi:layers-triple$$
+      type:    sym_by_sym
     '&kple ESC':
       tap:     $$mdi:keyboard-esc$$
       shifted: $$mdi:layers-triple$$
