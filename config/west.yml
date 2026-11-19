@@ -12,6 +12,8 @@ manifest:
       url-base: https://github.com/carrefinho
     - name: davidphilipbarr
       url-base: https://github.com/davidphilipbarr
+    - name: badjeff
+      url-base: https://github.com/badjeff
   projects:
     - name: zmk
       #remote: zmkfirmware
@@ -29,6 +31,10 @@ manifest:
       revision: main
     - name: nicehatharry
       remote: SethMilliken
+      clone-depth: 1
+      revision: main
+    - name: zmk-behavior-mouse-key-toggle
+      remote: badjeff
       clone-depth: 1
       revision: main
   self:

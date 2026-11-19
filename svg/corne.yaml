@@ -345,7 +345,7 @@ layers:
   - ''
   - ''
   adjust:
-  - ''
+  - {t: '$$mdi:flash$$', h: '$$mdi:new-box$$', s: '$$mdi:micro-sd$$', type: sym_by_sym}
   - ''
   - ''
   - '&zoom_tog'
@@ -362,19 +362,19 @@ layers:
   - ''
   - {t: '$$mdi:camera$$', s: '$$mdi:clipboard$$', type: sym_by_sym}
   - {t: '$$mdi:camera$$', s: '$$mdi:monitor-screenshot$$', type: sym_by_sym}
+  - {t: '$$mdi:monitor-shimmer$$', s: '$$mdi:arrow-top-right-thick$$', type: sym_by_sym}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - '&sys_reset'
+  - ''
   - {t: '$$mdi:keyboard$$', s: '$$mdi:usb$$', type: sym_by_sym}
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
   - {t: '$$mdi:camera-image$$', s: '$$mdi:clipboard$$', type: sym_by_sym}
   - {t: '$$mdi:camera-image$$', s: '$$mdi:monitor-screenshot$$', type: sym_by_sym}
-  - ''
+  - {t: '$$mdi:monitor-shimmer$$', s: '$$mdi:arrow-up-thick$$', type: sym_by_sym}
   - ''
   - ''
   - ''
@@ -499,15 +499,15 @@ layers:
   - Esc
   - ''
   - ''
+  - {t: '$$mdi:monitor-shimmer$$', s: '$$mdi:arrow-top-left-thick$$', type: sym_by_sym}
   - {t: '$$mdi:monitor-shimmer$$', s: '$$mdi:arrow-top-right-thick$$', type: sym_by_sym}
-  - {t: '$$mdi:monitor-shimmer$$', s: '$$mdi:arrow-up-thick$$', type: sym_by_sym}
-  - {t: '$$mdi:monitor-shimmer$$', s: '$$mdi:arrow-top-left-thick$$', type: sym_by_sym}
+  - '&mktg LCLK'
   - {t: '$$mdi:cursor-default-click$$', s: '$$mdi:layers-triple$$', type: sym_by_sym}
   - {t: '$$mdi:cursor-default-click-outline$$', s: '$$mdi:layers-triple$$', type: sym_by_sym}
   - {t: '$$mdi:cursor-default-click-outline$$', s: '$$mdi:layers-triple$$', type: sym_by_sym}
   - {t: '$$mdi:cursor-default-click$$', s: '$$mdi:layers-triple$$', type: sym_by_sym}
+  - '&mktg LCLK'
   - {t: '$$mdi:monitor-shimmer$$', s: '$$mdi:arrow-top-left-thick$$', type: sym_by_sym}
-  - {t: '$$mdi:monitor-shimmer$$', s: '$$mdi:arrow-up-thick$$', type: sym_by_sym}
   - {t: '$$mdi:monitor-shimmer$$', s: '$$mdi:arrow-top-right-thick$$', type: sym_by_sym}
   - ''
   - {t: ▽, type: trans}

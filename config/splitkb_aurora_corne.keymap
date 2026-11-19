@@ -7,6 +7,8 @@
 #include <dt-bindings/zmk/rgb.h>
 #include <dt-bindings/zmk/ext_power.h>
 
+#include <behaviors/mouse_key_toggle.dtsi>
+
 #include "shared.dtsi"
 
 // }}}
@@ -129,10 +131,10 @@
         adjust {
             display-name = "adjust";
             bindings = <
-&bootloader  &none       &none       &zoom_tog &ss_win  &warpd_l         &none              &none     &none     &none     &none        &none
-&none        &none       &none       &ss2c     &ss      &out OUT_USB     &none              &none     &none     &none     &none        &none
-&sys_reset   &none       &none       &sss2c    &sss     &none            &none              &none     &none     &none     &none        &none
-                                     &none     &none    &trans           &trans             &none     &none
+&bootloader  &none       &none         &zoom_tog &ss_win  &warpd_l    &none   &none  &none  &none  &none  &none
+&none        &none       &none         &ss2c     &ss      &warpd_r    &none   &none  &none  &none  &none  &none
+&sys_reset   &none       &out OUT_USB  &sss2c    &sss     &warpd_t    &none   &none  &none  &none  &none  &none
+                                       &none     &none    &trans      &trans  &none  &none
             >;
         };
 
@@ -166,7 +168,7 @@
             bindings = <
 &none  &mo WIN_LEFT  &mkp RCLK        &fmmv MOVE_UP    &mkp LCLK         &msc SCRL_UP      &msc SCRL_UP    &mkp LCLK       &mmv MOVE_UP    &mkp RCLK        &mo WIN_RIGHT  &none
 &none  &kp ESC       &fmmv MOVE_LEFT  &fmmv MOVE_DOWN  &fmmv MOVE_RIGHT  &msc SCRL_DOWN    &msc SCRL_DOWN  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &kp ESC        &none
-&none  &warpd_r      &warpd_t         &warpd_l         &mkple LCLK       &mkple RCLK       &mkple RCLK     &mkple LCLK     &warpd_l        &warpd_t         &warpd_r       &none
+&none  &warpd_l      &warpd_r         &mktg LCLK       &mkple LCLK       &mkple RCLK       &mkple RCLK     &mkple LCLK     &mktg LCLK      &warpd_l         &warpd_r       &none
                                       &trans           &trans            &kple ESC         &kple ESC       &trans          &trans
             >;
             sensor-bindings = <&rot_msc MOVE_X(40) MOVE_X(-40)>;

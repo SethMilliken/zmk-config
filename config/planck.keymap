@@ -7,6 +7,8 @@
 #include <dt-bindings/zmk/rgb.h>
 #include <dt-bindings/zmk/ext_power.h>
 
+#include <behaviors/mouse_key_toggle.dtsi>
+
 #include "shared.dtsi"
 #include "planck_overrides.dtsi"
 
@@ -116,10 +118,10 @@
         adjust {
             display-name = "adjust";
             bindings = <
-&bootloader  &none       &zoom_tog  &ss_win  &warpd_l        &trans  &trans    &none     &none     &none     &none     &none
-&none        &none       &ss2c      &ss      &out OUT_USB    &trans  &trans    &none     &none     &none     &none     &none
-&sys_reset   &none       &sss2c     &sss     &none           &trans  &trans    &none     &none     &none     &none     &none
-&trans       &trans      &trans     &trans   &trans          &trans  &trans    &trans    &trans    &trans    &trans    &trans
+&bootloader  &none         &zoom_tog &ss_win  &warpd_l    &trans  &trans    &none     &none     &none     &none     &none
+&none        &none         &ss2c     &ss      &warpd_r    &trans  &trans    &none     &none     &none     &none     &none
+&sys_reset   &out OUT_USB  &sss2c    &sss     &warpd_t    &trans  &trans    &none     &none     &none     &none     &none
+&trans       &trans        &trans    &trans   &trans      &trans  &trans    &trans    &trans    &trans    &trans    &trans
             >;
         };
 
@@ -153,7 +155,7 @@
             bindings = <
 &mo WIN_LEFT  &mkp RCLK        &fmmv MOVE_UP    &mkp LCLK         &msc SCRL_UP      &trans  &trans    &msc SCRL_UP    &mkp LCLK       &mmv MOVE_UP    &mkp RCLK        &mo WIN_RIGHT
 &kp ESC       &fmmv MOVE_LEFT  &fmmv MOVE_DOWN  &fmmv MOVE_RIGHT  &msc SCRL_DOWN    &trans  &trans    &msc SCRL_DOWN  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &kp ESC
-&warpd_r      &warpd_t         &warpd_l         &mkple LCLK       &mkple RCLK       &trans  &trans    &mkple RCLK     &mkple LCLK     &warpd_l        &warpd_t         &warpd_r
+&warpd_l      &warpd_r         &mktg LCLK       &mkple LCLK       &mkple RCLK       &trans  &trans    &mkple RCLK     &mkple LCLK     &mktg LCLK      &warpd_l         &warpd_r
 &trans        &trans           &trans           &trans            &kple ESC         &trans  &trans    &kple ESC       &trans          &none           &none            &none
             >;
             sensor-bindings = <&rot_msc MOVE_X(40) MOVE_X(-40)>;

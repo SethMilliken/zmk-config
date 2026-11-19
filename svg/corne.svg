@@ -2945,9 +2945,12 @@ rect.held, rect.combo.held {
 <g transform="translate(40, 3048)" class="layer-adjust">
 <text x="0" y="28" class="label" id="adjust">adjust:</text>
 <g transform="translate(0, 56)">
-<g transform="translate(28, 87)" class="key keypos-0">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
-<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
+<g transform="translate(28, 87)" class="key sym_by_sym keypos-0">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key sym_by_sym side"/>
+<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key sym_by_sym"/>
+<use href="#mdi:flash" xlink:href="#mdi:flash" x="-9" y="-13" height="18" width="18.0" class="key sym_by_sym tap glyph mdi:flash"/>
+<use href="#mdi:new-box" xlink:href="#mdi:new-box" x="-8" y="9" height="15" width="15.0" class="key sym_by_sym hold glyph mdi:new-box"/>
+<use href="#mdi:micro-sd" xlink:href="#mdi:micro-sd" x="-8" y="-24" height="15" width="15.0" class="key sym_by_sym shifted glyph mdi:micro-sd"/>
 </g>
 <g transform="translate(84, 87)" class="key keypos-1">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
@@ -3025,8 +3028,8 @@ rect.held, rect.combo.held {
 <g transform="translate(308, 109)" class="key sym_by_sym keypos-17">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key sym_by_sym side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key sym_by_sym"/>
-<use href="#mdi:keyboard" xlink:href="#mdi:keyboard" x="-9" y="-13" height="18" width="18.0" class="key sym_by_sym tap glyph mdi:keyboard"/>
-<use href="#mdi:usb" xlink:href="#mdi:usb" x="-8" y="-24" height="15" width="15.0" class="key sym_by_sym shifted glyph mdi:usb"/>
+<use href="#mdi:monitor-shimmer" xlink:href="#mdi:monitor-shimmer" x="-9" y="-13" height="18" width="18.0" class="key sym_by_sym tap glyph mdi:monitor-shimmer"/>
+<use href="#mdi:arrow-top-right-thick" xlink:href="#mdi:arrow-top-right-thick" x="-8" y="-24" height="15" width="15.0" class="key sym_by_sym shifted glyph mdi:arrow-top-right-thick"/>
 </g>
 <g transform="translate(532, 109)" class="key keypos-18">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
@@ -3055,14 +3058,17 @@ rect.held, rect.combo.held {
 <g transform="translate(28, 199)" class="key keypos-24">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
+<text x="0" y="-4" class="key tap"><tspan style="font-size: 60%">&amp;sys_reset</tspan></text>
 </g>
 <g transform="translate(84, 199)" class="key keypos-25">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
 </g>
-<g transform="translate(140, 160)" class="key keypos-26">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
-<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
+<g transform="translate(140, 160)" class="key sym_by_sym keypos-26">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key sym_by_sym side"/>
+<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key sym_by_sym"/>
+<use href="#mdi:keyboard" xlink:href="#mdi:keyboard" x="-9" y="-13" height="18" width="18.0" class="key sym_by_sym tap glyph mdi:keyboard"/>
+<use href="#mdi:usb" xlink:href="#mdi:usb" x="-8" y="-24" height="15" width="15.0" class="key sym_by_sym shifted glyph mdi:usb"/>
 </g>
 <g transform="translate(196, 140)" class="key sym_by_sym keypos-27">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key sym_by_sym side"/>
@@ -3076,9 +3082,11 @@ rect.held, rect.combo.held {
 <use href="#mdi:camera-image" xlink:href="#mdi:camera-image" x="-9" y="-13" height="18" width="18.0" class="key sym_by_sym tap glyph mdi:camera-image"/>
 <use href="#mdi:monitor-screenshot" xlink:href="#mdi:monitor-screenshot" x="-8" y="-24" height="15" width="15.0" class="key sym_by_sym shifted glyph mdi:monitor-screenshot"/>
 </g>
-<g transform="translate(308, 165)" class="key keypos-29">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
-<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
+<g transform="translate(308, 165)" class="key sym_by_sym keypos-29">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key sym_by_sym side"/>
+<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key sym_by_sym"/>
+<use href="#mdi:monitor-shimmer" xlink:href="#mdi:monitor-shimmer" x="-9" y="-13" height="18" width="18.0" class="key sym_by_sym tap glyph mdi:monitor-shimmer"/>
+<use href="#mdi:arrow-up-thick" xlink:href="#mdi:arrow-up-thick" x="-8" y="-24" height="15" width="15.0" class="key sym_by_sym shifted glyph mdi:arrow-up-thick"/>
 </g>
 <g transform="translate(532, 165)" class="key keypos-30">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
@@ -3729,19 +3737,20 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key sym_by_sym side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key sym_by_sym"/>
 <use href="#mdi:monitor-shimmer" xlink:href="#mdi:monitor-shimmer" x="-9" y="-13" height="18" width="18.0" class="key sym_by_sym tap glyph mdi:monitor-shimmer"/>
-<use href="#mdi:arrow-top-right-thick" xlink:href="#mdi:arrow-top-right-thick" x="-8" y="-24" height="15" width="15.0" class="key sym_by_sym shifted glyph mdi:arrow-top-right-thick"/>
+<use href="#mdi:arrow-top-left-thick" xlink:href="#mdi:arrow-top-left-thick" x="-8" y="-24" height="15" width="15.0" class="key sym_by_sym shifted glyph mdi:arrow-top-left-thick"/>
 </g>
 <g transform="translate(140, 160)" class="key sym_by_sym keypos-26">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key sym_by_sym side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key sym_by_sym"/>
 <use href="#mdi:monitor-shimmer" xlink:href="#mdi:monitor-shimmer" x="-9" y="-13" height="18" width="18.0" class="key sym_by_sym tap glyph mdi:monitor-shimmer"/>
-<use href="#mdi:arrow-up-thick" xlink:href="#mdi:arrow-up-thick" x="-8" y="-24" height="15" width="15.0" class="key sym_by_sym shifted glyph mdi:arrow-up-thick"/>
+<use href="#mdi:arrow-top-right-thick" xlink:href="#mdi:arrow-top-right-thick" x="-8" y="-24" height="15" width="15.0" class="key sym_by_sym shifted glyph mdi:arrow-top-right-thick"/>
 </g>
-<g transform="translate(196, 140)" class="key sym_by_sym keypos-27">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key sym_by_sym side"/>
-<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key sym_by_sym"/>
-<use href="#mdi:monitor-shimmer" xlink:href="#mdi:monitor-shimmer" x="-9" y="-13" height="18" width="18.0" class="key sym_by_sym tap glyph mdi:monitor-shimmer"/>
-<use href="#mdi:arrow-top-left-thick" xlink:href="#mdi:arrow-top-left-thick" x="-8" y="-24" height="15" width="15.0" class="key sym_by_sym shifted glyph mdi:arrow-top-left-thick"/>
+<g transform="translate(196, 140)" class="key keypos-27">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
+<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
+<text x="0" y="-4" class="key tap">
+<tspan x="0" dy="-0.6em">&amp;mktg</tspan><tspan x="0" dy="1.2em">LCLK</tspan>
+</text>
 </g>
 <g transform="translate(252, 157)" class="key sym_by_sym keypos-28">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key sym_by_sym side"/>
@@ -3767,17 +3776,18 @@ rect.held, rect.combo.held {
 <use href="#mdi:cursor-default-click" xlink:href="#mdi:cursor-default-click" x="-9" y="-13" height="18" width="18.0" class="key sym_by_sym tap glyph mdi:cursor-default-click"/>
 <use href="#mdi:layers-triple" xlink:href="#mdi:layers-triple" x="-8" y="-24" height="15" width="15.0" class="key sym_by_sym shifted glyph mdi:layers-triple"/>
 </g>
-<g transform="translate(644, 140)" class="key sym_by_sym keypos-32">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key sym_by_sym side"/>
-<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key sym_by_sym"/>
-<use href="#mdi:monitor-shimmer" xlink:href="#mdi:monitor-shimmer" x="-9" y="-13" height="18" width="18.0" class="key sym_by_sym tap glyph mdi:monitor-shimmer"/>
-<use href="#mdi:arrow-top-left-thick" xlink:href="#mdi:arrow-top-left-thick" x="-8" y="-24" height="15" width="15.0" class="key sym_by_sym shifted glyph mdi:arrow-top-left-thick"/>
+<g transform="translate(644, 140)" class="key keypos-32">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
+<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
+<text x="0" y="-4" class="key tap">
+<tspan x="0" dy="-0.6em">&amp;mktg</tspan><tspan x="0" dy="1.2em">LCLK</tspan>
+</text>
 </g>
 <g transform="translate(700, 160)" class="key sym_by_sym keypos-33">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key sym_by_sym side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key sym_by_sym"/>
 <use href="#mdi:monitor-shimmer" xlink:href="#mdi:monitor-shimmer" x="-9" y="-13" height="18" width="18.0" class="key sym_by_sym tap glyph mdi:monitor-shimmer"/>
-<use href="#mdi:arrow-up-thick" xlink:href="#mdi:arrow-up-thick" x="-8" y="-24" height="15" width="15.0" class="key sym_by_sym shifted glyph mdi:arrow-up-thick"/>
+<use href="#mdi:arrow-top-left-thick" xlink:href="#mdi:arrow-top-left-thick" x="-8" y="-24" height="15" width="15.0" class="key sym_by_sym shifted glyph mdi:arrow-top-left-thick"/>
 </g>
 <g transform="translate(756, 199)" class="key sym_by_sym keypos-34">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key sym_by_sym side"/>
