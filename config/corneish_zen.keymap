@@ -30,7 +30,7 @@
  &mo_sl FUNCTION MIRROR  &lttp WIN_LEFT Q  &kp W         &kp E              &kp R             &kp T                &kp Y            &kp U               &kp I               &kp O         &lttp WIN_RIGHT P  &mo_to FUNCTION GAMING
  &point_tog              &hrml LCTRL A     &hrml LGUI S  &hrml LALT D       &hrsl LSHIFT F    &hrml GLOBE G        &h_bs            &hrsr RSHIFT J      &hrmr RALT K        &hrmr RGUI L  &hrmr RCTRL SEMI   &point_tog
  &dis_tog                &kp Z             &kp X         &kp C              &kp V             &kp B                &kp N            &m_cr               &kp COMMA           &kp DOT       &kp SLASH          &dis_tog
-                                                     &lthp FUNCTION RETURN  &lthp LNUM LC(W)  &lthp SYMBOLS ESC    &lthp MEDIA ESC  &lttp NUMPAD SPACE  &lthp MIRROR COLON
+                                                     &lthp FUNCTION RETURN  &lthp LNUM LC(W)  &lthp SYMBOLS ESC    &lthp FREE ESC   &lttp NUMPAD SPACE  &lthp MIRROR COLON
             >;
         };
 
@@ -41,7 +41,7 @@
  &kp LALT    &kp Q  &kp W  &kp E       &kp R      &kp T                &kp Y            &kp U               &kp I      &kp O    &kp P      &to DEFAULT
  &kp LCTRL   &kp A  &kp S  &kp D       &kp F      &kp G                &h_bs            &kp J               &kp K      &kp L    &kp SEMI   &kp RCTRL
  &kp LSHIFT  &kp Z  &kp X  &kp C       &kp V      &kp B                &kp N            &m_cr               &kp COMMA  &kp DOT  &kp SLASH  &kp RSHIFT
-                           &kp RETURN  &kp SPACE  &lthp SYMBOLS TAB    &lthp MEDIA ESC  &lttp NUMPAD SPACE  &kp COLON
+                           &kp RETURN  &kp SPACE  &lthp SYMBOLS TAB    &lthp FREE ESC   &lttp NUMPAD SPACE  &kp COLON
             >;
         };
 
@@ -82,10 +82,10 @@
         media {
             display-name = "media";
             bindings = <
-&none  &none  &none  &none   &none   &none     &kp C_MUTE    &kp C_PREV    &kp C_PP      &kp C_NEXT    &kp C_BRI_UP  &none
-&none  &none  &none  &none   &none   &none     &kp C_VOL_DN  &kp C_VOL_UP  &none         &none         &kp C_BRI_DN  &none
-&none  &none  &none  &none   &none   &none     &none         &none         &none         &none         &none         &none
-                     &trans  &trans  &trans    &trans        &trans        &trans
+&none  &kp C_BRI_UP  &kp C_PREV  &act I    &kp C_VOL_UP  &none       &none     &kp C_VOL_UP  &act I        &kp C_PREV    &kp C_BRI_UP  &none
+&none  &kp C_BRI_DN  &kp C_NEXT  &kp C_PP  &kp C_VOL_DN  &kp C_PP    &kp C_PP  &kp C_VOL_DN  &kp C_PP      &kp C_NEXT    &kp C_BRI_DN  &none
+&none  &none         &none       &none     &kp C_MUTE    &none       &none     &kp C_MUTE    &none         &none         &none         &none
+                                 &trans    &trans        &trans      &trans    &trans        &trans
             >;
         };
 
@@ -163,7 +163,7 @@
  &to DEFAULT  &lttp WIN_RIGHT P  &kp O         &kp I                &kp U               &kp Y              &kp T              &kp R             &kp E              &kp W         &lttp WIN_LEFT Q  &to DEFAULT
  &none        &hrmr RCTRL SEMI   &hrmr RGUI L  &hrmr RALT K         &hrsr RSHIFT J      &h_bs              &hrml GLOBE G      &hrsl LSHIFT F    &hrml LALT D       &hrml LGUI S  &hrml RCTRL A     &none
  &none        &kp SLASH          &kp DOT       &kp COMMA            &m_cr               &kp N              &kp B              &kp V             &kp C              &kp X         &kp Z             &none
-                                               &lthp DEFAULT COLON  &lthp NUMPAD SPACE  &lthp MEDIA ESC    &lthp SYMBOLS ESC  &lthp LNUM LC(W)  &mthp LGUI RETURN
+                                               &lthp DEFAULT COLON  &lthp NUMPAD SPACE  &lthp FREE ESC     &lthp SYMBOLS ESC  &lthp LNUM LC(W)  &mthp LGUI RETURN
             >;
         };
 
@@ -208,6 +208,17 @@
 &none  &kp F5  &kp F6   &kp F7   &kp F8   &f2_status    &point_tog  &kp F17   &kp F18   &kp F19    &kp F20  &none
 &none  &kp F9  &kp F10  &kp F11  &kp F12  &f2_dock      &dis_tog    &kp F21   &kp F22   &kp F23    &kp F24  &none
                         &trans   &trans   &trans        &trans      &trans    &trans
+            >;
+        };
+
+        /* 17 Layer */
+        free {
+            display-name = "free";
+            bindings = <
+&none        &none       &none       &none     &none    &none            &none              &none     &none     &none     &none        &none
+&none        &none       &none       &none     &none    &none            &none              &none     &none     &none     &none        &none
+&none        &none       &none       &none     &none    &none            &none              &none     &none     &none     &none        &none
+                                     &none     &none    &none            &none              &none     &none
             >;
         };
 
