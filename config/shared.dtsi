@@ -1,4 +1,4 @@
-#define VER_PATCH N0
+#define VER_PATCH N1
 #define VER_MINOR N6
 #define VER_MAJOR N4
 
@@ -1065,7 +1065,7 @@
                 <&kt LALT>,
                 <&kp TAB>,
                 <&kt LALT>;
-            ignored-key-positions = <1 25 28 10 31 34 18 19 20 21 40>;
+            ignored-key-positions = <1 13 14 15 16 17 25 28 10 31 34 18 19 20 21 22 37 40>;
             ignored-layers = <DEFAULT NUMNAV NAVNUM>;
         };
         swap: swapper_mac {
@@ -1076,10 +1076,10 @@
                 <&kp TAB>,
                 <&kt LGUI>;
             // must include activating combo keys too (16 25, 19 34) or else tri-state will complete immediately for Mac
-            // include hjkl (18 19 20 21) and nav layer activation (40) for navigation
+            // include hjkl (18 19 20 21) and nav layer activations (37, 40) for navigation
             // include mode keys: h to hide (18), q to quit (1)
             // include lhs arrow key shortcuts: 36, 37, 38
-            ignored-key-positions = <1 16 18 19 20 21 25 34 36 37 38 40>;
+            ignored-key-positions = <1 13 14 15 16 17 18 19 20 21 22 25 34 37 40>;
             ignored-layers = <DEFAULT NUMNAV NAVNUM>;
         };
         /omit-if-no-ref/ fmmv: fast_mouse_move {
