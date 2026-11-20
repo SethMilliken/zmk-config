@@ -80,6 +80,10 @@
     quick-tap-ms = <250>;
 };
 
+&tog {
+    /delete-property/ locking;
+};
+
 &mmv {
     time-to-max-speed-ms = <700>;
 };
