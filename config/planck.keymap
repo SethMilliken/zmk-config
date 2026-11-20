@@ -118,10 +118,10 @@
         adjust {
             display-name = "adjust";
             bindings = <
-&bootloader  &none         &zoom_tog &ss_win  &warpd_l    &trans  &trans    &none     &none     &none     &none     &none
-&none        &none         &ss2c     &ss      &warpd_r    &trans  &trans    &none     &none     &none     &none     &none
-&sys_reset   &out OUT_USB  &sss2c    &sss     &warpd_t    &trans  &trans    &none     &none     &none     &none     &none
-&trans       &trans        &trans    &trans   &trans      &trans  &trans    &trans    &trans    &trans    &trans    &trans
+&bootloader  &none         &zoom_tog &ss_win  &warpd_l    &trans  &trans    &warpd_r  &ss_win  &zoom_tog  &none         &none
+&none        &none         &ss2c     &ss      &warpd_r    &trans  &trans    &warpd_l  &ss      &ss2c      &none         &none
+&sys_reset   &out OUT_USB  &sss2c    &sss     &warpd_t    &trans  &trans    &warpd_t  &sss     &sss2c     &out OUT_USB  &none
+&trans       &trans        &trans    &trans   &trans      &trans  &trans    &trans    &trans   &trans     &trans        &trans
             >;
         };
 
