@@ -144,10 +144,10 @@ layers:
   - ''
   - ''
   - ⮐
-  - $$mdi:arrow-right$$
+  - $$mdi:arrow-left$$
   - $$mdi:arrow-up$$
   - $$mdi:arrow-down$$
-  - $$mdi:arrow-left$$
+  - $$mdi:arrow-right$$
   - ':'
   - '6'
   - '5'
@@ -231,7 +231,7 @@ layers:
   - ''
   - $$tabler:brightness-down$$
   - $$mdi:skip-forward$$
-  - {t: '$$mdi:play-pause$$', type: held}
+  - $$mdi:play-pause$$
   - $$mdi:volume-minus$$
   - $$mdi:play-pause$$
   - $$mdi:play-pause$$
@@ -242,19 +242,19 @@ layers:
   - ''
   - ''
   - ''
-  - ''
-  - ''
-  - $$mdi:volume-mute$$
-  - ''
+  - '&now_play'
   - ''
   - $$mdi:volume-mute$$
   - ''
   - ''
+  - $$mdi:volume-mute$$
+  - ''
+  - '&now_play'
   - ''
   - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -351,9 +351,9 @@ layers:
   - '&zoom_tog'
   - {t: '$$mdi:camera$$', s: '$$mdi:microsoft-windows$$', type: sym_by_sym}
   - {t: '$$mdi:monitor-shimmer$$', s: '$$mdi:arrow-top-left-thick$$', type: sym_by_sym}
-  - ''
-  - ''
-  - ''
+  - {t: '$$mdi:monitor-shimmer$$', s: '$$mdi:arrow-top-right-thick$$', type: sym_by_sym}
+  - {t: '$$mdi:camera$$', s: '$$mdi:microsoft-windows$$', type: sym_by_sym}
+  - '&zoom_tog'
   - ''
   - ''
   - ''
@@ -363,9 +363,9 @@ layers:
   - {t: '$$mdi:camera$$', s: '$$mdi:clipboard$$', type: sym_by_sym}
   - {t: '$$mdi:camera$$', s: '$$mdi:monitor-screenshot$$', type: sym_by_sym}
   - {t: '$$mdi:monitor-shimmer$$', s: '$$mdi:arrow-top-right-thick$$', type: sym_by_sym}
-  - ''
-  - ''
-  - ''
+  - {t: '$$mdi:monitor-shimmer$$', s: '$$mdi:arrow-top-left-thick$$', type: sym_by_sym}
+  - {t: '$$mdi:camera$$', s: '$$mdi:monitor-screenshot$$', type: sym_by_sym}
+  - {t: '$$mdi:camera$$', s: '$$mdi:clipboard$$', type: sym_by_sym}
   - ''
   - ''
   - ''
@@ -375,10 +375,10 @@ layers:
   - {t: '$$mdi:camera-image$$', s: '$$mdi:clipboard$$', type: sym_by_sym}
   - {t: '$$mdi:camera-image$$', s: '$$mdi:monitor-screenshot$$', type: sym_by_sym}
   - {t: '$$mdi:monitor-shimmer$$', s: '$$mdi:arrow-up-thick$$', type: sym_by_sym}
-  - ''
-  - ''
-  - ''
-  - ''
+  - {t: '$$mdi:monitor-shimmer$$', s: '$$mdi:arrow-up-thick$$', type: sym_by_sym}
+  - {t: '$$mdi:camera-image$$', s: '$$mdi:monitor-screenshot$$', type: sym_by_sym}
+  - {t: '$$mdi:camera-image$$', s: '$$mdi:clipboard$$', type: sym_by_sym}
+  - {t: '$$mdi:keyboard$$', s: '$$mdi:usb$$', type: sym_by_sym}
   - ''
   - ''
   - ''
@@ -487,7 +487,7 @@ layers:
   - move [R]
   - ''
   - ''
-  - {t: Esc, type: held}
+  - Esc
   - {t: '$$mdi:mouse$$', s: '$$mdi:arrow-left$$', type: sym_by_sym}
   - {t: '$$mdi:mouse$$', s: '$$mdi:arrow-down$$', type: sym_by_sym}
   - {t: '$$mdi:mouse$$', s: '$$mdi:arrow-right$$', type: sym_by_sym}
@@ -512,7 +512,7 @@ layers:
   - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: '$$mdi:keyboard-esc$$', s: '$$mdi:layers-triple$$', type: held}
+  - {t: '$$mdi:keyboard-esc$$', s: '$$mdi:layers-triple$$', type: sym_by_sym}
   - {t: '$$mdi:keyboard-esc$$', s: '$$mdi:layers-triple$$', type: sym_by_sym}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -774,53 +774,67 @@ layers:
   - {type: held}
   - ''
   - ''
+  outer: ['', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+    '', '', '', '']
 combos:
 - p: [5, 17]
   k: ⮐
-  l: [araxia, gaming]
+  l: [araxia, gaming, navnum, numnav, pointer]
   a: right
   o: 0.1
   arc_scale: 1.03
 - p: [37, 38]
   k: {t: ⮐, h: vimmux}
-  l: [araxia, gaming]
+  l: [araxia, gaming, navnum, numnav, pointer]
 - p: [38, 39]
   k: {t: ⮐, h: adjust}
-  l: [araxia, gaming]
+  l: [araxia, gaming, navnum, numnav, pointer]
   a: top
   o: 0.05
   arc_scale: 1.055
 - p: [25, 38]
   k: {t: '=', h: numnav}
-  l: [araxia, gaming]
+  l: [araxia, gaming, navnum, numnav, pointer]
   a: left
   o: 0.15
   arc_scale: 1.075
 - p: [39, 34]
   k: {t: '=', h: navnum}
-  l: [araxia, gaming]
+  l: [araxia, gaming, navnum, numnav, pointer]
   a: right
   o: 0.15
   arc_scale: 1.075
+- p: [16, 38]
+  k: {t: '$$mdi:keyboard-space$$', h: '&placard_outer'}
+  l: [araxia, gaming, navnum, numnav, pointer]
+  a: left
+  o: 0.45
+  arc_scale: 1.075
+- p: [39, 19]
+  k: {t: '$$mdi:keyboard-space$$', h: '&placard_outer'}
+  l: [araxia, gaming, navnum, numnav, pointer]
+  a: right
+  o: 0.45
+  arc_scale: 1.075
 - p: [15, 38]
-  k: {t: '$$mdi:backspace-outline$$', h: media}
-  l: [araxia, gaming]
+  k: {t: '$$mdi:backspace-outline$$', h: '&placard_media'}
+  l: [araxia, gaming, navnum, numnav, pointer]
   a: left
   o: 0.05
 - p: [39, 20]
-  k: {t: '$$mdi:backspace-outline$$', h: media}
-  l: [araxia, gaming]
+  k: {t: '$$mdi:backspace-outline$$', h: '&placard_media'}
+  l: [araxia, gaming, navnum, numnav, pointer]
   a: right
   o: 0.05
 - p: [14, 38]
-  k: {t: '$$mdi:keyboard-tab$$', h: adjust}
-  l: [araxia, gaming]
+  k: {t: '$$mdi:keyboard-tab$$', h: '&placard_adjust'}
+  l: [araxia, gaming, navnum, numnav, pointer]
   a: bottom
   o: 0.05
   arc_scale: 1.1
 - p: [39, 21]
-  k: {t: '$$mdi:keyboard-tab$$', h: adjust}
-  l: [araxia, gaming]
+  k: {t: '$$mdi:keyboard-tab$$', h: '&placard_adjust'}
+  l: [araxia, gaming, navnum, numnav, pointer]
   a: bottom
   o: 0.05
   arc_scale: 1.1
@@ -831,35 +845,35 @@ combos:
   o: 0.9
   arc_scale: 1.14
 - p: [13, 38]
-  k: {t: ⮐, h: pointer}
-  l: [araxia, gaming]
+  k: {t: ⮐, h: '&placard_pointer'}
+  l: [araxia, gaming, navnum, numnav, pointer]
   a: bottom
   o: 0.4
   arc_scale: 1.1
 - p: [39, 22]
-  k: {t: ⮐, h: pointer}
-  l: [araxia, gaming]
+  k: {t: ⮐, h: '&placard_pointer'}
+  l: [araxia, gaming, navnum, numnav, pointer]
   a: bottom
   o: 0.4
   arc_scale: 1.1
 - p: [6, 18]
   k: ⮐
-  l: [araxia, gaming]
+  l: [araxia, gaming, navnum, numnav, pointer]
   a: left
   o: 0.1
   arc_scale: 1.03
 - p: [39, 40]
   k: {t: ⮐, h: output}
-  l: [araxia, gaming]
+  l: [araxia, gaming, navnum, numnav, pointer]
 - p: [17, 29]
   k: $$mdi:keyboard-space$$
-  l: [araxia, gaming]
+  l: [araxia, gaming, navnum, numnav, pointer]
   a: right
   o: 0.1
   arc_scale: 1.03
 - p: [18, 30]
   k: $$mdi:keyboard-tab$$
-  l: [araxia, gaming]
+  l: [araxia, gaming, navnum, numnav, pointer]
   a: left
   o: 0.1
   arc_scale: 1.03
@@ -876,7 +890,7 @@ combos:
   o: 1.85
   arc_scale: 1.075
 - p: [37, 40]
-  k: '&osl LG(LA(LC(LS(A)))) 15'
+  k: '&placard_act_osl'
   l: [araxia, pointer, discord]
   a: bottom
   o: 0.35
@@ -916,19 +930,19 @@ combos:
   arc_scale: 1.03
 - p: [9, 10]
   k: $$mdi:backspace-reverse-outline$$
-  l: [araxia, gaming]
+  l: [araxia, gaming, navnum, numnav, pointer]
   a: top
   o: 0.05
   arc_scale: 1.03
 - p: [1, 13]
   k: $$mdi:backspace-outline$$
-  l: [araxia, gaming]
+  l: [araxia, gaming, navnum, numnav, pointer]
   a: left
   o: 0.2
   arc_scale: 1.03
 - p: [10, 22]
   k: $$mdi:backspace-outline$$
-  l: [araxia, gaming]
+  l: [araxia, gaming, navnum, numnav, pointer]
   a: right
   o: 0.2
   arc_scale: 1.03
