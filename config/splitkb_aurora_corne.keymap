@@ -240,6 +240,18 @@
             >;
         };
 
+        /* 18 Layer */
+        outer {
+            display-name = "outer";
+            bindings = <
+&none        &none       &none       &none     &none    &none            &none              &none     &none     &none     &none        &none
+&none        &none       &none       &none     &none    &none            &none              &none     &none     &none     &none        &none
+&none        &none       &none       &none     &none    &none            &none              &none     &none     &none     &none        &none
+                                     &none     &none    &none            &none              &none     &none
+            >;
+        };
+
+
     };
 
 };

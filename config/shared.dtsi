@@ -1,4 +1,4 @@
-#define VER_PATCH N3
+#define VER_PATCH N4
 #define VER_MINOR N6
 #define VER_MAJOR N4
 
@@ -39,6 +39,7 @@
 #define ACT       15
 #define FUNCTION  16
 #define FREE      17
+#define OUTER     18
 
 // Combo Active Layer Defaults
 #define DEFAULT_COMBO_LAYERS DEFAULT GAMING NAVNUM NUMNAV POINTER
@@ -682,6 +683,18 @@
             timeout-ms = <VERT_COMBO_MS>;
             key-positions = <39 34>;
             bindings = <&lttp NAVNUM EQUAL>;
+            layers = < DEFAULT_COMBO_LAYERS >;
+        };
+        combo_outer_space_left: combo_outer_space_left {
+            timeout-ms = <VERT_COMBO_MS>;
+            key-positions = <16 38>;
+            bindings = <&lttp OUTER SPACE>;
+            layers = < DEFAULT_COMBO_LAYERS >;
+        };
+        combo_outer_space_right: combo_outer_space_right {
+            timeout-ms = <VERT_COMBO_MS>;
+            key-positions = <39 19>;
+            bindings = <&lttp OUTER SPACE>;
             layers = < DEFAULT_COMBO_LAYERS >;
         };
         combo_media_bs_left: combo_media_bs_left {

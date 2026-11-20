@@ -797,4 +797,6 @@ parse_config:
     combo_navnum_equal_right:     { align: right  , o: 0.15  , arc_scale: 1.075 }
     combo_pointer_return_left:    { align: bottom , o: 0.40  , arc_scale: 1.100 }
     combo_pointer_return_right:   { align: bottom , o: 0.40  , arc_scale: 1.100 }
+    combo_outer_space_left:       { align: left   , o: 0.45  , arc_scale: 1.075 }
+    combo_outer_space_right:      { align: right  , o: 0.45  , arc_scale: 1.075 }
     combo_act:                    { align: bottom , o: 0.35  , arc_scale: 1.03  }

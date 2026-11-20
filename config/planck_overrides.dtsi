@@ -28,6 +28,12 @@
 &combo_navnum_equal_right {
     key-positions = <43 35>;
 };
+&combo_outer_space_left {
+    key-positions = <15 40>;
+};
+&combo_outer_space_right {
+    key-positions = <43 20>;
+};
 &combo_media_bs_left {
     key-positions = <14 40>;
 };
