@@ -1272,7 +1272,7 @@
                 , <&caps_word>
                 ;
         };
-        iI: i_cap_i {
+        /omit-if-no-ref/ iI: i_cap_i {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
             tapping-term-ms = <250>;
