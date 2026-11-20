@@ -1,4 +1,4 @@
-#define VER_PATCH N4
+#define VER_PATCH N6
 #define VER_MINOR N6
 #define VER_MAJOR N4
 
@@ -7,7 +7,10 @@
 #define DISCORD_ACT LC(LS(N))
 #define CARD_ACT     HYPER(A)
 #define CARD_FUNC    HYPER(F)
+#define CARD_ADJUST  HYPER(J)
 #define CARD_DISCORD HYPER(D)
+#define CARD_MEDIA   HYPER(M)
+#define CARD_OUTER   HYPER(O)
 #define CARD_POINTER HYPER(P)
 #define CARD_DEACTIVATE HYPER(DELETE)
 #define LEFT_POSITIONS  0 1 2 3 4 5 12 13 14 15 16 17 24 25 26 27 28 29 36 37 38
@@ -43,6 +46,9 @@
 
 // Combo Active Layer Defaults
 #define DEFAULT_COMBO_LAYERS DEFAULT GAMING NAVNUM NUMNAV POINTER
+
+// Miscellaneous
+#define PLACEHOLDER 0
 
 // }}}
 
@@ -121,7 +127,15 @@
             bindings
                 = <&macro_tap &kp CARD_DEACTIVATE>
                 , <&macro_tap &to DEFAULT>
-                , <&macro_press &kp LSHFT &kp LCTRL>
+                , <&macro_param_1to1>
+                , <&macro_tap &actb MACRO_PLACEHOLDER>
+                ;
+        };
+        actb: activate_binding {
+            compatible = "zmk,behavior-macro-one-param";
+            #binding-cells = <1>;
+            bindings
+                = <&macro_press &kp LSHFT &kp LCTRL>
                 , <&macro_param_1to1>
                 , <&macro_tap &kp MACRO_PLACEHOLDER>
                 , <&macro_release &kp LSHFT &kp LCTRL>
@@ -136,8 +150,132 @@
                 , <&macro_tap &kp MACRO_PLACEHOLDER>
                 , <&macro_param_2to1>
                 , <&macro_tap &sl MACRO_PLACEHOLDER>
+                /* BUG: macro does not wait for &sl activation */
+                /* , <&macro_pause_for_release> */
+                /* , <&macro_tap &kp CARD_DEACTIVATE> */
                 ;
         };
+
+        // PLACARDS
+        // parameters: placard activation binding, layer
+        placard_present: placard_present {
+            compatible = "zmk,behavior-macro-two-param";
+            #binding-cells = <2>;
+            bindings
+                = <&macro_tap &kp CARD_DEACTIVATE>
+                , <&macro_param_1to1>
+                , <&macro_tap &kp MACRO_PLACEHOLDER>
+                , <&macro_param_2to1>
+                , <&macro_tap &tog MACRO_PLACEHOLDER>
+                ;
+        };
+        // parameters: placard activation binding (currently unused), layer
+        placard_release: placard_release {
+            compatible = "zmk,behavior-macro-two-param";
+            #binding-cells = <2>;
+            bindings
+                = <&macro_param_2to1>
+                , <&macro_tap &tog MACRO_PLACEHOLDER>
+                , <&macro_tap &kp CARD_DEACTIVATE>
+                ;
+        };
+        placard_adjust_ht: placard_adjust_ht {
+            compatible = "zmk,behavior-hold-tap";
+            #binding-cells = <2>;
+            tapping-term-ms = <300>;
+            quick-tap-ms = <150>;
+            //require-prior-idle-ms = <125>;
+            flavor = "tap-preferred";
+            bindings =
+                <&placard_adjust>,
+                <&kp>;
+        };
+        placard_media_ht: placard_media_ht {
+            compatible = "zmk,behavior-hold-tap";
+            #binding-cells = <2>;
+            tapping-term-ms = <300>;
+            quick-tap-ms = <150>;
+            //require-prior-idle-ms = <125>;
+            flavor = "tap-preferred";
+            bindings =
+                <&placard_media>,
+                <&kp>;
+        };
+        placard_outer_ht: placard_outer_ht {
+            compatible = "zmk,behavior-hold-tap";
+            #binding-cells = <2>;
+            tapping-term-ms = <300>;
+            quick-tap-ms = <150>;
+            //require-prior-idle-ms = <125>;
+            flavor = "tap-preferred";
+            bindings =
+                <&placard_outer>,
+                <&kp>;
+        };
+        placard_pointer_ht: placard_pointer_ht {
+            compatible = "zmk,behavior-hold-tap";
+            #binding-cells = <2>;
+            tapping-term-ms = <300>;
+            quick-tap-ms = <150>;
+            //require-prior-idle-ms = <125>;
+            flavor = "tap-preferred";
+            bindings =
+                <&placard_pointer>,
+                <&kp>;
+        };
+        placard_act_osl: placard_act_osl {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&placard_act>,
+                <&osl CARD_ACT ACT>;
+        };
+        placard_act: placard_act {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&macro_tap &placard_present CARD_ACT ACT>
+                , <&macro_pause_for_release>
+                , <&macro_tap &placard_release CARD_ACT ACT>
+                ;
+        };
+        placard_adjust: placard_adjust {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&macro_tap &placard_present CARD_ADJUST ADJUST>
+                , <&macro_pause_for_release>
+                , <&macro_tap &placard_release CARD_ADJUST ADJUST>
+                ;
+        };
+        placard_media: placard_media {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&macro_tap &placard_present CARD_MEDIA MEDIA>
+                , <&macro_pause_for_release>
+                , <&macro_tap &placard_release CARD_MEDIA MEDIA>
+                ;
+        };
+        placard_outer: placard_outer {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&macro_tap &placard_present CARD_OUTER OUTER>
+                , <&macro_pause_for_release>
+                , <&macro_tap &placard_release CARD_OUTER OUTER>
+                ;
+        };
+        placard_pointer: placard_pointer {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&macro_tap &placard_present CARD_POINTER POINTER>
+                , <&macro_pause_for_release>
+                , <&macro_tap &placard_release CARD_POINTER POINTER>
+                ;
+        };
+
         macro_sl_test: macro_sl_test {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -688,37 +826,37 @@
         combo_outer_space_left: combo_outer_space_left {
             timeout-ms = <VERT_COMBO_MS>;
             key-positions = <16 38>;
-            bindings = <&lttp OUTER SPACE>;
+            bindings = <&placard_outer_ht PLACEHOLDER SPACE>;
             layers = < DEFAULT_COMBO_LAYERS >;
         };
         combo_outer_space_right: combo_outer_space_right {
             timeout-ms = <VERT_COMBO_MS>;
             key-positions = <39 19>;
-            bindings = <&lttp OUTER SPACE>;
+            bindings = <&placard_outer_ht PLACEHOLDER SPACE>;
             layers = < DEFAULT_COMBO_LAYERS >;
         };
         combo_media_bs_left: combo_media_bs_left {
             timeout-ms = <VERT_COMBO_MS>;
             key-positions = <15 38>;
-            bindings = <&lttp MEDIA BACKSPACE>;
+            bindings = <&placard_media_ht PLACEHOLDER BACKSPACE>;
             layers = < DEFAULT_COMBO_LAYERS >;
         };
         combo_media_bs_right: combo_media_bs_right {
             timeout-ms = <VERT_COMBO_MS>;
             key-positions = <39 20>;
-            bindings = <&lttp MEDIA BACKSPACE>;
+            bindings = <&placard_media_ht PLACEHOLDER BACKSPACE>;
             layers = < DEFAULT_COMBO_LAYERS >;
         };
         combo_adjust_tab_left: combo_adjust_tab_left {
             timeout-ms = <VERT_COMBO_MS>;
             key-positions = <14 38>;
-            bindings = <&lttp ADJUST TAB>;
+            bindings = <&placard_adjust_ht PLACEHOLDER TAB>;
             layers = < DEFAULT_COMBO_LAYERS >;
         };
         combo_adjust_tab_right: combo_adjust_tab_right {
             timeout-ms = <VERT_COMBO_MS>;
             key-positions = <39 21>;
-            bindings = <&lttp ADJUST TAB>;
+            bindings = <&placard_adjust_ht PLACEHOLDER TAB>;
             layers = < DEFAULT_COMBO_LAYERS >;
         };
         combo_adjust_sl: combo_adjust_sl {
@@ -730,13 +868,13 @@
         combo_pointer_return_left: combo_pointer_return_left {
             timeout-ms = <VERT_COMBO_MS>;
             key-positions = <13 38>;
-            bindings = <&lttp POINTER RETURN>;
+            bindings = <&placard_pointer_ht PLACEHOLDER RETURN>;
             layers = < DEFAULT_COMBO_LAYERS >;
         };
         combo_pointer_return_right: combo_pointer_return_right {
             timeout-ms = <VERT_COMBO_MS>;
             key-positions = <39 22>;
-            bindings = <&lttp POINTER RETURN>;
+            bindings = <&placard_pointer_ht PLACEHOLDER RETURN>;
             layers = < DEFAULT_COMBO_LAYERS >;
         };
         combo_return_right: combo_return_right {
@@ -784,7 +922,7 @@
             timeout-ms = <ROLL_COMBO_MS>;
             slow-release;
             key-positions = <37 40>;
-            bindings = <&osl CARD_ACT ACT>;
+            bindings = <&placard_act_osl>;
             layers = <DEFAULT POINTER DISCORD>;
         };
         combo_function: combo_function {
